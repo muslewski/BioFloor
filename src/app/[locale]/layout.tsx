@@ -1,12 +1,11 @@
-import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { notFound } from "next/navigation";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
+import { routing } from "@/i18n/routing";
 import { Toaster } from "@/components/ui/sonner";
 import "../globals.css";
-import { routing } from "@/i18n/routing";
-import { notFound } from "next/navigation";
-import { setRequestLocale } from "next-intl/server";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -14,21 +13,38 @@ const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-export const metadata: Metadata = {
-  title: "BioFloor",
-  description: "Opis",
-};
-
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-interface RootLayout {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({
+    locale,
+    namespace: "LocaleRootLayout.Metadata",
+  });
+
+  return {
+    title: {
+      template: `%s | BioFloor`,
+      default: t("default-title"),
+    },
+  };
+}
+
+interface LocaleRootLayout {
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
 }
 
-export default async function RootLayout({ children, params }: RootLayout) {
+export default async function LocaleRootLayout({
+  children,
+  params,
+}: LocaleRootLayout) {
   // Ensure that the incoming 'locale' is valid
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
@@ -43,6 +59,7 @@ export default async function RootLayout({ children, params }: RootLayout) {
       <body className={`${poppins.variable} antialiased`}>
         <NextIntlClientProvider>
           <main>
+            <p>Navigation</p>
             {children}
             <Toaster richColors theme="light" />
           </main>

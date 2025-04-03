@@ -1,5 +1,21 @@
 {
+  "LocaleRootLayout": {
+    "Metadata": {
+      "default-title": "BioFloor - Ściółka dla Hodowców!"
+    }
+  },
   "HomePage": {
+    "Metadata": {
+      "title": "BioFloor - Ściółka dla Hodowców!",
+      "description": "test"
+    },
     "title": "Witaj świecie!"
+  },
+  "ContactPage": {
+    "Metadata": {
+      "title": "test",
+      "description": "test"
+    },
+    "title": "Jesteś na stronie kontakt"
   }
 }

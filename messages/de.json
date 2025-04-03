@@ -1,12 +1,12 @@
 {
   "LocaleRootLayout": {
     "Metadata": {
-      "default-title": "BioFloor - Bedding for Breeders!"
+      "default-title": "BioFloor - Einstreu für Züchter!"
     }
   },
   "HomePage": {
     "Metadata": {
-      "title": "BioFloor - Bedding for Breeders!",
+      "title": "BioFloor - Einstreu für Züchter!",
       "description": "test"
     },
     "title": "Hello World!"
@@ -16,6 +16,6 @@
       "title": "test",
       "description": "test"
     },
-    "title": "You are on the contact Page Tada"
+    "title": "You are on the contact Page Daa"
   }
 }
