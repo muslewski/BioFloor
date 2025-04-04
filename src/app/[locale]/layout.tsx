@@ -59,7 +59,6 @@ export default async function LocaleRootLayout({
       <body className={`${poppins.variable} antialiased`}>
         <NextIntlClientProvider>
           <main>
-            <p>Navigation</p>
             {children}
             <Toaster richColors theme="light" />
           </main>

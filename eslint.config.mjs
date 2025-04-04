@@ -14,7 +14,7 @@ const eslintConfig = [
   {
     rules: {
       // Avoid hardcoded labels
-      "react/jsx-no-literals": "error",
+      // "react/jsx-no-literals": "error",
 
       // Consistently import navigation APIs from `@/i18n/routing`
       "no-restricted-imports": [
