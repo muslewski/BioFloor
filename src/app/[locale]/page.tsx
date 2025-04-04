@@ -1,5 +1,6 @@
-import ComingSoon from "@/components/coming-soon";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+
+import ComingSoon from "@/components/coming-soon";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -22,5 +23,6 @@ export default async function HomePage({ params }: Props) {
 
   // const t = await getTranslations("Home.Page");
 
+  // return <HomeView />;
   return <ComingSoon />;
 }

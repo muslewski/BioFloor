@@ -1,3 +1,4 @@
+import { CopyrightView } from "@/modules/prawa-autorskie/copyright-view";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 type Props = {
@@ -23,7 +24,5 @@ export default async function CopyrightPage({ params }: Props) {
   // Enable static rendering
   setRequestLocale(locale);
 
-  const t = await getTranslations("Copyright.Page");
-
-  return <div>{t("title")}</div>;
+  return <CopyrightView />;
 }

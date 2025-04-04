@@ -1,3 +1,4 @@
+import { EcologicalSolutionView } from "@/modules/ekologiczne-rozwiazanie/ecological-solution-view";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 type Props = {
@@ -23,7 +24,5 @@ export default async function EcologicalSolutionPage({ params }: Props) {
   // Enable static rendering
   setRequestLocale(locale);
 
-  const t = await getTranslations("EcologicalSolution.Page");
-
-  return <div>{t("title")}</div>;
+  return <EcologicalSolutionView />;
 }

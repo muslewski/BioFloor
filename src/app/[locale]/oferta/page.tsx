@@ -1,3 +1,4 @@
+import { OfferView } from "@/modules/oferta/offer-view";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 type Props = {
@@ -23,7 +24,5 @@ export default async function OfferPage({ params }: Props) {
   // Enable static rendering
   setRequestLocale(locale);
 
-  const t = await getTranslations("Offer.Page");
-
-  return <div>{t("title")}</div>;
+  return <OfferView />;
 }

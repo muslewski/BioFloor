@@ -1,3 +1,4 @@
+import { HowToUseView } from "@/modules/jak-stosowac/how-to-use-view";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 type Props = {
@@ -23,7 +24,5 @@ export default async function HowToUsePage({ params }: Props) {
   // Enable static rendering
   setRequestLocale(locale);
 
-  const t = await getTranslations("HowToUse.Page");
-
-  return <div>{t("title")}</div>;
+  return <HowToUseView />;
 }

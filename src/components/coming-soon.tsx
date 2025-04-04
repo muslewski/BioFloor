@@ -92,12 +92,14 @@ const ComingSoon: React.FC = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 1 }}
             >
-              <p className="text-lg mb-4">Chcesz się z nami skontaktować?</p>
+              <p className="text-lg mb-4 text-white">
+                Chcesz się z nami skontaktować?
+              </p>
               <a
-                href="mailto:kontakt@biofloor.pl"
+                href="mailto:biuro@biofloor.pl"
                 className="inline-block px-6 py-2 bg-[#1A0E02] text-white rounded-lg hover:bg-amber-800 transition-colors"
               >
-                kontakt@biofloor.pl
+                biuro@biofloor.pl
               </a>
             </motion.div>
           </motion.div>

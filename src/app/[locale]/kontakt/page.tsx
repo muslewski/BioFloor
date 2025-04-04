@@ -1,5 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
+import { ContactView } from "@/modules/kontakt/contact-view";
+
 type Props = {
   params: Promise<{ locale: string }>;
 };
@@ -23,7 +25,5 @@ export default async function ContactPage({ params }: Props) {
   // Enable static rendering
   setRequestLocale(locale);
 
-  const t = await getTranslations("Contact.Page");
-
-  return <div>{t("title")}</div>;
+  return <ContactView />;
 }

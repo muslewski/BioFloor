@@ -1,3 +1,4 @@
+import { AdvantagesView } from "@/modules/atuty/advantages-view";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 type Props = {
@@ -23,7 +24,5 @@ export default async function AdvantagesPage({ params }: Props) {
   // Enable static rendering
   setRequestLocale(locale);
 
-  const t = await getTranslations("Advantages.Page");
-
-  return <div>{t("title")}</div>;
+  return <AdvantagesView />;
 }

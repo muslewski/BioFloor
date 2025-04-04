@@ -38,6 +38,8 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
+  --breakpoint-3xl: 120rem;
 }
 
 :root {
@@ -53,7 +55,7 @@
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.18 0.0327 69.66 / 85%);
   --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
+  --muted-foreground: oklch(0.18 0.0327 69.66 / 85%); /* oklch(0.556 0 0) */
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.18 0.0327 69.66 / 85%);
   --destructive: oklch(0.577 0.245 27.325);
@@ -80,12 +82,12 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-poppins;
   }
 
   /* Headings */
   h1 {
-    @apply text-4xl font-bold tracking-tight text-foreground;
+    @apply text-3xl sm:text-6xl font-extrabold tracking-normal leading-normal text-foreground;
   }
   .h1-light {
     @apply text-4xl font-light tracking-tight text-foreground;
@@ -106,10 +108,10 @@
     @apply text-base text-muted-foreground leading-relaxed;
   }
 
-  /* Buttons */
+  /* Button */
   button,
   .button {
-    @apply inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-primary-foreground bg-primary rounded-[var(--radius)] transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2;
+    @apply text-base sm:text-lg flex gap-2 leading-relaxed;
   }
 
   /* Small text */

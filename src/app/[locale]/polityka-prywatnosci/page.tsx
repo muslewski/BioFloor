@@ -1,3 +1,4 @@
+import { PrivacyPolicyView } from "@/modules/polityka-prywatnosci/privacy-policy-view";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 type Props = {
@@ -23,7 +24,5 @@ export default async function PrivacyPolicyPage({ params }: Props) {
   // Enable static rendering
   setRequestLocale(locale);
 
-  const t = await getTranslations("PrivacyPolicy.Page");
-
-  return <div>{t("title")}</div>;
+  return <PrivacyPolicyView />;
 }

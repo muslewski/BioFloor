@@ -1,3 +1,4 @@
+import { FullTruckloadLogisticsView } from "@/modules/logistyka-calosamochowa/full-truckload-logistics-view";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 type Props = {
@@ -23,7 +24,5 @@ export default async function FullTruckloadLogisticsPage({ params }: Props) {
   // Enable static rendering
   setRequestLocale(locale);
 
-  const t = await getTranslations("FullTruckloadLogistics.Page");
-
-  return <div>{t("title")}</div>;
+  return <FullTruckloadLogisticsView />;
 }
