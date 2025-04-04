@@ -4,18 +4,85 @@
       "default-title": "BioFloor - Einstreu für Züchter!"
     }
   },
-  "HomePage": {
+  "Home": {
     "Metadata": {
       "title": "BioFloor - Einstreu für Züchter!",
       "description": "test"
     },
-    "title": "Hello World!"
+    "Page": {
+      "title": "Hello World!"
+    }
   },
-  "ContactPage": {
+  "EcologicalSolution": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "Ecological solution"
+    }
+  },
+  "Advantages": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "Vorteile"
+    }
+  },
+  "HowToUse": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "How to use?"
+    }
+  },
+  "Offer": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "Offer"
+    }
+  },
+  "Contact": {
     "Metadata": {
       "title": "test",
       "description": "test"
     },
-    "title": "You are on the contact Page Daa"
+    "Page": {
+      "title": "You are on the contact Page Daa"
+    }
+  },
+  "FullTruckloadLogistics": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "Full TruckLoad Logistics"
+    }
+  },
+  "PrivacyPolicy": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "Privacy Policy"
+    }
+  },
+  "Copyright": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "Copyright"
+    }
   }
 }

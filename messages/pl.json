@@ -4,18 +4,85 @@
       "default-title": "BioFloor - Ściółka dla Hodowców!"
     }
   },
-  "HomePage": {
+  "Home": {
     "Metadata": {
       "title": "BioFloor - Ściółka dla Hodowców!",
       "description": "test"
     },
-    "title": "Witaj świecie!"
+    "Page": {
+      "title": "Witaj świecie!"
+    }
   },
-  "ContactPage": {
+  "EcologicalSolution": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "Ekologiczne rozwiązanie"
+    }
+  },
+  "Advantages": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "Atuty"
+    }
+  },
+  "HowToUse": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "Jak stosować naszą ściółkę?"
+    }
+  },
+  "Offer": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "Offer"
+    }
+  },
+  "Contact": {
     "Metadata": {
       "title": "test",
       "description": "test"
     },
-    "title": "Jesteś na stronie kontakt"
+    "Page": {
+      "title": "Jesteś na stronie kontakt"
+    }
+  },
+  "FullTruckloadLogistics": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "Logistyka Całosamochodowa"
+    }
+  },
+  "PrivacyPolicy": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "Polityka Prywatności"
+    }
+  },
+  "Copyright": {
+    "Metadata": {
+      "title": "empty",
+      "description": "empty"
+    },
+    "Page": {
+      "title": "Prawa Autorskie"
+    }
   }
 }

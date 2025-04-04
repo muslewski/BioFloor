@@ -20,9 +20,37 @@ export const routing = defineRouting({
 
     // If some locales use different paths, you can
     // specify the relevant external pathnames
+    "/atuty": {
+      en: "/advantages",
+      de: "/vorteile",
+    },
+    "/ekologiczne-rozwiazanie": {
+      en: "/ecological-solution",
+      de: "/ökologische-lösung",
+    },
+    "/jak-stosowac": {
+      en: "/how-to-use",
+      de: "/anwendung",
+    },
     "/kontakt": {
       en: "/contact",
-      de: "/kontakte",
+      de: "/kontakt",
+    },
+    "/logistyka-calosamochodowa": {
+      en: "/full-truckload-logistics",
+      de: "/komplettladungslogistik",
+    },
+    "/oferta": {
+      en: "/offer",
+      de: "/angebot",
+    },
+    "/polityka-prywatnosci": {
+      en: "/privacy-policy",
+      de: "/datenschutzrichtlinie",
+    },
+    "/prawa-autorskie": {
+      en: "/copyright",
+      de: "/urheberrecht",
     },
   },
 });
