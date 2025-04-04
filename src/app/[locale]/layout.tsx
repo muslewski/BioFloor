@@ -1,4 +1,5 @@
 import { Poppins } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -63,6 +64,7 @@ export default async function LocaleRootLayout({
             <Toaster richColors theme="light" />
           </main>
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
