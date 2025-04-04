@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
-import { HomeView } from "@/modules/home/home-view";
+// import { HomeView } from "@/modules/home/home-view";
 import ComingSoon from "@/components/coming-soon";
 
 type Props = {
