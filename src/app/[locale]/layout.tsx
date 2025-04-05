@@ -60,9 +60,11 @@ export default async function LocaleRootLayout({
       <body className={`${poppins.variable} antialiased`}>
         <NextIntlClientProvider>
           <main>
+            {/* <Navigation /> */}
             {children}
-            <Toaster richColors theme="light" />
+            {/* <Footer /> */}
           </main>
+          <Toaster richColors theme="light" />
         </NextIntlClientProvider>
         <Analytics />
       </body>

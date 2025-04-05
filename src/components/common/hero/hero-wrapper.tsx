@@ -6,7 +6,7 @@
 export function HeroWrapper({ children }: { children: React.ReactNode }) {
   return (
     <div className="w-full relative min-h-screen flex items-center">
-      {children}
+      <div className="w-full px-6 sm:px-24 3xl:px-44">{children}</div>
     </div>
   );
 }

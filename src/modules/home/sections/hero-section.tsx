@@ -31,7 +31,7 @@ export function HeroSection() {
         title="Ściółka, która dba o Twoją hodowlę."
         titleDecorator={
           <>
-            {/* Desktop Version */}
+            {/* Decorator Desktop Version */}
             <motion.div
               className="hidden sm:block absolute -left-9 top-19 w-77 h-6"
               initial="hidden"
@@ -41,7 +41,7 @@ export function HeroSection() {
               <Image src="/images/home/green-line.svg" alt="Green Line" fill />
             </motion.div>
 
-            {/* Mobile Version */}
+            {/* Decorator Mobile Version */}
             <motion.div
               className="block sm:hidden absolute -left-2.5 top-8 w-36 h-6"
               initial="hidden"
@@ -75,7 +75,7 @@ export function HeroSection() {
       />
 
       {/* Bedding Desktop */}
-      <div className="hidden xl:block absolute -right-6 sm:-right-24 3xl:-right-44 w-5xl 2xl:w-7xl h-full">
+      <div className="hidden xl:block absolute right-0 w-5xl 2xl:w-7xl h-full">
         <Image
           src="/images/home/bedding.png"
           className="object-cover"
@@ -86,7 +86,7 @@ export function HeroSection() {
       </div>
 
       {/* Bedding Mobile */}
-      <div className="block xl:hidden absolute -right-6 sm:-right-24 3xl:-right-44 bottom-0 w-xl h-1/2 lg:h-2/3 rotate-0">
+      <div className="block xl:hidden absolute right-0 bottom-0 w-xl h-1/2 lg:h-2/3 rotate-0">
         <Image
           src="/images/home/bedding-mobile.png"
           className="object-contain object-bottom-right"
