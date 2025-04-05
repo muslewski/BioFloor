@@ -8,7 +8,7 @@ import { routing } from "@/i18n/routing";
 import { Toaster } from "@/components/ui/sonner";
 import "../globals.css";
 // import { Navigation } from "@/components/layout/nav";
-import { Footer } from "@/components/layout/footer";
+// import { Footer } from "@/components/layout/footer";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -64,7 +64,7 @@ export default async function LocaleRootLayout({
           <main>
             {/* <Navigation /> */}
             {children}
-            <Footer />
+            {/* <Footer /> */}
           </main>
           <Toaster richColors theme="light" />
         </NextIntlClientProvider>

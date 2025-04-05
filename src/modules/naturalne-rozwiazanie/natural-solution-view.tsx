@@ -1,9 +1,9 @@
 import { ViewWrapper } from "@/components/common/view-wrapper";
 import { getTranslations } from "next-intl/server";
 
-export async function EcologicalSolutionView() {
+export async function NaturalSolutionView() {
   // Get translations for static rendering
-  const t = await getTranslations("EcologicalSolution.Page");
+  const t = await getTranslations("NaturalSolution.Page");
 
   return <ViewWrapper>{t("title")}</ViewWrapper>;
 }

@@ -1,4 +1,4 @@
-import { EcologicalSolutionView } from "@/modules/ekologiczne-rozwiazanie/ecological-solution-view";
+import { NaturalSolutionView } from "@/modules/naturalne-rozwiazanie/natural-solution-view";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 type Props = {
@@ -9,7 +9,7 @@ export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({
     locale,
-    namespace: "EcologicalSolution.Metadata",
+    namespace: "NaturalSolution.Metadata",
   });
 
   return {
@@ -18,11 +18,11 @@ export async function generateMetadata({ params }: Props) {
   };
 }
 
-export default async function EcologicalSolutionPage({ params }: Props) {
+export default async function NaturalSolutionPage({ params }: Props) {
   const { locale } = await params;
 
   // Enable static rendering
   setRequestLocale(locale);
 
-  return <EcologicalSolutionView />;
+  return <NaturalSolutionView />;
 }

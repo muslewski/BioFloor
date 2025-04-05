@@ -1,6 +1,6 @@
 "use client";
 
-import { CompanyBrand } from "@/components/layout/nav/company-brand";
+import { CompanyBrand } from "@/components/layout/company-brand";
 import { LanguageButton } from "@/components/layout/nav/language-button";
 import { LinkItem } from "@/components/layout/nav/link-item";
 import { Button } from "@/components/ui/button";
@@ -27,8 +27,8 @@ type linkItemsType = {
 export function Navigation() {
   const linkItems = [
     {
-      href: "/ekologiczne-rozwiazanie",
-      text: "Ekologiczne rozwiązanie",
+      href: "/naturalne-rozwiazanie",
+      text: "Naturalne rozwiązanie",
     },
     {
       href: "/atuty",
@@ -71,7 +71,7 @@ export function Navigation() {
       className="fixed z-40 top-0 w-full flex justify-between gap-16 3xl:gap-24 items-end  min-[1338px]:items-center pt-6 px-6 sm:px-24 3xl:px-44"
       variants={{
         visible: { y: 0 },
-        hidden: { y: "-150%" },
+        hidden: { y: "-200%" },
       }}
       animate={hidden ? "hidden" : "visible"}
       transition={{
