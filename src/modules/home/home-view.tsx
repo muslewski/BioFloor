@@ -9,7 +9,7 @@ export async function HomeView() {
   return (
     <ViewWrapper>
       <HeroSection />
-      <div className="bg-black h-23">{t("title")}</div>
+      <div className=" h-96">{t("title")}</div>
     </ViewWrapper>
   );
 }

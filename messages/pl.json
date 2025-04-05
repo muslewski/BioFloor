@@ -4,6 +4,12 @@
       "default-title": "BioFloor - Ściółka dla Hodowców!"
     }
   },
+  "Navigation": {
+    "LanguageButton": {
+      "label": "Wybierz język:",
+      "locale": "{locale, select, pl {🇵🇱 Polski} de {🇩🇪 Deutsch} en {🇺🇸 English} other {Nieznany}}"
+    }
+  },
   "Home": {
     "Metadata": {
       "title": "BioFloor - Ściółka dla Hodowców!",

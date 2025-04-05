@@ -4,6 +4,12 @@
       "default-title": "BioFloor - Einstreu für Züchter!"
     }
   },
+  "Navigation": {
+    "LanguageButton": {
+      "label": "Sprache auswählen:",
+      "locale": "{locale, select, pl {🇵🇱 Polski} de {🇩🇪 Deutsch} en {🇺🇸 English} other {Nieznany}}"
+    }
+  },
   "Home": {
     "Metadata": {
       "title": "BioFloor - Einstreu für Züchter!",
