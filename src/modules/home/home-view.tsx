@@ -1,6 +1,7 @@
 import { ViewWrapper } from "@/components/common/view-wrapper";
 import { HomeAdvantagesSection } from "@/modules/home/sections/advantages-section";
 import { HeroSection } from "@/modules/home/sections/hero-section";
+import { InformationSection } from "@/modules/home/sections/information-section";
 // import { getTranslations } from "next-intl/server";
 
 export async function HomeView() {
@@ -11,6 +12,7 @@ export async function HomeView() {
     <ViewWrapper>
       <HeroSection />
       <HomeAdvantagesSection />
+      <InformationSection />
     </ViewWrapper>
   );
 }

@@ -25,6 +25,7 @@ export function HeroSection() {
       },
     },
   };
+
   return (
     <HomepageWrapper>
       <HeroIntro
@@ -79,7 +80,7 @@ export function HeroSection() {
         <Image
           src="/images/home/bedding.png"
           className="object-cover"
-          alt="Pultry Bedding"
+          alt="Poultry Bedding"
           priority
           fill
         />
@@ -90,7 +91,7 @@ export function HeroSection() {
         <Image
           src="/images/home/bedding-mobile.png"
           className="object-contain object-bottom-right"
-          alt="Pultry Bedding"
+          alt="Poultry Bedding"
           priority
           fill
         />
