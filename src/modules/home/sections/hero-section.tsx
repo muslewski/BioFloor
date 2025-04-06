@@ -68,8 +68,12 @@ export function HeroSection() {
         }
         ctaButtons={
           <>
-            <Cta icon={<ArrowUpRight className="size-5" />}>Zamów próbkę</Cta>
-            <Cta variant="outlined">Zobacz ofertę</Cta>
+            <Cta href="/kontakt" icon={<ArrowUpRight className="size-5" />}>
+              Zamów próbkę
+            </Cta>
+            <Cta href="/oferta" variant="outlined">
+              Zobacz ofertę
+            </Cta>
           </>
         }
         className="max-w-2xl"

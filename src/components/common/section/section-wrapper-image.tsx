@@ -48,7 +48,7 @@ export function SectionWrapperImage({
 
   return (
     <div className="w-full relative flex justify-center overflow-hidden">
-      <div className="w-full px-6 sm:px-24 3xl:px-44 py-38 z-10 flex flex-col gap-16 sm:gap-24">
+      <div className="w-full px-6 sm:px-24 3xl:px-44 py-38 relative z-10 flex flex-col gap-16 sm:gap-24">
         {children}
       </div>
 
@@ -60,7 +60,7 @@ export function SectionWrapperImage({
           </div>
 
           {/* Adding a blur overlay for better contrast with content */}
-          <div className="absolute inset-0 bg-gradient-to-r  via-white/50 backdrop-blur-xs z-[1]" />
+          <div className="absolute inset-0 bg-gradient-to-r  via-background/50 backdrop-blur-xs z-[1]" />
 
           <motion.div
             ref={sectionRef}
@@ -69,7 +69,6 @@ export function SectionWrapperImage({
               width: "100%",
               height: "120%", // Extra height to allow movement without showing edges
               position: "absolute",
-              // top: "-50%", // Start slightly above to prevent gaps
             }}
             className={cn("z-0", imageClassName)}
           >

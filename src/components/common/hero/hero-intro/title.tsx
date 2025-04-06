@@ -11,9 +11,12 @@ interface HeroTitleProps {
 
 export function HeroTitle({ title, titleLight, decorator }: HeroTitleProps) {
   return (
-    <h1 className="relative">
-      {title} <br />
-      {titleLight && <span className="h1-light">{titleLight}</span>}
+    <h1 className="relative flex flex-col">
+      {title}
+      {titleLight && (
+        <span className="h1-light mt-[-0.15em]">{titleLight}</span>
+      )}
+
       {decorator}
     </h1>
   );
