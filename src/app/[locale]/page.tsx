@@ -1,7 +1,7 @@
-import ComingSoon from "@/components/coming-soon";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 // import { HomeView } from "@/modules/home/home-view";
+import ComingSoon from "@/components/coming-soon";
 
 type Props = {
   params: Promise<{ locale: string }>;

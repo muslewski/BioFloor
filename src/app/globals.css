@@ -93,19 +93,19 @@
     @apply text-4xl font-light tracking-tight text-foreground;
   }
   h2 {
-    @apply text-3xl font-semibold tracking-tight text-foreground;
+    @apply text-2xl sm:text-4xl 3xl:text-5xl font-bold tracking-tight text-foreground;
   }
   .h2-light {
     @apply text-3xl font-light tracking-tight text-foreground;
   }
   h3 {
-    @apply text-2xl font-medium tracking-tight text-foreground;
+    @apply text-xl sm:text-2xl 3xl:text-3xl font-bold tracking-tight text-foreground;
   }
 
   /* Paragraph */
   p,
   .paragraph {
-    @apply text-base text-muted-foreground leading-relaxed;
+    @apply text-base 3xl:text-lg text-muted-foreground leading-relaxed;
   }
 
   /* Button */

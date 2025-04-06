@@ -53,7 +53,7 @@ export function LanguageButton() {
 
       <PopoverContent
         align="end"
-        className="bg-gradient-to-r from-background/75 to-background/45 backdrop-blur-sm flex flex-col w-fit gap-2"
+        className="hover:scale-102 transition-transform bg-gradient-to-r from-background/75 to-background/45 backdrop-blur-sm flex flex-col w-fit gap-2"
       >
         <p className="sr-only">{t("label")}</p>
         {routing.locales.map((locale) => (
@@ -61,6 +61,7 @@ export function LanguageButton() {
             key={locale}
             onClick={() => changeLanguage(locale)}
             disabled={locale === currentLocale}
+            className="hover:scale-102 active:scale-98 transition-transform"
           >
             {t("locale", { locale })}
           </Button>
