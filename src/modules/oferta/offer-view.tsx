@@ -1,5 +1,6 @@
 import { ViewWrapper } from "@/components/common/view-wrapper";
 import { HeroSection } from "@/modules/oferta/sections/hero-section";
+import { OfferOptionsSection } from "@/modules/oferta/sections/offer-options-section";
 // import { getTranslations } from "next-intl/server";
 
 export async function OfferView() {
@@ -9,6 +10,7 @@ export async function OfferView() {
   return (
     <ViewWrapper>
       <HeroSection />
+      <OfferOptionsSection />
     </ViewWrapper>
   );
 }
