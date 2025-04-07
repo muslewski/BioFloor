@@ -40,8 +40,8 @@ export function Footer() {
               <FooterTitle text="Lokalizacja:" icon={MapPin} />
 
               <ul className="flex flex-col gap-4">
-                <li>ul. Przykładowa 23</li>
-                <li>30-006</li>
+                <li>ul. Szubińska 67</li>
+                <li>Białe Błota, 86-005</li>
                 <li>Polska 🇵🇱</li>
               </ul>
             </div>
