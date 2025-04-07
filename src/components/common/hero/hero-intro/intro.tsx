@@ -37,7 +37,9 @@ export function HeroIntro({
           </div>
 
           {/* Display Call To Action Buttons */}
-          <div className="flex flex-col sm:flex-row gap-8">{ctaButtons}</div>
+          <div className="flex flex-col sm:flex-row gap-8 relative z-10">
+            {ctaButtons}
+          </div>
         </div>
         {/* Calculator, Contact Form etc */}
         {customObject}

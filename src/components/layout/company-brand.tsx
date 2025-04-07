@@ -1,8 +1,13 @@
+import { Link } from "@/i18n/navigation";
 import Image from "next/image";
 
 export function CompanyBrand() {
   return (
-    <div className="flex gap-2 items-end">
+    <Link
+      href="/"
+      title="Strona Główna"
+      className="flex gap-2 items-end hover:scale-104 active:scale-96 transition-transform w-fit"
+    >
       <div className="h-16 w-12 relative">
         <Image
           src="/images/logo.png"
@@ -19,6 +24,6 @@ export function CompanyBrand() {
           fill
         />
       </div>
-    </div>
+    </Link>
   );
 }

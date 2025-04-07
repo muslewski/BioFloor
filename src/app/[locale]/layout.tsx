@@ -7,8 +7,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Toaster } from "@/components/ui/sonner";
 import "../globals.css";
-// import { Navigation } from "@/components/layout/nav";
-// import { Footer } from "@/components/layout/footer";
+import { Navigation } from "@/components/layout/nav";
+import { Footer } from "@/components/layout/footer";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -62,9 +62,9 @@ export default async function LocaleRootLayout({
       <body className={`${poppins.variable} antialiased`}>
         <NextIntlClientProvider>
           <main>
-            {/* <Navigation /> */}
+            <Navigation />
             {children}
-            {/* <Footer /> */}
+            <Footer />
           </main>
           <Toaster richColors theme="light" />
         </NextIntlClientProvider>

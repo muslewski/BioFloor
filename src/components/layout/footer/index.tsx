@@ -22,17 +22,15 @@ export function Footer() {
       </div>
 
       <div className="py-16 px-6 sm:px-24 3xl:px-44 flex flex-col gap-16 z-10 relative">
-        <Link href="/">
-          <CompanyBrand />
-        </Link>
+        <CompanyBrand />
         <Separator className="bg-gradient-to-r from-foreground to-foreground/25 py-[0.8px] rounded-full" />
 
         <div className="w-full flex justify-between gap-16 flex-col lg:flex-row">
           <div className="flex flex-col gap-6">
             <FooterTitle text="Dane Kontaktowe:" icon={Phone} />
             <ul className="flex flex-col gap-4">
-              <li>tel. +48 123 456 789</li>
-              <li>tel. +48 233 322 122</li>
+              <li>tel. +48 786 866 690</li>
+              <li>tel. +48 537 144 288</li>
               <li>email: biuro@biofloor.pl</li>
             </ul>
           </div>

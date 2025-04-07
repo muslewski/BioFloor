@@ -15,15 +15,20 @@ interface HeroWrapperProps {
   backgroundImage: string;
   /** className for motion.div that controls appearance of background image */
   imageClassName?: string;
+  /** className for image object */
+  insideImageClassName?: string;
   /** Controls the intensity of the parallax effect (lower = subtler) */
   parallaxStrength?: number;
+  isBorderBottom?: boolean;
 }
 
 export function HeroWrapper({
   children,
   backgroundImage,
   imageClassName,
+  insideImageClassName,
   parallaxStrength = 6,
+  isBorderBottom = false,
 }: HeroWrapperProps) {
   const heroRef = useRef<HTMLDivElement>(null);
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -58,7 +63,12 @@ export function HeroWrapper({
   }, [backgroundImage]);
 
   return (
-    <div className="w-full relative min-h-screen flex items-center max-h-screen overflow-hidden">
+    <div
+      className={cn(
+        "w-full relative min-h-screen flex items-center max-h-screen overflow-hidden",
+        isBorderBottom && "border-b-4 border-green-300/55"
+      )}
+    >
       <div className="w-full px-6 sm:px-24 3xl:px-44 relative z-10">
         {children}
       </div>
@@ -92,7 +102,8 @@ export function HeroWrapper({
           alt="Background Image"
           className={cn(
             "object-cover transition-opacity duration-300",
-            imageLoaded ? "opacity-100" : "opacity-0"
+            imageLoaded ? "opacity-100" : "opacity-0",
+            insideImageClassName
           )}
           fill
           priority

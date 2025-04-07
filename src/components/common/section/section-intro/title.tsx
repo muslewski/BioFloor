@@ -26,8 +26,8 @@ export function SectionTitle({
         "sm:text-right self-end": align === "right",
       })}
     >
-      {title} <br />
-      {titleLight && <span className="h2-light">{titleLight}</span>}
+      {title}
+      {titleLight && <span className="h2-light block">{titleLight}</span>}
       {decorator}
     </h2>
   );

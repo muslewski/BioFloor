@@ -5,7 +5,10 @@ import { ArrowUpRight } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <HeroWrapper backgroundImage="/images/naturalne-rozwiazanie/henhouse.png">
+    <HeroWrapper
+      backgroundImage="/images/naturalne-rozwiazanie/henhouse.png"
+      isBorderBottom
+    >
       <HeroIntro
         className="max-w-4xl"
         title="Podłoże w hodowli drobiu"

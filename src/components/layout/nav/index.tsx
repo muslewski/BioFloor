@@ -80,9 +80,7 @@ export function Navigation() {
       }}
     >
       {/* Logo */}
-      <Link href="/" title="Strona Główna">
-        <CompanyBrand />
-      </Link>
+      <CompanyBrand />
 
       {/* Desktop Navigation links */}
       <nav className="group hidden min-[1338px]:flex w-full 2xl:w-fit gap-3 2xl:gap-12 flex-wrap justify-evenly  border-2 rounded-full px-8 py-2 bg-gradient-to-r from-background/75 to-background/45 backdrop-blur-sm hover:scale-101 transition-transform">

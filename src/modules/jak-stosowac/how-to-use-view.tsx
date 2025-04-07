@@ -1,9 +1,14 @@
+import { ComingSoonSection } from "@/components/coming-soon-section";
 import { ViewWrapper } from "@/components/common/view-wrapper";
-import { getTranslations } from "next-intl/server";
+// import { getTranslations } from "next-intl/server";
 
 export async function HowToUseView() {
   // Get translations for static rendering
-  const t = await getTranslations("HowToUse.Page");
+  // const t = await getTranslations("HowToUse.Page");
 
-  return <ViewWrapper>{t("title")}</ViewWrapper>;
+  return (
+    <ViewWrapper>
+      <ComingSoonSection />
+    </ViewWrapper>
+  );
 }

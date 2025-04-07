@@ -4,5 +4,6 @@
   "i18n-ally.keystyle": "nested",
 
   // Exclude radix because we want to use shadcn
-  "typescript.preferences.autoImportFileExcludePatterns": ["**/@radix-ui/*"]
+  "typescript.preferences.autoImportFileExcludePatterns": ["**/@radix-ui/*"],
+  "cSpell.words": ["BioFloor"]
 }

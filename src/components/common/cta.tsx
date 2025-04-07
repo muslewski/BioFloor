@@ -29,8 +29,13 @@ export function Cta({ children, icon, variant = "filled", href }: CtaProps) {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <Link href={href} className="flex items-center gap-2">
-          {children}
+        <Link
+          href={href}
+          className="flex items-center gap-2 select-none touch-none"
+          draggable={false}
+          style={{ WebkitTouchCallout: "none" }}
+        >
+          <span className="select-none touch-none">{children}</span>
           {icon && (
             <motion.div
               initial={{ x: -5, opacity: 0 }}
