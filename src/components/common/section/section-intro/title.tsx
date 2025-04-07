@@ -3,9 +3,9 @@
 import { cn } from "@/lib/utils";
 
 interface SectionTitleProps {
-  title: string;
+  title: string | React.ReactNode;
   /** h2 that will be lighter and smaller */
-  titleLight?: string;
+  titleLight?: string | React.ReactNode;
   /** absolute object like green wavy line*/
   decorator?: React.ReactNode;
   /** controls text alignment */

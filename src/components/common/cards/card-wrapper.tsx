@@ -5,9 +5,14 @@ import { cn } from "@/lib/utils";
 interface CardWrapperProps {
   children: React.ReactNode;
   columns?: 1 | 2 | 3 | 4 | 5 | 6;
+  className?: string;
 }
 
-export function CardWrapper({ children, columns = 3 }: CardWrapperProps) {
+export function CardWrapper({
+  children,
+  columns = 3,
+  className,
+}: CardWrapperProps) {
   const columnClasses = {
     1: "grid-cols-1",
     2: "grid-cols-1 sm:grid-cols-2",
@@ -18,7 +23,9 @@ export function CardWrapper({ children, columns = 3 }: CardWrapperProps) {
   };
 
   return (
-    <div className={cn("grid gap-12 sm:gap-24", columnClasses[columns])}>
+    <div
+      className={cn("grid gap-12 sm:gap-24", className, columnClasses[columns])}
+    >
       {children}
     </div>
   );

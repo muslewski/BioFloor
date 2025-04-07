@@ -8,21 +8,26 @@ export function HeroSection() {
     <HeroWrapper
       backgroundImage="/images/logistyka-calosamochodowa/trucks.png"
       insideImageClassName="object-[10%] lg:object-center"
+      isBorderBottom
     >
       <HeroIntro
         className="max-w-5xl"
-        title=" Jak wygląda logistyka całosamochodowa?"
+        title={
+          <>
+            <span className="hidden sm:block">
+              Jak wygląda logistyka całosamochodowa?
+            </span>
+            <span className="block sm:hidden">Logistyka całosamochodowa</span>
+          </>
+        }
         titleLight="- sprawnie i na czas"
         description={
           <>
-            Logistyka całosamochodowa z <b>BioFloor</b> to gwarancja szybkiej i
+            Logistyka całosamochodowa z <b>Biofloor</b> to gwarancja szybkiej i
             niezawodnej dostawy ściółki prosto do Twojej hodowli. Organizujemy
             transport w pełni dostosowany do Twoich potrzeb - od momentu
             złożenia zamówienia, przez załadunek, aż po dostarczenie produktu
-            pod wskazany adres. Dzięki wykorzystaniu dedykowanych pojazdów
-            zapewniamy terminowość, bezpieczeństwo i pełną kontrolę nad
-            procesem, abyś mógł skupić się na tym, co najważniejsze - swojej
-            hodowli.
+            pod wskazany adres.
           </>
         }
         ctaButtons={

@@ -2,9 +2,9 @@
 // Optional absolute object like green line
 
 interface HeroTitleProps {
-  title: string;
+  title: string | React.ReactNode;
   /** h1 that will be lighter and smaller */
-  titleLight?: string;
+  titleLight?: string | React.ReactNode;
   /** absolute object like green wavy line*/
   decorator?: React.ReactNode;
 }

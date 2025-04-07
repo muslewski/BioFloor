@@ -5,8 +5,8 @@ import { HeroTitle } from "@/components/common/hero/hero-intro/title";
 import { cn } from "@/lib/utils";
 
 interface HeroIntroProps {
-  title: string;
-  titleLight?: string;
+  title: string | React.ReactNode;
+  titleLight?: string | React.ReactNode;
   titleDecorator?: React.ReactNode;
   description: string | React.ReactNode;
   ctaButtons?: React.ReactNode;

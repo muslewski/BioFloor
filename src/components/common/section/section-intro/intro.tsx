@@ -6,8 +6,8 @@ import { SectionTitle } from "@/components/common/section/section-intro/title";
 import { cn } from "@/lib/utils";
 
 interface SectionIntro {
-  title: string;
-  titleLight?: string;
+  title: string | React.ReactNode;
+  titleLight?: string | React.ReactNode;
   description?: React.ReactNode;
   /** For example list */
   customElement?: React.ReactNode;
