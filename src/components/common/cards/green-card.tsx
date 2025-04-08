@@ -1,19 +1,10 @@
-// simple card with 1px green border and some optionall prop for backdrop blur
-// icon
-//title
-//description
-
 import { type LucideIcon } from "lucide-react";
-
-// optional iconLeft
 
 interface GreenCardProps {
   Icon: LucideIcon;
   title: string;
   description: React.ReactNode;
 }
-
-// TODO: Add more advanced Green Card that will be from here https://www.reactbits.dev/components/spotlight-card
 
 export function GreenCard({ Icon, title, description }: GreenCardProps) {
   return (
