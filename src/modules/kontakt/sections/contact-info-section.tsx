@@ -38,7 +38,7 @@ export function ContactInfoSection() {
           icon={MapPin}
           title="Lokalizacja:"
           customElement={
-            <div className="w-full">
+            <div className="w-full rounded-2xl overflow-hidden">
               <iframe
                 width="100%"
                 height="300"

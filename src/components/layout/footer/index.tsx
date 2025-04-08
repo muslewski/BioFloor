@@ -136,8 +136,8 @@ export function Footer() {
             </motion.div>
 
             <ExternalLink
-              href="https://maps.app.goo.gl/Ru66tZYWadQ6fX2S6"
-              className="relative rounded-lg border-2 border-foreground/50 w-52 h-36 hover:scale-102 active:scale-98 transition-transform"
+              href="https://maps.app.goo.gl/G4wJBoQg9b5nXLRCA"
+              className="relative rounded-lg border-2 border-foreground/50 w-52 h-36 hover:scale-102 active:scale-98 transition-transform overflow-hidden"
             >
               <Image
                 src="/images/footer/localization.png"
