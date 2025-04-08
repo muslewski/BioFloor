@@ -1,5 +1,5 @@
-import { ComingSoonSection } from "@/components/coming-soon-section";
 import { ViewWrapper } from "@/components/common/view-wrapper";
+import { HeroSection } from "@/modules/jak-stosowac/sections/hero-section";
 // import { getTranslations } from "next-intl/server";
 
 export async function HowToUseView() {
@@ -8,7 +8,7 @@ export async function HowToUseView() {
 
   return (
     <ViewWrapper>
-      <ComingSoonSection />
+      <HeroSection />
     </ViewWrapper>
   );
 }

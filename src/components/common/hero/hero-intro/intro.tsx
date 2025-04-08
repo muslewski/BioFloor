@@ -25,7 +25,7 @@ export function HeroIntro({
 }: HeroIntroProps) {
   return (
     <div className={cn("relative z-10", className)}>
-      <div className="flex flex-col gap-16 md:gap-24">
+      <div className="flex flex-col gap-8 md:gap-16">
         <div className="flex flex-col gap-8 md:gap-16">
           <div className="flex flex-col gap-4 md:gap-8">
             <HeroTitle
@@ -37,9 +37,11 @@ export function HeroIntro({
           </div>
 
           {/* Display Call To Action Buttons */}
-          <div className="flex flex-col sm:flex-row gap-8 relative z-10">
-            {ctaButtons}
-          </div>
+          {ctaButtons && (
+            <div className="flex flex-col sm:flex-row gap-8 relative z-10">
+              {ctaButtons}
+            </div>
+          )}
         </div>
         {/* Calculator, Contact Form etc */}
         {customObject}
