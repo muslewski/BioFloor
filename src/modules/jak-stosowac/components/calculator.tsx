@@ -215,7 +215,7 @@ export function Calculator() {
               </motion.p>
               <motion.div
                 variants={itemVariants}
-                className="self-end w-fit flex gap-2"
+                className="self-end w-fit flex flex-wrap gap-2"
               >
                 <motion.div
                   whileHover={{ scale: 1.05 }}
