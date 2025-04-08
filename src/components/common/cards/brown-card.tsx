@@ -8,12 +8,19 @@ import { useRef } from "react";
 
 interface BrownCardProps {
   title: string;
-  description: string | React.ReactNode;
+  description?: string | React.ReactNode;
+  /** For example list */
+  customElement?: React.ReactNode;
   /** Icon can be string or LucideIcon */
   icon: string | LucideIcon;
 }
 
-export function BrownCard({ title, description, icon }: BrownCardProps) {
+export function BrownCard({
+  title,
+  description,
+  icon,
+  customElement,
+}: BrownCardProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
@@ -50,12 +57,17 @@ export function BrownCard({ title, description, icon }: BrownCardProps) {
             whileHover={{ rotate: 10, scale: 1.1 }}
             transition={{ type: "spring", stiffness: 200, delay: 0.2 }}
           >
-            {React.createElement(icon, { className: "size-8 sm:size-12" })}
+            {React.createElement(icon, {
+              className: "size-8 sm:size-12 text-foreground/75",
+            })}
           </motion.div>
         )}
         <h3>{title}</h3>
       </div>
-      <p className="relative z-10">{description}</p>
+      {description && <p className="relative z-10">{description}</p>}
+      {customElement && (
+        <div className="paragraph relative z-10">{customElement}</div>
+      )}
     </motion.div>
   );
 }

@@ -1,5 +1,6 @@
-import { ComingSoonSection } from "@/components/coming-soon-section";
 import { ViewWrapper } from "@/components/common/view-wrapper";
+import { ContactInfoSection } from "@/modules/kontakt/sections/contact-info-section";
+import { HeroSection } from "@/modules/kontakt/sections/hero-section";
 // import { getTranslations } from "next-intl/server";
 
 export async function ContactView() {
@@ -8,7 +9,8 @@ export async function ContactView() {
 
   return (
     <ViewWrapper>
-      <ComingSoonSection />
+      <HeroSection />
+      <ContactInfoSection />
     </ViewWrapper>
   );
 }

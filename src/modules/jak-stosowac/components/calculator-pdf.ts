@@ -12,9 +12,9 @@ export function handleDownloadCalculatorPDF(
     format: "a4",
   });
 
-  doc.addFont("/Roboto-Regular.ttf", "Roboto", "normal");
-  doc.addFont("/Roboto-Bold.ttf", "Roboto", "bold");
-  doc.addFont("/Roboto-Italic.ttf", "Roboto", "bold");
+  doc.addFont("/fonts/Roboto-Regular.ttf", "Roboto", "normal");
+  doc.addFont("/fonts/Roboto-Bold.ttf", "Roboto", "bold");
+  doc.addFont("/fonts/Roboto-Italic.ttf", "Roboto", "bold");
   doc.setFont("Roboto");
 
   // Format values with 2 decimal places
