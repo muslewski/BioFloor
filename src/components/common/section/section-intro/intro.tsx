@@ -12,6 +12,7 @@ interface SectionIntro {
   /** For example list */
   customElement?: React.ReactNode;
   align?: "left" | "center" | "right";
+  className?: string;
 }
 
 export function SectionIntro({
@@ -19,15 +20,20 @@ export function SectionIntro({
   titleLight,
   description,
   customElement,
+  className,
   align = "center",
 }: SectionIntro) {
   return (
     <div
-      className={cn("relative flex flex-col gap-4", {
-        "sm:text-center self-center": align === "center",
-        "sm:text-left self-start": align === "left",
-        "sm:text-right self-end": align === "right",
-      })}
+      className={cn(
+        "relative flex flex-col gap-4",
+        {
+          "sm:text-center sm:self-center": align === "center",
+          "sm:text-left self-start": align === "left",
+          "sm:text-right self-end": align === "right",
+        },
+        className
+      )}
     >
       <SectionTitle title={title} titleLight={titleLight} align={align} />
       <SectionDescription align={align}>{description}</SectionDescription>

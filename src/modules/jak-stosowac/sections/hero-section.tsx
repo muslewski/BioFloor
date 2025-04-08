@@ -9,6 +9,7 @@ export function HeroSection() {
       isBorderBottom
     >
       <HeroIntro
+        className="pt-32 sm:pt-12"
         title="Jak stosować naszą ściółkę?"
         description="Skorzystaj z prostego narzędzia, które pomoże Ci policzyć optymalną ilość ściółki do Twoich potrzeb."
         customObject={<Calculator />}

@@ -13,7 +13,7 @@ import {
 
 export function InfoSection() {
   return (
-    <SectionWrapper>
+    <SectionWrapper isBorderBottom>
       <SectionIntro
         title="Dodatkowe zalecenia"
         description="Poniżej przedstawiamy dodatkowe wskazówki, które pomogą w efektywnym stosowaniu naszej ściółki:"

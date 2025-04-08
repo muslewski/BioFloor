@@ -21,7 +21,7 @@ export function SectionTitle({
   return (
     <h2
       className={cn("relative", {
-        "sm:text-center self-center": align === "center",
+        "sm:text-center sm:self-center": align === "center",
         "sm:text-left self-start": align === "left",
         "sm:text-right self-end": align === "right",
       })}

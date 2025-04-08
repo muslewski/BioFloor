@@ -24,7 +24,9 @@ export function HeroIntro({
   className,
 }: HeroIntroProps) {
   return (
-    <div className={cn("relative z-10", className)}>
+    <div
+      className={cn("relative z-10 min-h-screen flex items-center", className)}
+    >
       <div className="flex flex-col gap-8 md:gap-16">
         <div className="flex flex-col gap-8 md:gap-16">
           <div className="flex flex-col gap-4 md:gap-8">

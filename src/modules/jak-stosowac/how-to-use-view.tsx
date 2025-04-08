@@ -1,6 +1,7 @@
 import { ViewWrapper } from "@/components/common/view-wrapper";
 import { HeroSection } from "@/modules/jak-stosowac/sections/hero-section";
 import { InfoSection } from "@/modules/jak-stosowac/sections/info-section";
+import { TableSection } from "@/modules/jak-stosowac/sections/table-section";
 // import { getTranslations } from "next-intl/server";
 
 export async function HowToUseView() {
@@ -11,6 +12,7 @@ export async function HowToUseView() {
     <ViewWrapper>
       <HeroSection />
       <InfoSection />
+      <TableSection />
     </ViewWrapper>
   );
 }
