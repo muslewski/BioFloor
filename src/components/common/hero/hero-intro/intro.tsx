@@ -12,6 +12,8 @@ interface HeroIntroProps {
   ctaButtons?: React.ReactNode;
   customObject?: React.ReactNode;
   className?: string;
+  /** className for the hero header - only title and description */
+  classNameHeroHeader?: string;
 }
 
 export function HeroIntro({
@@ -22,14 +24,17 @@ export function HeroIntro({
   ctaButtons,
   customObject,
   className,
+  classNameHeroHeader,
 }: HeroIntroProps) {
   return (
     <div
       className={cn("relative z-10 min-h-screen flex items-center", className)}
     >
-      <div className="flex flex-col gap-8 md:gap-16">
+      <div className="flex flex-col gap-8 md:gap-16 w-full">
         <div className="flex flex-col gap-8 md:gap-16">
-          <div className="flex flex-col gap-4 md:gap-8">
+          <div
+            className={cn("flex flex-col gap-4 md:gap-8", classNameHeroHeader)}
+          >
             <HeroTitle
               title={title}
               titleLight={titleLight}

@@ -25,6 +25,9 @@ const buttonVariants = cva(
           "text-foreground border-2 border-foreground/50 bg-gradient-to-r from-background/65 to-background/15 inset-shadow-foreground/35 inset-shadow-sm inset-ring-4 inset-ring-foreground/3 backdrop-blur-sm hover:scale-104 active:scale-96",
         filled:
           "text-background bg-gradient-to-r from-[#283027] to-foreground inset-shadow-white/40 inset-shadow-sm inset-ring-2 inset-ring-foreground hover:scale-104 active:scale-96",
+
+        customLink:
+          "h-fit w-fit text-nowrap text-base text-muted-foreground leading-relaxed py-2 px-4 border-b-2 rounded-none border-transparent duration-200 ease-in-out transition-all hover:border-foreground/15",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",

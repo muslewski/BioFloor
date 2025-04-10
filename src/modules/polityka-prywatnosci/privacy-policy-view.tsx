@@ -1,5 +1,6 @@
-import { ComingSoonSection } from "@/components/coming-soon-section";
 import { ViewWrapper } from "@/components/common/view-wrapper";
+import { HeroSection } from "@/modules/polityka-prywatnosci/sections/hero-section";
+import { PolicySection } from "@/modules/polityka-prywatnosci/sections/policy-section";
 // import { getTranslations } from "next-intl/server";
 
 export async function PrivacyPolicyView() {
@@ -8,7 +9,8 @@ export async function PrivacyPolicyView() {
 
   return (
     <ViewWrapper>
-      <ComingSoonSection />
+      <HeroSection />
+      <PolicySection />
     </ViewWrapper>
   );
 }

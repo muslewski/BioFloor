@@ -1,5 +1,6 @@
-import { ComingSoonSection } from "@/components/coming-soon-section";
 import { ViewWrapper } from "@/components/common/view-wrapper";
+import { CopyrightSection } from "@/modules/prawa-autorskie/sections/copyright-section";
+import { HeroSection } from "@/modules/prawa-autorskie/sections/hero-section";
 // import { getTranslations } from "next-intl/server";
 
 export async function CopyrightView() {
@@ -8,7 +9,8 @@ export async function CopyrightView() {
 
   return (
     <ViewWrapper>
-      <ComingSoonSection />
+      <HeroSection />
+      <CopyrightSection />
     </ViewWrapper>
   );
 }

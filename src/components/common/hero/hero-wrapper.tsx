@@ -131,13 +131,11 @@ export function HeroWrapper({
               y: backgroundY,
               x: backgroundMouseX,
               translateY: backgroundMouseY,
-              width: "110%",
               height: "125%",
               position: "absolute",
-              left: "-5%", // Center the extra width
             }}
             className={cn(
-              "z-0 -top-[55%] sm:-top-[65%] will-change-transform",
+              "z-0 -top-[55%] sm:-top-[65%] w-[125%] sm:w-[110%] -left-[12%] sm:-left-[5%] will-change-transform",
               imageClassName
             )}
           >
@@ -152,7 +150,8 @@ export function HeroWrapper({
               fill
               priority
               sizes="100vw"
-              onLoadingComplete={() => setImageLoaded(true)}
+              // onLoadingComplete={() => setImageLoaded(true)}
+              onLoad={() => setImageLoaded(true)}
             />
           </motion.div>
 

@@ -7,12 +7,12 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 interface BrownCardProps {
-  title: string;
+  title: string | React.ReactNode;
   description?: string | React.ReactNode;
   /** For example list */
   customElement?: React.ReactNode;
   /** Icon can be string or LucideIcon */
-  icon: string | LucideIcon;
+  icon?: string | LucideIcon;
 }
 
 export function BrownCard({
@@ -36,7 +36,7 @@ export function BrownCard({
       {/* Animated background gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-foreground/2 to-transparent" />
 
-      <div className="flex gap-4 items-center relative z-10">
+      <div className="flex flex-wrap gap-4 items-center relative z-10">
         {typeof icon === "string" ? (
           <motion.div
             initial={{ rotate: -10, opacity: 0 }}
@@ -46,23 +46,33 @@ export function BrownCard({
             whileHover={{ rotate: 10, scale: 1.1 }}
             transition={{ type: "spring", stiffness: 200, delay: 0.2 }}
           >
-            <Image src={icon} alt={`${title} icon`} width={48} height={48} />
+            <Image
+              src={icon}
+              alt={`${title} icon`}
+              className="shrink-0 w-12 h-12 sm:w-[48px] sm:h-[48px] min-w-[48px] min-h-[48px]"
+              width={48}
+              height={48}
+            />
           </motion.div>
         ) : (
-          <motion.div
-            initial={{ rotate: -10, opacity: 0 }}
-            animate={
-              isInView ? { rotate: 0, opacity: 1 } : { rotate: -10, opacity: 0 }
-            }
-            whileHover={{ rotate: 10, scale: 1.1 }}
-            transition={{ type: "spring", stiffness: 200, delay: 0.2 }}
-          >
-            {React.createElement(icon, {
-              className: "size-8 sm:size-12 text-foreground/75",
-            })}
-          </motion.div>
+          icon && (
+            <motion.div
+              initial={{ rotate: -10, opacity: 0 }}
+              animate={
+                isInView
+                  ? { rotate: 0, opacity: 1 }
+                  : { rotate: -10, opacity: 0 }
+              }
+              whileHover={{ rotate: 10, scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 200, delay: 0.2 }}
+            >
+              {React.createElement(icon, {
+                className: "size-8 sm:size-12 text-foreground/75",
+              })}
+            </motion.div>
+          )
         )}
-        <h3>{title}</h3>
+        <h3 className="break-words">{title}</h3>
       </div>
       {description && <p className="relative z-10">{description}</p>}
       {customElement && (
