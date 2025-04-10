@@ -37,13 +37,21 @@ export function ContactInfoSection() {
         <BrownCard
           icon={MapPin}
           title="Lokalizacja:"
+          description={
+            <>
+              ul. Szubińska 67
+              <br /> Białe Błota, 86-005
+              <br /> Polska 🇵🇱
+            </>
+          }
           customElement={
             <div className="w-full rounded-2xl overflow-hidden">
               <iframe
-                width="100%"
-                height="300"
-                src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Szubi%C5%84ska%2067%20Bia%C5%82e%20B%C5%82ota,%2086-005+(Szubi%C5%84ska%2067)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-              />
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.670290490166!2d17.911185814538843!3d53.09712278795559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470312bd169979af%3A0x11657646b19a5a82!2zU3p1YmnFhHNrYSA2NywgODYtMDA1IEJpYcWCZSBCxYJvdGE!5e1!3m2!1spl!2spl!4v1744307449679!5m2!1spl!2spl"
+                loading="lazy"
+                className="w-full min-h-96"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           }
         />
