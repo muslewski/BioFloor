@@ -82,7 +82,7 @@ export function Calculator() {
   };
 
   return (
-    <div className="p-16 w-fit rounded-xl border-2 border-foreground border-dashed bg-gradient-to-r from-background/75 to-background/45 backdrop-blur-sm max-w-full sm:max-w-3xl overflow-hidden">
+    <div className="p-8 sm:p-16 w-fit rounded-xl border-2 border-foreground border-dashed bg-gradient-to-r from-background/75 to-background/45 backdrop-blur-sm max-w-full sm:max-w-3xl overflow-hidden">
       <AnimatePresence mode="wait">
         {!showResult ? (
           <motion.div

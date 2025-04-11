@@ -76,20 +76,40 @@ export function HeroSection() {
             </Cta>
           </>
         }
-        className="max-w-2xl"
+        className="max-w-2xl z-20"
       />
 
       {/* Animation Object */}
-      <div className="absolute right-24 z-30 bottom-0 h-140 w-[500px] pointer-none">
+      <div className="absolute right-0 xl:right-24 z-30 bottom-0 h-60 xl:h-140 w-full xl:w-[500px] pointer-events-none">
         {/* Product text */}
-        <div className="relative h-34">
-          {/* Product Gold Text */}
+        <div className="relative top-24 xl:top-0 left-8 sm:left-1/3 xl:left-0 h-34 z-40 w-fit xl:w-full">
           <motion.div
-            className="relative h-24"
+            className="absolute top-0 xl:top-20 right-0 left-0 h-32 xl:h-96 z-30 w-36 sm:w-full"
             initial={{ opacity: 0, zIndex: 10 }}
             animate={{
-              opacity: [0, 1, 1, 0, 0, 0, 1],
-              translateY: [200, 200, 200, 200, 0, 0, 0],
+              opacity: [0, 1, 1, 0, 0, 0, 0],
+              scale: [0.9, 1, 1.02, 0.98, 0.95, 0.98, 1],
+              rotate: [1, 0, -0.5, 0.5, 0, -0.2, 0],
+            }}
+            transition={{
+              duration: 10,
+              delay: 2,
+            }}
+          >
+            <Image
+              src="/images/home/podlapki.png"
+              fill
+              className="object-contain z-10"
+              alt="Product Page"
+            />
+          </motion.div>
+
+          {/* Product Gold Text */}
+          <motion.div
+            className="relative h-24 w-36 sm:w-full"
+            initial={{ opacity: 0, zIndex: 10 }}
+            animate={{
+              opacity: [0, 0, 0, 0, 0, 0, 1],
               scale: [0.9, 1, 1.02, 0.98, 0.95, 0.98, 1],
               rotate: [1, 0, -0.5, 0.5, 0, -0.2, 0],
             }}
@@ -106,7 +126,7 @@ export function HeroSection() {
             />
           </motion.div>
           <motion.h3
-            className="text-black text-center relative z-20"
+            className="text-black text-center relative z-20 bottom-4 sm:bottom-0"
             initial={{ opacity: 0, zIndex: 10 }}
             animate={{
               opacity: [0, 0, 0, 0, 0, 0, 1],
@@ -135,9 +155,9 @@ export function HeroSection() {
         </div>
 
         {/* Product Chicken */}
-        <div className="relative z-30 bottom-34  h-full">
+        <div className="relative z-30 bottom-34 h-full user">
           <motion.div
-            className="w-full h-96 absolute bottom-0"
+            className="w-[200px] sm:w-[300px] right-0 sm:right-0 xl:w-full h-64 sm:h-96 absolute bottom-0"
             initial={{ opacity: 0, zIndex: 10 }}
             animate={{ opacity: [0, 0, 0, 0, 0, 0, 1] }}
             transition={{
@@ -148,7 +168,7 @@ export function HeroSection() {
             <Image
               src="/images/home/chicken.png"
               fill
-              className="object-contain z-10"
+              className="object-contain object-bottom z-10"
               alt="Product Page"
             />
           </motion.div>

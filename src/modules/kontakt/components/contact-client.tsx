@@ -109,7 +109,7 @@ export function ContactClient() {
       {/* Actual forms */}
       <div
         className={cn(
-          "p-16 w-full rounded-xl border-2 border-foreground border-dashed bg-gradient-to-r from-background/75 to-background/45 backdrop-blur-sm overflow-hidden",
+          "p-8 sm:p-16 w-full rounded-xl border-2 border-foreground border-dashed bg-gradient-to-r from-background/75 to-background/45 backdrop-blur-sm overflow-hidden",
           isLoading && "animate-pulse"
         )}
       >
