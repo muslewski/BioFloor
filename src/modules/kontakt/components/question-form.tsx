@@ -69,7 +69,7 @@ export function QuestionForm({
       title: "",
       name: "",
       email: "",
-      phoneNumber: "puste",
+      phoneNumber: "",
       beddingType: undefined,
     },
   });

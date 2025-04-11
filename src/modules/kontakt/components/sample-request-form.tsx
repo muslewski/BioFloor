@@ -38,7 +38,7 @@ export function SampleRequestForm({
   setLoading,
   isLoading,
 }: FormProps) {
-  const formName = "Zamów Próbkę";
+  const formName = "Zamów próbkę";
 
   const formSchema = z.object({
     message: z.string().optional(),

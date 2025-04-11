@@ -79,6 +79,82 @@ export function HeroSection() {
         className="max-w-2xl"
       />
 
+      {/* Animation Object */}
+      <div className="absolute right-24 z-30 bottom-0 h-140 w-[500px] pointer-none">
+        {/* Product text */}
+        <div className="relative h-34">
+          {/* Product Gold Text */}
+          <motion.div
+            className="relative h-24"
+            initial={{ opacity: 0, zIndex: 10 }}
+            animate={{
+              opacity: [0, 1, 1, 0, 0, 0, 1],
+              translateY: [200, 200, 200, 200, 0, 0, 0],
+              scale: [0.9, 1, 1.02, 0.98, 0.95, 0.98, 1],
+              rotate: [1, 0, -0.5, 0.5, 0, -0.2, 0],
+            }}
+            transition={{
+              duration: 10,
+              delay: 2,
+            }}
+          >
+            <Image
+              src="/images/home/podlapki.png"
+              fill
+              className="object-contain z-10"
+              alt="Product Page"
+            />
+          </motion.div>
+          <motion.h3
+            className="text-black text-center relative z-20"
+            initial={{ opacity: 0, zIndex: 10 }}
+            animate={{
+              opacity: [0, 0, 0, 0, 0, 0, 1],
+            }}
+            transition={{
+              duration: 10,
+              delay: 2,
+            }}
+          >
+            - Ściółka dla Hodowców -
+          </motion.h3>
+          {/* Background Blur for text */}
+          <motion.div
+            className="absolute top-0 w-full h-full bg-white blur-3xl rounded-full"
+            initial={{ opacity: 0 }}
+            animate={{
+              opacity: [0, 1, 1, 0, 0, 0, 1],
+              translateY: [200, 200, 200, 200, 0, 0, 0],
+              scale: [0.8, 1.1, 1.2, 1, 0.9, 0.95, 1],
+            }}
+            transition={{
+              duration: 10,
+              delay: 2,
+            }}
+          />
+        </div>
+
+        {/* Product Chicken */}
+        <div className="relative z-30 bottom-34  h-full">
+          <motion.div
+            className="w-full h-96 absolute bottom-0"
+            initial={{ opacity: 0, zIndex: 10 }}
+            animate={{ opacity: [0, 0, 0, 0, 0, 0, 1] }}
+            transition={{
+              duration: 10,
+              delay: 2,
+            }}
+          >
+            <Image
+              src="/images/home/chicken.png"
+              fill
+              className="object-contain z-10"
+              alt="Product Page"
+            />
+          </motion.div>
+        </div>
+      </div>
+
       {/* Bedding Desktop */}
       <div className="hidden xl:block absolute right-0 w-5xl 2xl:w-7xl h-full">
         <Image
@@ -89,7 +165,6 @@ export function HeroSection() {
           fill
         />
       </div>
-
       {/* Bedding Mobile */}
       <div className="block xl:hidden absolute right-0 bottom-0 w-xl h-1/2 lg:h-2/3 rotate-0">
         <Image

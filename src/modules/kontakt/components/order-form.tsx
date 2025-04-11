@@ -38,7 +38,7 @@ export function OrderForm({
   setLoading,
   isLoading,
 }: FormProps) {
-  const formName = "Złóż Zamówienie";
+  const formName = "Złóż zamówienie";
 
   const formSchema = z.object({
     message: z.string().min(1, "Wiadomość jest wymagana"),
