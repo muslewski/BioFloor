@@ -42,7 +42,7 @@ export async function sendEmail({
       from: "BioFloor <biuro@biofloor.pl>",
       to: [email],
       subject: "BioFloor - Formularz kontaktowy",
-      react: ClientEmailTemplate({ formName, name, title, email }),
+      react: ClientEmailTemplate({ formName, name, title, email, message }),
     });
 
     if (error) {
