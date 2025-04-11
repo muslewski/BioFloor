@@ -59,6 +59,9 @@ export default async function LocaleRootLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        <meta name="apple-mobile-web-app-title" content="BioFloor" />
+      </head>
       <body className={`${poppins.variable} antialiased`}>
         <NextIntlClientProvider>
           <main>
