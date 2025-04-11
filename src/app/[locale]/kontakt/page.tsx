@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props) {
   });
 
   return {
-    title: t("title"),
+    title: "Kontakt",
     description: t("description"),
   };
 }
