@@ -16,7 +16,12 @@ export function GreenCard({
   className,
 }: GreenCardProps) {
   return (
-    <div className={cn("border border-green-300 p-8 rounded-xl flex flex-col gap-3 bg-gradient-to-r from-background/75 to-background/45 backdrop-blur-sm", className)}>
+    <div
+      className={cn(
+        "border border-green-300 p-8 rounded-xl flex flex-col gap-3 bg-gradient-to-r from-background/75 to-background/45 backdrop-blur-sm min-w-64",
+        className
+      )}
+    >
       {typeof Icon === "string" ? (
         <Image
           src={Icon}

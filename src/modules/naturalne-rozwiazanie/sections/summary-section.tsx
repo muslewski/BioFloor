@@ -1,7 +1,9 @@
+import { Cta } from "@/components/common/cta";
 import { HorizontalStructure } from "@/components/common/section/horizontal-structure";
 import { SectionImage } from "@/components/common/section/section-image";
 import { SectionIntro } from "@/components/common/section/section-intro/intro";
 import { SectionWrapper } from "@/components/common/section/section-wrapper";
+import { ArrowUpRight } from "lucide-react";
 
 export function SummarySection() {
   return (
@@ -19,6 +21,11 @@ export function SummarySection() {
                 Biofloor to nowoczesne rozwiązanie, które realnie przekłada się
                 na zdrowie ptaków i rentowność hodowli.
               </>
+            }
+            customElement={
+              <Cta href="/kontakt" icon={<ArrowUpRight className="size-5" />}>
+                Kontakt
+              </Cta>
             }
           />
         }
