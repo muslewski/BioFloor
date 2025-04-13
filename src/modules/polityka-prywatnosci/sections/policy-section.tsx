@@ -18,9 +18,9 @@ export function PolicySection() {
               <b>BioFloor Sp. z o.o.</b>
             </li>
             <li>Adres: ul. Szubińska 67 Białe Błota, 86-005 Bydgoszcz</li>
-            <li>NIP: 000-00-00-000</li>
-            <li>REGON: 000000000</li>
-            <li>KRS: 0000000000</li>
+            <li>NIP: 5543034767</li>
+            <li>REGON: 541379704</li>
+            <li>KRS: 0001166024</li>
             <li>Adres e-mail: biuro@biofloor.pl</li>
             <li>Telefon: +48 786 866 690</li>
           </ul>
