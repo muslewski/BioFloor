@@ -17,13 +17,12 @@ export function PolicySection() {
             <li>
               <b>BioFloor Sp. z o.o.</b>
             </li>
-            <li>Adres: ul. Przykładowa 123, 00-000 Warszawa</li>
+            <li>Adres: ul. Szubińska 67 Białe Błota, 86-005 Bydgoszcz</li>
             <li>NIP: 000-00-00-000</li>
             <li>REGON: 000000000</li>
             <li>KRS: 0000000000</li>
-            <li>BDO: 000000000</li>
             <li>Adres e-mail: biuro@biofloor.pl</li>
-            <li>Telefon: +48 00 000 00 00</li>
+            <li>Telefon: +48 786 866 690</li>
           </ul>
         }
       />
