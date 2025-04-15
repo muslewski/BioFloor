@@ -108,9 +108,6 @@ export function Footer() {
                 tel. +48 786 866 690
               </motion.li>
               <motion.li variants={itemVariants}>
-                tel. +48 537 144 288
-              </motion.li>
-              <motion.li variants={itemVariants}>
                 email: biuro@biofloor.pl
               </motion.li>
             </motion.ul>

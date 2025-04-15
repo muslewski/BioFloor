@@ -29,8 +29,7 @@ export function ContactInfoSection() {
           title="Numery telefonów:"
           customElement={
             <ul>
-              <li>+48 123 456 788</li>
-              <li>+48 234 123 754</li>
+              <li>+48 786 866 690</li>
             </ul>
           }
         />

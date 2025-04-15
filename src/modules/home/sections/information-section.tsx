@@ -5,7 +5,7 @@ import { SectionWrapper } from "@/components/common/section/section-wrapper";
 
 export function InformationSection() {
   return (
-    <SectionWrapper>
+    <SectionWrapper isBorderBottom>
       <HorizontalStructure
         textElement={
           <SectionIntro
