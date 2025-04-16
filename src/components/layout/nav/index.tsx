@@ -15,6 +15,7 @@ import { Separator } from "@/components/ui/separator";
 import { Link, usePathname } from "@/i18n/navigation";
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 import { Menu } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { ComponentProps, useState } from "react";
 
 type LinkHrefType = ComponentProps<typeof Link>["href"];
@@ -25,26 +26,28 @@ type linkItemsType = {
 }[];
 
 export function Navigation() {
+  const t = useTranslations("Navigation");
+
   const linkItems = [
     {
       href: "/naturalne-rozwiazanie",
-      text: "Naturalne rozwiązanie",
+      text: t("naturalSolution"),
     },
     {
       href: "/atuty",
-      text: "Atuty",
+      text: t("advantages"),
     },
     {
       href: "/jak-stosowac",
-      text: "Jak stosować?",
+      text: t("howToUse"),
     },
     {
       href: "/oferta",
-      text: "Oferta",
+      text: t("offer"),
     },
     {
       href: "/kontakt",
-      text: "Kontakt",
+      text: t("contact"),
     },
   ] as linkItemsType;
 

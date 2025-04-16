@@ -7,7 +7,12 @@ import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-export function HeroSection() {
+export function HeroSection(p: {
+  title: string;
+  description: string;
+  cta1: string;
+  cta2: string;
+}) {
   // Animation variants for the decorator lines
   const decoratorVariants = {
     hidden: {
@@ -29,7 +34,7 @@ export function HeroSection() {
   return (
     <HomepageWrapper>
       <HeroIntro
-        title="Ściółka, która dba o Twoją hodowlę."
+        title={p.title}
         titleDecorator={
           <>
             {/* Decorator Desktop Version */}
@@ -59,24 +64,20 @@ export function HeroSection() {
         }
         description={
           <span className="bg-background/75 backdrop-blur-xs pr-2 py-1 rounded-md">
-            Zdrowe ptaki, czystsze kurniki, większa efektywność hodowli - to
-            wszystko zaczyna się od odpowiedniego podłoża. BioFloor to
-            nowoczesna ściółka słonecznikowa, która łączy wysoką chłonność,
-            higienę i wartość odżywczą, zapewniając komfort ptakom i
-            oszczędności hodowcom.
+            {p.description}
           </span>
         }
         ctaButtons={
           <>
             <Cta href="/kontakt" icon={<ArrowUpRight className="size-5" />}>
-              Zamów próbkę
+              {p.cta1}
             </Cta>
             <Cta href="/oferta" variant="outlined">
-              Zobacz ofertę
+              {p.cta2}
             </Cta>
           </>
         }
-        className="max-w-2xl z-20"
+        className="max-w-3xl z-20"
       />
 
       {/* Animation Object */}

@@ -5,10 +5,27 @@
     }
   },
   "Navigation": {
+    "naturalSolution": "Natürliche Lösung",
+    "advantages": "Vorteile",
+    "howToUse": "Wie benutzt man es?",
+    "offer": "Angebot",
+    "contact": "Kontakt",
     "LanguageButton": {
       "label": "Sprache auswählen:",
       "locale": "{locale, select, pl {🇵🇱 Polski} de {🇩🇪 Deutsch} en {🇺🇸 English} other {Nieznany}}"
     }
+  },
+  "Footer": {
+    "contactTitle": "Kontaktdaten:",
+    "localizationTitle": "Standort:",
+    "streetShortcut": "Str.",
+    "annotationTitle": "Anmerkungen:",
+    "howToUse": "Sehen Sie, wie man es verwendet",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "contact": "Kontakt",
+    "fullTruckloadLogistics": "Komplettladungslogistik",
+    "copyright": "Urheberrecht",
+    "socialMediaTitle": "Finden Sie uns auf:"
   },
   "Home": {
     "Metadata": {
@@ -16,7 +33,24 @@
       "description": "test"
     },
     "Page": {
-      "title": "Hello World!"
+      "title": "Einstreu, das sich um Ihre Zucht kümmert.",
+      "description": "Gesunde Vögel, sauberere Ställe, effizientere Zucht - alles beginnt mit dem richtigen Untergrund. PodŁapki ist moderne Sonnenblumeneinstreu, die hohe Saugfähigkeit, Hygiene und Nährwert verbindet, um den Vögeln Komfort und den Züchtern Einsparungen zu bieten.",
+      "cta1": "Probe bestellen",
+      "cta2": "Angebot ansehen",
+      "sectionIntroTitle": "Effizienz, die sich lohnt",
+      "sectionIntroDescription": "Entdecken Sie, wie unsere Einstreu die Standards in der Geflügelzucht anhebt.",
+      "greenCardTitle1": "Komfort und Wohlbefinden",
+      "greenCardDescription1": "Die weiche und gleichzeitig stabile Struktur von PodŁapki schützt die Füße des Geflügels und vereint die besten Eigenschaften verschiedener Materialien.",
+      "greenCardTitle2": "Natürlicher Schutz",
+      "greenCardDescription2": "Begrenzt das Wachstum von Bakterien und Pilzen, ist sicherer als Torf oder Stroh.",
+      "greenCardTitle3": "Saugfähigkeit",
+      "greenCardDescription3": "PodŁapki absorbiert Feuchtigkeit effektiv, verhindert die Entwicklung von Bakterien und Schimmel und sorgt für eine gesunde, trockene Umgebung.",
+      "greenCardTitle4": "Einfache Reinigung",
+      "greenCardDescription4": "Klumpt nicht, erleichtert die Reinigung und Hygiene im Hühnerstall.",
+      "informationSectionTitle": "Für wen?",
+      "informationSectionDescription": "<b>PodŁapki</b> ist Einstreu für moderne Geflügelfarmen und -unternehmen, die auf Produktionsoptimierung und Tierwohl setzen. Unsere Lösung hilft, die Effizienz zu steigern, Verluste zu reduzieren und bessere Zuchtbedingungen zu schaffen - ohne Kompromisse.",
+      "informationSectionTitle2": "Investieren Sie in die Zukunft der Zucht",
+      "informationSectionDescription2": "Wenn Sie nach einer bewährten Lösung suchen, die echte finanzielle und gesundheitliche Vorteile bringt, ist <b>PodŁapki</b> für Sie geeignet. Kontaktieren Sie uns und finden Sie heraus, ob wir bei der Entwicklung Ihrer Farm helfen können."
     }
   },
   "NaturalSolution": {
@@ -25,7 +59,44 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Natural solution"
+      "title": "Einstreu in der Geflügelzucht",
+      "titleLight": "- ein Schlüsselfaktor für Gesundheit und Effizienz",
+      "description": "Die Qualität der Einstreu im Hühnerstall hat einen direkten Einfluss auf die Gesundheit der Vögel, die Produktionseffizienz und die Qualität des Endprodukts. Die richtige Struktur und Zusammensetzung der Einstreu verhindert das Wachstum von Bakterien und Schimmel, reduziert die Emission schädlicher Gase und sorgt für ein optimales Mikroklima im Zuchtgebäude.",
+      "cta1": "Probe bestellen",
+      "cta2": "Angebot ansehen",
+      "sectionTitle": "Was sind die Gefahren einer ungeeigneten Einstreu?",
+      "sectionDescription": "Schlecht ausgewählte und unsachgemäß gepflegte Einstreu führt zu:",
+      "brownCardTitle1": "Übermäßige Feuchtigkeit",
+      "brownCardDescription1": "Übermäßige Feuchtigkeit, die die Bildung einer harten Kruste und das Wachstum von Krankheitserregern begünstigt.",
+      "brownCardTitle2": "Gasemissionen",
+      "brownCardDescription2": "Erhöhte Emission von Ammoniak, Schwefelwasserstoff und Kohlendioxid - Reizung der Schleimhäute der Vögel, geschwächte Immunität und verringerte Schlachtkörperqualität.",
+      "brownCardTitle3": "Bakterielle Infektionen",
+      "brownCardDescription3": "Bakterielle Infektionen (Salmonella, Escherichia coli, Staphylococcus), die die Sterblichkeitsrate der Herde und die Behandlungskosten erhöhen.",
+      "brownCardTitle4": "Dermatologische Probleme",
+      "brownCardDescription4": "Dermatologische Probleme - Fußgeschwüre und Brustblasenenzündungen.",
+      "brownCardTitle5": "Luftverschmutzung",
+      "brownCardDescription5": "Luftverschmutzung durch Staub, der sowohl den Vögeln als auch den Zuchtarbeitern schadet.",
+      "informationSectionTitle": "Für wen?",
+      "informationSectionDescription": "<b>PodŁapki</b> ist Einstreu für moderne Geflügelfarmen und -unternehmen, die auf Produktionsoptimierung und Tierwohl setzen. Unsere Lösung hilft, die Effizienz zu steigern, Verluste zu reduzieren und bessere Zuchtbedingungen zu schaffen - ohne Kompromisse.",
+      "informationSectionTitle2": "PodŁapki Sonnenblumenschaleneinstreu,",
+      "informationSectionTitle2Light": "die die Vorteile der besten Materialien kombiniert und ihre Nachteile eliminiert.",
+      "informationSection2CustomElement": "<li>Außergewöhnliche Feuchtigkeitsabsorption - reduziert die Bildung harter Krusten und erleichtert die Reinigung.</li><li>Reduzierte Ammoniak- und Schwefelwasserstoffemissionen - verbessert deutlich die Luftqualität und die Gesundheit der Vögel.</li><li>Natürliche Wärmeisolierung - verhindert Unterkühlung im Winter und Überhitzung im Sommer.</li><li>Struktur, die natürliches Verhalten fördert - Vögel können unter komfortablen Bedingungen scharren und ausruhen.</li><li>Wirtschaftlichkeit und Effizienz - seltenerer Austausch der Einstreu und geringerer Materialverbrauch bedeuten echte Einsparungen.</li><li>Mikrobiologische Sicherheit - regelmäßig auf Krankheitserreger getestet, frei von Salmonellen und Mykotoxinen.</li><li>Zusätzlicher Nährwert - der Gehalt an Proteinen und Fetten unterstützt die Gesundheit und Kondition der Vögel.</li>",
+      "floorInfoSectionTitle": "Welche Einstreu wird in der Geflügelzucht verwendet?",
+      "floorInfoSectionDescription": "Die Wahl der Einstreu beeinflusst die Gesundheit des Geflügels – sehen Sie die Unterschiede.",
+      "hackerCardTitle1": "Holzspäne",
+      "hackerCardDescription1": "effektiv bei der Feuchtigkeitsaufnahme, können aber Verunreinigungen enthalten und müssen mit anderen Materialien gemischt werden.",
+      "hackerCardTitle2": "Sägemehl",
+      "hackerCardDescription2": "günstiger, aber schwieriger zu pflegen, begrenzte Feuchtigkeitsabsorption.",
+      "hackerCardTitle3": "Torf",
+      "hackerCardDescription3": "absorbiert Feuchtigkeit gut, staubt aber und verklumpt leicht zu harten Brocken.",
+      "hackerCardTitle4": "Granulierte Einstreu",
+      "hackerCardDescription4": "moderne Lösung für bessere Hygiene und geringere Gasemissionen. Bietet außerdem mehr Nährstoffe, die mehr Vorteile für das Wohlbefinden bringen.",
+      "hackerCardTitle5": "Weizenstroh",
+      "hackerCardDescription5": "beliebt, erfordert aber häufigen Austausch, neutralisiert Ammoniak schlecht.",
+      "summarySectionTitle": "Entscheiden Sie sich für BioFloor",
+      "summarySectionTitleLight": "- bessere Bedingungen, höhere Effizienz, bessere Produktionsqualität!",
+      "summarySectionDescription": "Mit innovativer Einstreu können Züchter die Produktionseffizienz steigern, Verluste reduzieren und das Tierwohl verbessern. Biofloor ist eine moderne Lösung, die sich konkret auf die Gesundheit der Vögel und die Rentabilität der Zucht auswirkt.",
+      "summaryCta1": "Kontakt"
     }
   },
   "Advantages": {

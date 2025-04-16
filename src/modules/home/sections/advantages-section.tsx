@@ -9,36 +9,47 @@ import {
   SmileIcon,
 } from "lucide-react";
 
-export function HomeAdvantagesSection() {
+export function HomeAdvantagesSection(p: {
+  sectionIntroTitle: string;
+  sectionIntroDescription: string;
+  GreenCardTitle1: string;
+  GreenCardDescription1: string;
+  GreenCardTitle2: string;
+  GreenCardDescription2: string;
+  GreenCardTitle3: string;
+  GreenCardDescription3: string;
+  GreenCardTitle4: string;
+  GreenCardDescription4: string;
+}) {
   return (
     <SectionWrapperImage
       backgroundImage="/images/home/henhouse.png"
       imageClassName="-top-[30%] sm:-top-[50%]"
     >
       <SectionIntro
-        title="Efektywność, która się opłaca"
-        description="Odkryj, jak nasza ściółka podnosi standardy w hodowli drobiu."
+        title={p.sectionIntroTitle}
+        description={p.sectionIntroDescription}
       />
       <CardWrapper columns={2}>
         <GreenCard
           Icon={BicepsFlexedIcon}
-          title="Komfort i dobrostan"
-          description="Delikatna, a jednocześnie stabilna struktura PodŁapki chroni łapy drobiu, łącząc najlepsze cechy różnych materiałów."
+          title={p.GreenCardTitle1}
+          description={p.GreenCardDescription1}
         />
         <GreenCard
           Icon={BugOffIcon}
-          title="Naturalna ochrona"
-          description="Ogranicza rozwój bakterii i grzybów, jest bezpieczniejszy niż torf czy słoma."
+          title={p.GreenCardTitle2}
+          description={p.GreenCardDescription2}
         />
         <GreenCard
           Icon={DropletOffIcon}
-          title="Chłonność"
-          description="PodŁapki skutecznie pochłaniają wilgoć, zapobiegając rozwojowi bakterii i pleśni, zapewniając zdrowe, suche środowisko."
+          title={p.GreenCardTitle3}
+          description={p.GreenCardDescription3}
         />
         <GreenCard
           Icon={SmileIcon}
-          title="Łatwe czyszczenie"
-          description="Nie zbryla się, ułatwia sprzątanie i utrzymanie higieny w kurniku."
+          title={p.GreenCardTitle4}
+          description={p.GreenCardDescription4}
         />
       </CardWrapper>
     </SectionWrapperImage>

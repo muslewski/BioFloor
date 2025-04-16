@@ -25,7 +25,7 @@ export const routing = defineRouting({
       de: "/vorteile",
     },
     "/naturalne-rozwiazanie": {
-      en: "/natürliche-solution",
+      en: "/natural-solution",
       de: "/ökologische-lösung",
     },
     "/jak-stosowac": {

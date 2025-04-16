@@ -3,37 +3,47 @@ import { CardWrapper } from "@/components/common/cards/card-wrapper";
 import { SectionIntro } from "@/components/common/section/section-intro/intro";
 import { SectionWrapper } from "@/components/common/section/section-wrapper";
 
-export function HarmInfoSection() {
+export function HarmInfoSection(p: {
+  sectionTitle: string;
+  sectionDescription: string;
+  brownCardTitle1: string;
+  brownCardDescription1: string;
+  brownCardTitle2: string;
+  brownCardDescription2: string;
+  brownCardTitle3: string;
+  brownCardDescription3: string;
+  brownCardTitle4: string;
+  brownCardDescription4: string;
+  brownCardTitle5: string;
+  brownCardDescription5: string;
+}) {
   return (
     <SectionWrapper isBorderBottom>
-      <SectionIntro
-        title="Czym grozi niewłaściwe podłoże?"
-        description="Źle dobrane i niewłaściwie utrzymane podłoże prowadzi do:"
-      />
+      <SectionIntro title={p.sectionTitle} description={p.sectionDescription} />
       <CardWrapper columns={2}>
         <BrownCard
-          title="Nadmierna wilgotność"
-          description="Nadmiernej wilgotności, co sprzyja powstawaniu twardej skorupy i rozwojowi patogenów."
+          title={p.brownCardTitle1}
+          description={p.brownCardDescription1}
           icon="/images/icons/humidity.png"
         />
         <BrownCard
-          title="Emisja gazów"
-          description="Wzrostu emisji amoniaku, siarkowodoru i dwutlenku węgla - podrażnienia błon śluzowych ptaków, osłabienia odporności i spadku jakości tuszek."
+          title={p.brownCardTitle2}
+          description={p.brownCardDescription2}
           icon="/images/icons/cloud.png"
         />
         <BrownCard
-          title="Zakażenia bakteryjne"
-          description="Zakażeń bakteryjnych (Salmonella, Escherichia coli, Staphylococcus), zwiększających śmiertelność stada i koszty leczenia."
+          title={p.brownCardTitle3}
+          description={p.brownCardDescription3}
           icon="/images/icons/bacteria.png"
         />
         <BrownCard
-          title="Problemy dermatologiczne"
-          description="Problemów dermatologicznych - owrzodzeń stóp i zapalenia pęcherzy piersiowych."
+          title={p.brownCardTitle4}
+          description={p.brownCardDescription4}
           icon="/images/icons/chicken.png"
         />
         <BrownCard
-          title="Zanieczyszczenie powietrza"
-          description="Zanieczyszczenia powietrza pyłem, który szkodzi zarówno ptakom, jak i pracownikom hodowli."
+          title={p.brownCardTitle5}
+          description={p.brownCardDescription5}
           icon="/images/icons/pollution.png"
         />
       </CardWrapper>

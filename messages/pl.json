@@ -5,10 +5,27 @@
     }
   },
   "Navigation": {
+    "naturalSolution": "Naturalne rozwiązanie",
+    "advantages": "Atuty",
+    "howToUse": "Jak stosować?",
+    "offer": "Oferta",
+    "contact": "Kontakt",
     "LanguageButton": {
       "label": "Wybierz język:",
       "locale": "{locale, select, pl {🇵🇱 Polski} de {🇩🇪 Deutsch} en {🇺🇸 English} other {Nieznany}}"
     }
+  },
+  "Footer": {
+    "contactTitle": "Dane Kontaktowe:",
+    "localizationTitle": "Lokalizacja:",
+    "streetShortcut": "ul.",
+    "annotationTitle": "Adnotacje:",
+    "howToUse": "Zobacz jak stosować",
+    "privacyPolicy": "Polityka prywatności",
+    "contact": "Kontakt",
+    "fullTruckloadLogistics": "Logistyka całosamochodowa",
+    "copyright": "Prawa autorskie",
+    "socialMediaTitle": "Znajdź nas na:"
   },
   "Home": {
     "Metadata": {
@@ -16,7 +33,24 @@
       "description": "test"
     },
     "Page": {
-      "title": "Witaj świecie!"
+      "title": "Ściółka, która dba o Twoją hodowlę.",
+      "description": "Zdrowe ptaki, czystsze kurniki, większa efektywność hodowli - to wszystko zaczyna się od odpowiedniego podłoża. PodŁapki to nowoczesna ściółka słonecznikowa, która łączy wysoką chłonność, higienę i wartość odżywczą, zapewniając komfort ptakom i oszczędności hodowcom.",
+      "cta1": "Zamów próbkę",
+      "cta2": "Zobacz ofertę",
+      "sectionIntroTitle": "Efektywność, która się opłaca",
+      "sectionIntroDescription": "Odkryj, jak nasza ściółka podnosi standardy w hodowli drobiu.",
+      "greenCardTitle1": "Komfort i dobrostan",
+      "greenCardDescription1": "Delikatna, a jednocześnie stabilna struktura PodŁapki chroni łapy drobiu, łącząc najlepsze cechy różnych materiałów.",
+      "greenCardTitle2": "Naturalna ochrona",
+      "greenCardDescription2": "Ogranicza rozwój bakterii i grzybów, jest bezpieczniejszy niż torf czy słoma.",
+      "greenCardTitle3": "Chłonność",
+      "greenCardDescription3": "PodŁapki skutecznie pochłaniają wilgoć, zapobiegając rozwojowi bakterii i pleśni, zapewniając zdrowe, suche środowisko.",
+      "greenCardTitle4": "Łatwe czyszczenie",
+      "greenCardDescription4": "Nie zbryla się, ułatwia sprzątanie i utrzymanie higieny w kurniku.",
+      "informationSectionTitle": "Dla kogo?",
+      "informationSectionDescription": "<b>PodŁapki</b> to ściółka stworzona dla nowoczesnych ferm i firm drobiarskich, które stawiają na optymalizację produkcji i dobrostan zwierząt. Nasze rozwiązanie pomaga zwiększyć wydajność, ograniczyć straty i stworzyć lepsze warunki hodowlane - bez kompromisów.",
+      "informationSectionTitle2": "Zainwestuj w przyszłość hodowli",
+      "informationSectionDescription2": "Jeśli szukasz sprawdzonego rozwiązania, które przynosi realne korzyści finansowe i zdrowotne, <b>PadŁapki</b> jest dla Ciebie. Skontaktuj się z nami i sprawdź czy możemy pomóc w rozwoju Twojej fermy."
     }
   },
   "NaturalSolution": {
@@ -25,7 +59,44 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Naturalne rozwiązanie"
+      "title": "Podłoże w hodowli drobiu",
+      "titleLight": "- kluczowy czynnik zdrowia i efektywności",
+      "description": "Jakość podłoża w kurniku ma bezpośredni wpływ na zdrowie ptaków, efektywność produkcji oraz jakość końcowego produktu. Właściwa struktura i skład podłoża zapobiegają rozwojowi bakterii i pleśni, redukują emisję szkodliwych gazów oraz zapewniają optymalny mikroklimat w budynku hodowlanym.",
+      "cta1": "Zamów próbkę",
+      "cta2": "Zobacz ofertę",
+      "sectionTitle": "Czym grozi niewłaściwe podłoże?",
+      "sectionDescription": "Źle dobrane i niewłaściwie utrzymane podłoże prowadzi do:",
+      "brownCardTitle1": "Nadmierna wilgotność",
+      "brownCardDescription1": "Nadmiernej wilgotności, co sprzyja powstawaniu twardej skorupy i rozwojowi patogenów.",
+      "brownCardTitle2": "Emisja gazów",
+      "brownCardDescription2": "Wzrostu emisji amoniaku, siarkowodoru i dwutlenku węgla - podrażnienia błon śluzowych ptaków, osłabienia odporności i spadku jakości tuszek.",
+      "brownCardTitle3": "Zakażenia bakteryjne",
+      "brownCardDescription3": "Zakażeń bakteryjnych (Salmonella, Escherichia coli, Staphylococcus), zwiększających śmiertelność stada i koszty leczenia.",
+      "brownCardTitle4": "Problemy dermatologiczne",
+      "brownCardDescription4": "Problemów dermatologicznych - owrzodzeń stóp i zapalenia pęcherzy piersiowych.",
+      "brownCardTitle5": "Zanieczyszczenie powietrza",
+      "brownCardDescription5": "Zanieczyszczenia powietrza pyłem, który szkodzi zarówno ptakom, jak i pracownikom hodowli.",
+      "informationSectionTitle": "Dla kogo?",
+      "informationSectionDescription": "<b>PodŁapki</b> to ściółka stworzona dla nowoczesnych ferm i firm drobiarskich, które stawiają na optymalizację produkcji i dobrostan zwierząt. Nasze rozwiązanie pomaga zwiększyć wydajność, ograniczyć straty i stworzyć lepsze warunki hodowlane - bez kompromisów.",
+      "informationSectionTitle2": "PodŁapki ściółka z łuski słonecznika,",
+      "informationSectionTitle2Light": "która łączy zalety najlepszych materiałów i eliminuje ich wady.",
+      "informationSection2CustomElement": "<li>Wyjątkowa absorpcja wilgoci - ogranicza tworzenie twardej skorupy i ułatwia utrzymanie czystości.</li><li>Redukcja emisji amoniaku i siarkowodoru - znacząco poprawia jakość powietrza i zdrowie ptaków.</li><li>Naturalna izolacja cieplna - zapobiega wyziębieniu w zimie i przegrzaniu latem.</li><li>Struktura sprzyjająca naturalnym zachowaniom - ptaki mogą grzebać i odpoczywać w komfortowych warunkach.</li><li>Ekonomia i efektywność - rzadsza wymiana podłoża i mniejsze zużycie materiału oznaczają realne oszczędności.</li><li>Bezpieczeństwo mikrobiologiczne - regularnie badana pod kątem patogenów, wolna od Salmonelli i mykotoksyn.</li><li>Dodatkowe wartości odżywcze - zawartość białka i tłuszczu wspiera zdrowie i kondycję ptaków.</li>",
+      "floorInfoSectionTitle": "Jakie podłoże stosuje się w hodowli drobiu?",
+      "floorInfoSectionDescription": "Wybór podłoża wpływa na zdrowie drobiu – zobacz różnice.",
+      "hackerCardTitle1": "Wióry drzewne",
+      "hackerCardDescription1": "skuteczne w pochłanianiu wilgoci, ale mogą zawierać zanieczyszczenia i wymagają mieszania z innymi materiałami.",
+      "hackerCardTitle2": "Trociny",
+      "hackerCardDescription2": "tańsze, ale trudniejsze w utrzymaniu, ograniczona absorpcja wilgoci.",
+      "hackerCardTitle3": "Torf",
+      "hackerCardDescription3": "dobrze pochłania wilgoć, ale pyli i łatwo zbryla się w twarde grudki.",
+      "hackerCardTitle4": "Ściółka granulowana",
+      "hackerCardDescription4": "nowoczesne rozwiązanie zapewniające lepszą higienę i mniejszą emisję gazów. Ponadto dostarczającą więcej właściwości odżywczych dających wiecej korzyści w dobrostanie.",
+      "hackerCardTitle5": "Słoma pszeniczna",
+      "hackerCardDescription5": "popularna, ale wymaga częstej wymiany, słabo neutralizuje amoniak.",
+      "summarySectionTitle": "Postaw na BioFloor",
+      "summarySectionTitleLight": "- lepsze warunki, większa wydajność, wyższa jakość produkcji!",
+      "summarySectionDescription": "Dzięki innowacyjnemu podłożu hodowcy mogą zwiększyć efektywność produkcji, ograniczyć straty i poprawić dobrostan zwierząt. Biofloor to nowoczesne rozwiązanie, które realnie przekłada się na zdrowie ptaków i rentowność hodowli.",
+      "summaryCta1": "Kontakt"
     }
   },
   "Advantages": {

@@ -9,6 +9,7 @@ import { LinkIcon, MapPin, Phone } from "lucide-react";
 import Image from "next/image";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 export function Footer() {
   const containerVariants = {
@@ -66,6 +67,8 @@ export function Footer() {
     },
   };
 
+  const t = useTranslations("Footer");
+
   return (
     <motion.footer
       className="bg-gradient-to-b from-[#F2E9DC] to-background relative mt-12 lg:mt-28"
@@ -99,7 +102,7 @@ export function Footer() {
           variants={itemVariants}
         >
           <motion.div className="flex flex-col gap-6" variants={itemVariants}>
-            <FooterTitle text="Dane Kontaktowe:" icon={Phone} />
+            <FooterTitle text={t("contactTitle")} icon={Phone} />
             <motion.ul
               className="flex flex-col gap-4"
               variants={containerVariants}
@@ -118,13 +121,15 @@ export function Footer() {
             variants={itemVariants}
           >
             <motion.div className="flex flex-col gap-6" variants={itemVariants}>
-              <FooterTitle text="Lokalizacja:" icon={MapPin} />
+              <FooterTitle text={t("localizationTitle")} icon={MapPin} />
 
               <motion.ul
                 className="flex flex-col gap-4"
                 variants={containerVariants}
               >
-                <motion.li variants={itemVariants}>ul. Szubińska 67</motion.li>
+                <motion.li variants={itemVariants}>
+                  {t("streetShortcut")} Szubińska 67
+                </motion.li>
                 <motion.li variants={itemVariants}>
                   Białe Błota, 86-005
                 </motion.li>
@@ -138,7 +143,7 @@ export function Footer() {
             >
               <Image
                 src="/images/footer/localization.png"
-                alt="Lokalizacja"
+                alt={t("localizationTitle")}
                 className="object-cover"
                 fill
               />
@@ -155,33 +160,33 @@ export function Footer() {
           variants={itemVariants}
         >
           <motion.div className="flex flex-col gap-6" variants={itemVariants}>
-            <FooterTitle text="Adnotacje:" icon={LinkIcon} />
+            <FooterTitle text={t("annotationTitle")} icon={LinkIcon} />
             <motion.ul
               className="flex flex-wrap flex-col lg:flex-row gap-x-12 gap-y-4 max-w-2xl"
               variants={containerVariants}
             >
               <motion.li variants={itemVariants}>
-                <Link href="/jak-stosowac">Zobacz jak stosować</Link>
+                <Link href="/jak-stosowac">{t("howToUse")}</Link>
               </motion.li>
               <motion.li variants={itemVariants}>
-                <Link href="/polityka-prywatnosci">Polityka prywatności</Link>
+                <Link href="/polityka-prywatnosci">{t("privacyPolicy")}</Link>
               </motion.li>
               <motion.li variants={itemVariants}>
-                <Link href="/kontakt">Kontakt</Link>
+                <Link href="/kontakt">{t("contact")}</Link>
               </motion.li>
               <motion.li variants={itemVariants}>
                 <Link href="/logistyka-calosamochodowa">
-                  Logistyka całosamochodowa
+                  {t("fullTruckloadLogistics")}
                 </Link>
               </motion.li>
               <motion.li variants={itemVariants}>
-                <Link href="/prawa-autorskie">Prawa autorskie</Link>
+                <Link href="/prawa-autorskie">{t("copyright")}</Link>
               </motion.li>
             </motion.ul>
           </motion.div>
 
           <motion.div className="flex flex-col gap-6" variants={itemVariants}>
-            <FooterTitle text="Znajdź nas na:" />
+            <FooterTitle text={t("socialMediaTitle")} />
             <motion.ul
               className="flex gap-12 xl:justify-end"
               variants={containerVariants}

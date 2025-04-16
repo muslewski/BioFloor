@@ -5,10 +5,27 @@
     }
   },
   "Navigation": {
+    "naturalSolution": "Natural solution",
+    "advantages": "Advantages",
+    "howToUse": "How to use?",
+    "offer": "Offer",
+    "contact": "Contact",
     "LanguageButton": {
       "label": "Choose Language:",
       "locale": "{locale, select, pl {🇵🇱 Polski} de {🇩🇪 Deutsch} en {🇺🇸 English} other {Nieznany}}"
     }
+  },
+  "Footer": {
+    "contactTitle": "Contact Details:",
+    "localizationTitle": "Location:",
+    "streetShortcut": "St.",
+    "annotationTitle": "Annotations:",
+    "howToUse": "See how to use",
+    "privacyPolicy": "Privacy policy",
+    "contact": "Contact",
+    "fullTruckloadLogistics": "Full truckload logistics",
+    "copyright": "Copyright",
+    "socialMediaTitle": "Find us on:"
   },
   "Home": {
     "Metadata": {
@@ -16,7 +33,24 @@
       "description": "test"
     },
     "Page": {
-      "title": "Hello World!"
+      "title": "Bedding that cares for your breeding.",
+      "description": "Healthy birds, cleaner coops, more efficient breeding - it all starts with the right bedding. PodŁapki is a modern sunflower bedding that combines high absorbency, hygiene, and nutritional value, providing comfort to birds and savings to breeders.",
+      "cta1": "Order a sample",
+      "cta2": "See offer",
+      "sectionIntroTitle": "Efficiency that pays off",
+      "sectionIntroDescription": "Discover how our bedding raises standards in poultry farming.",
+      "greenCardTitle1": "Comfort and well-being",
+      "greenCardDescription1": "PodŁapki's gentle yet stable structure protects poultry feet, combining the best features of various materials.",
+      "greenCardTitle2": "Natural protection",
+      "greenCardDescription2": "Limits the growth of bacteria and fungi, safer than peat or straw.",
+      "greenCardTitle3": "Absorbency",
+      "greenCardDescription3": "PodŁapki effectively absorbs moisture, preventing bacteria and mold growth, ensuring a healthy, dry environment.",
+      "greenCardTitle4": "Easy cleaning",
+      "greenCardDescription4": "Doesn't clump, makes cleaning easier and maintains hygiene in the coop.",
+      "informationSectionTitle": "Who is it for?",
+      "informationSectionDescription": "<b>PodŁapki</b> is bedding created for modern farms and poultry companies that focus on optimizing production and animal welfare. Our solution helps increase efficiency, reduce losses, and create better breeding conditions - without compromises.",
+      "informationSectionTitle2": "Invest in the future of breeding",
+      "informationSectionDescription2": "If you're looking for a proven solution that brings real financial and health benefits, <b>PodŁapki</b> is for you. Contact us and see if we can help develop your farm."
     }
   },
   "NaturalSolution": {
@@ -25,7 +59,44 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Natural solution"
+      "title": "Bedding in Poultry Farming",
+      "titleLight": "- a key factor for health and efficiency",
+      "description": "The quality of bedding in a poultry house directly impacts bird health, production efficiency, and final product quality. Proper structure and composition of bedding prevent bacteria and mold growth, reduce harmful gas emissions, and ensure optimal microclimate in the breeding facility.",
+      "cta1": "Order a sample",
+      "cta2": "See offer",
+      "sectionTitle": "What are the risks of improper bedding?",
+      "sectionDescription": "Poorly selected and improperly maintained bedding leads to:",
+      "brownCardTitle1": "Excessive humidity",
+      "brownCardDescription1": "Excessive moisture, which promotes hard crust formation and pathogen development.",
+      "brownCardTitle2": "Gas emissions",
+      "brownCardDescription2": "Increased emissions of ammonia, hydrogen sulfide, and carbon dioxide - irritating birds' mucous membranes, weakening immunity, and reducing carcass quality.",
+      "brownCardTitle3": "Bacterial infections",
+      "brownCardDescription3": "Bacterial infections (Salmonella, Escherichia coli, Staphylococcus), increasing flock mortality and treatment costs.",
+      "brownCardTitle4": "Dermatological problems",
+      "brownCardDescription4": "Dermatological issues - foot ulcers and breast blisters inflammation.",
+      "brownCardTitle5": "Air pollution",
+      "brownCardDescription5": "Air pollution with dust that harms both birds and farm workers.",
+      "informationSectionTitle": "Who is it for?",
+      "informationSectionDescription": "<b>PodŁapki</b> is bedding created for modern farms and poultry companies that focus on optimizing production and animal welfare. Our solution helps increase efficiency, reduce losses, and create better breeding conditions - without compromises.",
+      "informationSectionTitle2": "PodŁapki sunflower husk bedding,",
+      "informationSectionTitle2Light": "that combines the advantages of the best materials and eliminates their drawbacks.",
+      "informationSection2CustomElement": "<li>Exceptional moisture absorption - limits hard crust formation and facilitates cleanliness maintenance.</li><li>Reduction of ammonia and hydrogen sulfide emissions - significantly improves air quality and bird health.</li><li>Natural thermal insulation - prevents cooling in winter and overheating in summer.</li><li>Structure promoting natural behaviors - birds can scratch and rest in comfortable conditions.</li><li>Economy and efficiency - less frequent bedding replacement and reduced material consumption mean real savings.</li><li>Microbiological safety - regularly tested for pathogens, free from Salmonella and mycotoxins.</li><li>Additional nutritional values - protein and fat content supports birds' health and condition.</li>",
+      "floorInfoSectionTitle": "What bedding is used in poultry farming?",
+      "floorInfoSectionDescription": "Bedding choice affects poultry health – see the differences.",
+      "hackerCardTitle1": "Wood shavings",
+      "hackerCardDescription1": "effective in absorbing moisture, but may contain contaminants and require mixing with other materials.",
+      "hackerCardTitle2": "Sawdust",
+      "hackerCardDescription2": "cheaper, but harder to maintain, limited moisture absorption.",
+      "hackerCardTitle3": "Peat",
+      "hackerCardDescription3": "absorbs moisture well, but is dusty and easily clumps into hard lumps.",
+      "hackerCardTitle4": "Granulated bedding",
+      "hackerCardDescription4": "modern solution providing better hygiene and lower gas emissions. Additionally, it provides more nutritional properties giving more benefits for welfare.",
+      "hackerCardTitle5": "Wheat straw",
+      "hackerCardDescription5": "popular, but requires frequent replacement, poorly neutralizes ammonia.",
+      "summarySectionTitle": "Choose BioFloor",
+      "summarySectionTitleLight": "- better conditions, greater efficiency, higher production quality!",
+      "summarySectionDescription": "With innovative bedding, breeders can increase production efficiency, reduce losses, and improve animal welfare. Biofloor is a modern solution that truly translates into bird health and breeding profitability.",
+      "summaryCta1": "Contact"
     }
   },
   "Advantages": {
