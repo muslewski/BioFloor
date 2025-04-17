@@ -11,38 +11,51 @@ import {
   ShovelIcon,
 } from "lucide-react";
 
-export function InfoSection() {
+export function InfoSection(p: {
+  sectionIntroTitle: string;
+  sectionIntroDescription: string;
+  brownCardTitle1: string;
+  brownCardDescription1: string;
+  brownCardTitle2: string;
+  brownCardDescription2: string;
+  brownCardTitle3: string;
+  brownCardDescription3: string;
+  brownCardTitle4: string;
+  brownCardDescription4: string;
+  brownCardTitle5: string;
+  brownCardDescription5: string;
+}) {
   return (
     <SectionWrapper isBorderBottom>
       <SectionIntro
-        title="Dodatkowe zalecenia"
-        description="Poniżej przedstawiamy dodatkowe wskazówki, które pomogą w efektywnym stosowaniu naszej ściółki:"
+        title={p.sectionIntroTitle}
+        description={p.sectionIntroDescription}
       />
       <CardWrapper columns={1} className="max-w-6xl self-center">
         <BrownCard
           icon={HeaterIcon}
-          title="Przygotowanie podłogi:"
-          description="Dogrzewanie kurnika przed rozsypaniem ściółki, aby zapewnić odpowiednią temperaturę."
+          title={p.brownCardTitle1}
+          description={p.brownCardDescription1}
         />
         <BrownCard
           icon={ShovelIcon}
-          title="Aplikacja:"
-          description="Rozsypywanie ręczne lub za pomocą rozrzutnika, z dbałością o równomierne pokrycie."
+          title={p.brownCardTitle2}
+          description={p.brownCardDescription2}
         />
         <BrownCard
           icon={HammerIcon}
-          title="Zarządzanie:"
-          description="Dla nierównych podłóg rozważyć wypełnienie spękań cementem przed aplikacją, co jest bardziej opłacalne. Po chowie ściółkę można kompostować lub stosować jako nawóz na pola."
+          title={p.brownCardTitle3}
+          description={p.brownCardDescription3}
         />
         <BrownCard
           icon={HeaterIcon}
-          title="Przygotowanie podłogi:"
-          description="Dogrzewanie kurnika przed rozsypaniem ściółki, aby zapewnić odpowiednią temperaturę."
+          title={p.brownCardTitle4}
+          description={p.brownCardDescription4}
         />
         <BrownCard
           icon={MessageSquareWarningIcon}
-          title="Uwagi:"
-          description="Jeśli podłoga jest bardzo czysta, zdezynfekowana i dogrzana, można rozważyć mniejszą ilość ściółki, ale z ostrożnością."
+          title={p.brownCardTitle5}
+          description={p.brownCardDescription5}
         />
       </CardWrapper>
     </SectionWrapper>

@@ -18,8 +18,12 @@ import { CalculatorIcon, DownloadIcon, RefreshCwIcon } from "lucide-react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { handleDownloadCalculatorPDF } from "@/modules/jak-stosowac/components/calculator-pdf";
+import { useTranslations } from "next-intl";
+import RichText from "@/components/rich-text";
 
 export function Calculator() {
+  const t = useTranslations("HowToUse.Page.Calculator");
+
   const [showResult, setShowResult] = useState(false);
   const [calculationResult, setCalculationResult] = useState({
     area: 0,
@@ -28,8 +32,8 @@ export function Calculator() {
   });
 
   const formSchema = z.object({
-    thickness: z.coerce.number().min(0.01, "Value must be at least 0.01"),
-    area: z.coerce.number().min(0.01, "Value must be at least 0.01"),
+    thickness: z.coerce.number().min(0.01, t("thicknessError")),
+    area: z.coerce.number().min(0.01, t("areaError")),
   });
 
   type FormValues = z.infer<typeof formSchema>;
@@ -108,7 +112,7 @@ export function Calculator() {
                     name="thickness"
                     render={({ field }) => (
                       <FormItem className="max-w-3xs">
-                        <FormLabel>Grubość ściółki (cm)</FormLabel>
+                        <FormLabel>{t("label1")}</FormLabel>
                         <FormControl>
                           <Input
                             type="number"
@@ -131,10 +135,7 @@ export function Calculator() {
                             }}
                           />
                         </FormControl>
-                        <FormDescription>
-                          Pamiętaj, że większe ptaki, potrzebują dwa razy
-                          grubszej ściółki.
-                        </FormDescription>
+                        <FormDescription>{t("desc1")}</FormDescription>
                         <FormMessage />
                       </FormItem>
                     )}
@@ -147,7 +148,7 @@ export function Calculator() {
                     name="area"
                     render={({ field }) => (
                       <FormItem className="max-w-3xs">
-                        <FormLabel>Powierzchnia (m²)</FormLabel>
+                        <FormLabel>{t("label2")}</FormLabel>
                         <FormControl>
                           <Input
                             type="number"
@@ -156,9 +157,7 @@ export function Calculator() {
                             {...field}
                           />
                         </FormControl>
-                        <FormDescription>
-                          Powierzchnia, na której ma być zastosowana ściółka.
-                        </FormDescription>
+                        <FormDescription>{t("desc2")}</FormDescription>
                         <FormMessage />
                       </FormItem>
                     )}
@@ -172,7 +171,7 @@ export function Calculator() {
                   className="self-end"
                 >
                   <Button type="submit">
-                    Oblicz
+                    {t("buttonCalculate")}
                     <CalculatorIcon className="size-5" />
                   </Button>
                 </motion.div>
@@ -204,14 +203,20 @@ export function Calculator() {
               className="flex flex-col gap-4"
               exit="exit"
             >
-              <motion.h3 variants={itemVariants}>Wynik:</motion.h3>
+              <motion.h3 variants={itemVariants}>{t("result")}</motion.h3>
               <motion.p variants={itemVariants}>
-                Aby uzyskać {calculationResult.area}m² pokrycia, zastosuj{" "}
-                <b>{calculationResult.requiredKg}</b> kg.
+                <RichText>
+                  {(tags) =>
+                    t.rich("resultParagraph", {
+                      ...tags,
+                      area: calculationResult.area,
+                      requiredKg: calculationResult.requiredKg,
+                    })
+                  }
+                </RichText>
               </motion.p>
               <motion.p className="small" variants={itemVariants}>
-                *Proponowane wyliczenia są naszą sugestią zastosowania i powinny
-                być dostosowane do indywidualnych preferencji hodowcy.
+                {t("infoParagraph")}
               </motion.p>
               <motion.div
                 variants={itemVariants}
@@ -231,7 +236,7 @@ export function Calculator() {
                       )
                     }
                   >
-                    Pobierz PDF
+                    {t("buttonPdf")}
                     <DownloadIcon className="size-5 ml-2" />
                   </Button>
                 </motion.div>
@@ -240,7 +245,7 @@ export function Calculator() {
                   whileTap={{ scale: 0.98 }}
                 >
                   <Button onClick={handleReset} variant="secondary">
-                    Resetuj
+                    {t("buttonReset")}
                     <RefreshCwIcon className="size-5" />
                   </Button>
                 </motion.div>

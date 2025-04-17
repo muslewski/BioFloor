@@ -6,28 +6,78 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
 
-export function TableSection() {
+export function TableSection(p: {
+  tableSectionTitle: string;
+  tableSectionDescription: string;
+  tableType: string;
+  tableSeason: string;
+  tableFloor: string;
+  tableCoverage: string;
+  typeBroiler: string;
+  typeTurkeyRearing: string;
+  typeTurkeyFattening: string;
+  typeLayingHenFreeRange: string;
+  seasonSummer: string;
+  seasonWinter: string;
+  floorWarm: string;
+  floorCold: string;
+}) {
   const tableRef = useRef(null);
   const isInView = useInView(tableRef, { once: true, amount: 0.2 });
   const [hoveredRow, setHoveredRow] = useState<number | null>(null);
 
   const tableData = [
-    { type: "Brojler", season: "Lato", floor: "-", coverage: "2.4" },
-    { type: "Brojler", season: "Zima", floor: "-", coverage: "3.2" },
-    { type: "Indyk odchów", season: "Lato", floor: "Ciepła", coverage: "2.5" },
-    { type: "Indyk odchów", season: "Lato", floor: "Zimna", coverage: "5.75" },
-    { type: "Indyk odchów", season: "Zima", floor: "-", coverage: "5.85" },
-    { type: "Indyk tucz", season: "Lato", floor: "-", coverage: "6.65" },
-    { type: "Indyk tucz", season: "Zima", floor: "-", coverage: "8.45" },
     {
-      type: "Kura noska (wolny wybieg)",
-      season: "Lato",
+      type: p.typeBroiler,
+      season: p.seasonSummer,
+      floor: "-",
+      coverage: "2.4",
+    },
+    {
+      type: p.typeBroiler,
+      season: p.seasonWinter,
+      floor: "-",
+      coverage: "3.2",
+    },
+    {
+      type: p.typeTurkeyRearing,
+      season: p.seasonSummer,
+      floor: p.floorWarm,
+      coverage: "2.5",
+    },
+    {
+      type: p.typeTurkeyRearing,
+      season: p.seasonSummer,
+      floor: p.floorCold,
+      coverage: "5.75",
+    },
+    {
+      type: p.typeTurkeyRearing,
+      season: p.seasonWinter,
+      floor: "-",
+      coverage: "5.85",
+    },
+    {
+      type: p.typeTurkeyFattening,
+      season: p.seasonSummer,
+      floor: "-",
+      coverage: "6.65",
+    },
+    {
+      type: p.typeTurkeyFattening,
+      season: p.seasonWinter,
+      floor: "-",
+      coverage: "8.45",
+    },
+    {
+      type: p.typeLayingHenFreeRange,
+      season: p.seasonSummer,
       floor: "-",
       coverage: "1.5",
     },
     {
-      type: "Kura noska (wolny wybieg)",
-      season: "Zima",
+      type: p.typeLayingHenFreeRange,
+      season: p.seasonWinter,
       floor: "-",
       coverage: "2.5",
     },
@@ -77,8 +127,8 @@ export function TableSection() {
     <SectionWrapper>
       <SectionIntro
         className="max-w-3xl"
-        title="Rekomendowane wartości"
-        description="W tabeli poniżej zebraliśmy sugerowane wartości pokrycia ściółki dla kurników. Uwzględniają one typ drobiu oraz specyfikę podłogi i sezonu."
+        title={p.tableSectionTitle}
+        description={p.tableSectionDescription}
       />
 
       <div className="relative w-full">
@@ -121,10 +171,10 @@ export function TableSection() {
               <thead>
                 <tr className="border-b border-foreground/30">
                   {[
-                    "Typ Drobiu",
-                    "Sezon",
-                    "Typ podłogi",
-                    "Pokrycie (kg/m)²",
+                    p.tableType,
+                    p.tableSeason,
+                    p.tableFloor,
+                    p.tableCoverage,
                   ].map((header, index) => (
                     <motion.th
                       key={index}
