@@ -105,7 +105,27 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Atuty"
+      "title": "Nowa jakość w hodowli drobiu",
+      "titleLight": "- komfort i ekologia w jednym",
+      "description": "<b>BioFloor</b> rewolucjonizuje hodowlę drobiu, łącząc komfort, higienę i ekologię. Dzięki naturalnej łusce słonecznikowej zapewnia suche podłoże i zdrowsze ptaki, wspierając hodowców w osiąganiu lepszych wyników.",
+      "cta1": "Zamów próbkę",
+      "cta2": "Zobacz ofertę",
+      "sectionIntroTitle": "Dlaczego warto wybrać Biofloor?",
+      "sectionIntroDescription": "Biofloor to kompleksowe rozwiązanie, które podnosi standardy hodowli drobiu na wyższy poziom.",
+      "BrownCardTitle1": "Komfort i dobrostan ptaków",
+      "BrownCardDescription1": "Delikatna, a jednocześnie stabilna struktura Biofloor dba o łapy drobiu, minimalizując ryzyko podrażnień i urazów. Słoma bywa zbyt szorstka, pellet słomiany - twardy i nieelastyczny, a torf, choć miękki, może powodować problemy oddechowe. BioFloor łączy najlepsze cechy różnych materiałów, tworząc optymalne warunki dla zwierząt.",
+      "BrownCardTitle2": "Wyjątkowa chłonność",
+      "BrownCardDescription2": "Biofloor skutecznie pochłania wilgoć, utrzymując kurnik w optymalnych warunkach. Jego zdolność do zatrzymywania wilgoci zapobiega powstawaniu mokrych miejsc sprzyjających rozwojowi bakterii i pleśni. W przeciwieństwie do słomy czy pelletu słomianego, które mogą szybko przemakać, oraz torfu, który generuje uciążliwy pył, BioFloor zapewnia zdrowe, suche środowisko dla ptaków.",
+      "BrownCardTitle3": "Redukcja nieprzyjemnych zapachów",
+      "BrownCardDescription3": "Dzięki naturalnym właściwościom BioFloor skutecznie wiąże amoniak, ograniczając jego emisję i poprawiając jakość powietrza w kurniku. Amoniak jest szkodliwy dla ptaków i może powodować problemy oddechowe. Słoma i pellet słomiany zapewniają jedynie częściową kontrolę nad zapachem, a torf, choć dobrze go pochłania, może powodować nadmierne pylenie.",
+      "BrownCardTitle4": "Łatwość w utrzymaniu czystości",
+      "BrownCardDescription4": "Dzięki Biofloor sprzątanie kurnika staje się szybkie i wygodne - wystarczy wymienić zabrudzoną warstwę na świeżą. Słoma i pellet słomiany często zbrylają się i trudno je usunąć, natomiast torf jest lekki, ale pylący. BioFloor ułatwia utrzymanie higieny, ograniczając czas i wysiłek potrzebny na codzienną pielęgnację.",
+      "BrownCardTitle5": "Naturalna ochrona przed bakteriami i grzybami",
+      "BrownCardDescription5": "Biofloor działa jak naturalna bariera ochronna, ograniczając rozwój bakterii i grzybów. Regularnie poddawany badaniom pod kątem obecności Salmonelli i zarodników grzybów, jest bezpieczniejszą alternatywą dla torfu, który może być źródłem patogenów, oraz słomy, która często zawiera pozostałości środków chemicznych.",
+      "BrownCardTitle6": "Naturalne i zrównoważone rozwiązanie",
+      "BrownCardDescription6": "Biofloor to produkt biodegradowalny i przyjazny środowisku. W przeciwieństwie do słomy czy pelletu słomianego, które mogą zawierać resztki pestycydów, oraz torfu, którego wydobycie prowadzi do degradacji torfowisk, BioFloor jest w pełni zrównoważonym wyborem dla nowoczesnej hodowli.",
+      "BrownCardTitle7": "Oszczędność",
+      "BrownCardDescription7": "Dzięki zawartości białek, tłuszczy i błonnika daje lepszy produkt, wspomaga szybszy przyrost lub/i niższe koszty żywienia"
     }
   },
   "HowToUse": {

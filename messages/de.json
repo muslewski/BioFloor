@@ -105,7 +105,27 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Vorteile"
+      "title": "Neue Qualität in der Geflügelzucht",
+      "titleLight": "- Komfort und Ökologie in einem",
+      "description": "<b>BioFloor</b> revolutioniert die Geflügelzucht, indem es Komfort, Hygiene und Ökologie kombiniert. Dank der natürlichen Sonnenblumenschale sorgt es für trockenen Boden und gesündere Vögel und unterstützt Züchter beim Erreichen besserer Ergebnisse.",
+      "cta1": "Probe bestellen",
+      "cta2": "Angebot ansehen",
+      "sectionIntroTitle": "Warum BioFloor wählen?",
+      "sectionIntroDescription": "BioFloor ist eine umfassende Lösung, die die Standards in der Geflügelzucht auf ein höheres Niveau hebt.",
+      "BrownCardTitle1": "Komfort und Wohlbefinden der Vögel",
+      "BrownCardDescription1": "Die weiche und gleichzeitig stabile Struktur von BioFloor schützt die Füße des Geflügels und minimiert das Risiko von Reizungen und Verletzungen. Stroh kann zu rau sein, Strohpellets zu hart und unelastisch, und Torf, obwohl weich, kann Atemprobleme verursachen. BioFloor vereint die besten Eigenschaften verschiedener Materialien und schafft optimale Bedingungen für die Tiere.",
+      "BrownCardTitle2": "Außergewöhnliche Saugfähigkeit",
+      "BrownCardDescription2": "BioFloor absorbiert Feuchtigkeit effektiv und hält den Hühnerstall in optimalen Bedingungen. Seine Fähigkeit, Feuchtigkeit zu speichern, verhindert nasse Stellen, die die Entwicklung von Bakterien und Schimmel begünstigen. Im Gegensatz zu Stroh oder Strohpellets, die schnell durchnässen können, und Torf, der störenden Staub erzeugt, sorgt BioFloor für eine gesunde, trockene Umgebung für die Vögel.",
+      "BrownCardTitle3": "Reduzierung unangenehmer Gerüche",
+      "BrownCardDescription3": "Dank seiner natürlichen Eigenschaften bindet BioFloor Ammoniak effektiv, reduziert dessen Emission und verbessert die Luftqualität im Hühnerstall. Ammoniak ist schädlich für Vögel und kann Atemprobleme verursachen. Stroh und Strohpellets bieten nur teilweise Geruchskontrolle, während Torf, obwohl er gut absorbiert, übermäßig stauben kann.",
+      "BrownCardTitle4": "Leichte Reinigung",
+      "BrownCardDescription4": "Mit BioFloor wird die Reinigung des Hühnerstalls schnell und bequem - es reicht aus, die verschmutzte Schicht durch eine frische zu ersetzen. Stroh und Strohpellets verklumpen oft und sind schwer zu entfernen, während Torf leicht, aber staubig ist. BioFloor erleichtert die Hygiene und reduziert Zeit und Aufwand für die tägliche Pflege.",
+      "BrownCardTitle5": "Natürlicher Schutz vor Bakterien und Pilzen",
+      "BrownCardDescription5": "BioFloor wirkt wie eine natürliche Schutzbarriere und begrenzt das Wachstum von Bakterien und Pilzen. Regelmäßig auf Salmonellen und Pilzsporen getestet, ist es eine sicherere Alternative zu Torf, der eine Quelle für Krankheitserreger sein kann, und Stroh, das oft Rückstände von Chemikalien enthält.",
+      "BrownCardTitle6": "Natürliche und nachhaltige Lösung",
+      "BrownCardDescription6": "BioFloor ist ein biologisch abbaubares und umweltfreundliches Produkt. Im Gegensatz zu Stroh oder Strohpellets, die Pestizid-Rückstände enthalten können, und Torf, dessen Abbau zur Zerstörung von Torfmooren führt, ist BioFloor eine vollständig nachhaltige Wahl für moderne Zucht.",
+      "BrownCardTitle7": "Wirtschaftlichkeit",
+      "BrownCardDescription7": "Durch den Gehalt an Proteinen, Fetten und Ballaststoffen liefert es ein besseres Produkt, unterstützt schnelleres Wachstum und/oder niedrigere Futterkosten"
     }
   },
   "HowToUse": {
