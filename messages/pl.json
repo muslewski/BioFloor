@@ -184,7 +184,18 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Offer"
+      "title": "Poznaj naszą ofertę",
+      "titleLight": "- dopasowana do Twoich potrzeb",
+      "description": "W trosce o najwyższą jakość i wygodę naszych klientów oferujemy ściółkę <b>BioFloor</b> w dwóch formach sprzedaży, dostosowanych do różnych potrzeb hodowców. Dzięki temu każdy może wybrać rozwiązanie idealnie pasujące do skali i specyfiki swojej hodowli.",
+      "cta1": "Zamów próbkę",
+      "offerSectionTitle": "Sprzedaż hurtowa",
+      "offerSectionDescription": "Zapewniamy dostawy całopojazdowe w Big Bagach o pojemności około 1.05 ton. To idealne rozwiązanie dla dużych gospodarstw i ferm drobiu, które potrzebują stałych, wydajnych dostaw w ekonomicznej formie.",
+      "offerSectionLink": "Jak wygląda logistyka całosamochodowa?",
+      "offerSectionTitle2": "Sprzedaż pojedynczych Big Bag",
+      "offerSectionDescription2": "Oferujemy możliwość zakupu mniejszych partii, co pozwala na elastyczne zarządzanie zapasami i dostosowanie ilości do indywidualnych potrzeb.",
+      "contactSectionTitle": "Ceny ustalane indywidualnie - skontaktuj się z nami!",
+      "contactSectionDescription": "Chętnie odpowiemy na wszelkie pytania oraz dostarczymy próbki, aby mogli Państwo osobiście przekonać się o jakości naszego produktu.",
+      "contactSectionCta": "Kontakt"
     }
   },
   "Contact": {

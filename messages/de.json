@@ -184,7 +184,18 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Offer"
+      "title": "Entdecken Sie unser Angebot",
+      "titleLight": "- angepasst an Ihre Bedürfnisse",
+      "description": "Um höchste Qualität und Komfort für unsere Kunden zu gewährleisten, bieten wir <b>BioFloor</b> Einstreu in zwei Verkaufsformen an, die an unterschiedliche Bedürfnisse der Züchter angepasst sind. So kann jeder die Lösung wählen, die perfekt zur Größe und Spezifik seiner Zucht passt.",
+      "cta1": "Probe bestellen",
+      "offerSectionTitle": "Großhandel",
+      "offerSectionDescription": "Wir bieten Komplettladungen in Big Bags mit einem Fassungsvermögen von etwa 1,05 Tonnen. Dies ist die ideale Lösung für große Betriebe und Geflügelfarmen, die regelmäßige, effiziente Lieferungen in wirtschaftlicher Form benötigen.",
+      "offerSectionLink": "Wie funktioniert die Komplettladungslogistik?",
+      "offerSectionTitle2": "Verkauf einzelner Big Bags",
+      "offerSectionDescription2": "Wir bieten die Möglichkeit, kleinere Mengen zu kaufen, was eine flexible Bestandsverwaltung und Anpassung der Menge an individuelle Bedürfnisse ermöglicht.",
+      "contactSectionTitle": "Preise werden individuell festgelegt - kontaktieren Sie uns!",
+      "contactSectionDescription": "Wir beantworten gerne alle Fragen und stellen Ihnen Proben zur Verfügung, damit Sie sich selbst von der Qualität unseres Produkts überzeugen können.",
+      "contactSectionCta": "Kontakt"
     }
   },
   "Contact": {

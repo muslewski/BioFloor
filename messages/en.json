@@ -184,7 +184,18 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Offer"
+      "title": "Explore our offer",
+      "titleLight": "- tailored to your needs",
+      "description": "To ensure the highest quality and convenience for our customers, we offer <b>BioFloor</b> bedding in two sales formats, adapted to different breeder needs. This allows everyone to choose the solution that perfectly fits their breeding scale and specifics.",
+      "cta1": "Order a sample",
+      "offerSectionTitle": "Wholesale",
+      "offerSectionDescription": "We provide full truck deliveries in Big Bags with a capacity of approximately 1.05 tons. This is an ideal solution for large farms and poultry operations that need regular, efficient supplies in an economical form.",
+      "offerSectionLink": "How does full truckload logistics work?",
+      "offerSectionTitle2": "Individual Big Bag sales",
+      "offerSectionDescription2": "We offer the option to purchase smaller batches, allowing for flexible inventory management and quantity adjustment to individual needs.",
+      "contactSectionTitle": "Prices determined individually - contact us!",
+      "contactSectionDescription": "We are happy to answer any questions and provide samples so you can personally experience the quality of our product.",
+      "contactSectionCta": "Contact"
     }
   },
   "Contact": {
