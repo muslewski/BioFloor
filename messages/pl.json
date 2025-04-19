@@ -270,7 +270,33 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Polityka Prywatności"
+      "title": "Polityka Prywatności",
+      "titleLight": "- Twoje dane są dla nas ważne",
+      "description": "Dowiedz się, w jaki sposób przetwarzamy i chronimy Twoje dane osobowe. Szanujemy Twoją prywatność i zapewniamy transparentność naszych działań.",
+      "cta1": "Zamów próbkę",
+      "cta2": "Zobacz ofertę",
+      "sectionIntroTitle": "Wprowadzenie",
+      "sectionIntroDescription": "Twoja prywatność jest dla nas priorytetem! W niniejszej Polityce Prywatności znajdziesz szczegóły dotyczące tego, jak zbieramy, przetwarzamy i chronimy Twoje dane osobowe podczas korzystania z naszej witryny internetowej.",
+      "brownCardTitle1": "1. Informacje o Administratorze Danych Osobowych",
+      "brownCardDescription1": "Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych przekazywanych przez użytkowników w związku z korzystaniem z naszego serwisu internetowego. Administratorem danych osobowych jest:",
+      "brownCard1CustomElement": "<li><b>BioFloor Sp. z o.o.</b></li><li>Adres: ul. Szubińska 67 Białe Błota, 86-005 Bydgoszcz</li><li>NIP: 5543034767</li><li>REGON: 541379704</li><li>KRS: 0001166024</li><li>Adres e-mail: biuro@biofloor.pl</li><li>Telefon: +48 786 866 690</li>",
+      "brownCardTitle2": "2. Dane Osobowe",
+      "brownCardDescription2": "Zgromadzenie i przetwarzanie danych osobowych użytkowników jest prowadzone zgodnie z obowiązującymi przepisami prawa, w szczególności z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych (RODO).",
+      "brownCard2CustomElement": "<p>Nie zbieramy żadnych danych osobowych na naszej stronie internetowej bez wyraźnej zgody użytkownika.</p><p>Nasza strona jest wyposażona w certyfikat SSL, co oznacza, że wszystkie przekazywane informacje są szyfrowane i chronione przed dostępem osób nieupoważnionych.</p>",
+      "brownCardTitle3": "3. Cel i Zakres Przetwarzania Danych Osobowych",
+      "brownCardDescription3": "Jeśli użytkownik dobrowolnie poda nam swoje dane osobowe (na przykład w formularzu kontaktowym lub w celu zamówienia próbki produktu), będziemy przetwarzać te dane wyłącznie w określonych celach.",
+      "brownCard3CustomElement": "<p>Dane osobowe przetwarzamy w celu:</p><ul><li>Udzielenia odpowiedzi na zapytania przesłane przez formularz kontaktowy</li><li>Realizacji zamówienia próbek produktów</li><li>Przesyłania informacji handlowych i marketingowych (tylko za wyraźną zgodą)</li><li>Przygotowania i przedstawienia oferty handlowej</li></ul><p>Dostarczone nam dane osobowe nie będą przekazywane osobom trzecim ani wykorzystywane w innych celach bez wyraźnej zgody użytkownika.</p>",
+      "brownCardTitle4": "4. Analiza Danych i Statystyki",
+      "brownCardDescription4": "Nasza strona może korzystać z narzędzi do analizy ruchu, takich jak Google Analytics, w celu zbierania anonimowych informacji na temat ruchu na stronie. Te dane są wykorzystywane wyłącznie w celach statystycznych i doskonalenia jakości naszego serwisu. Nie pozwalają one na identyfikację konkretnych użytkowników.",
+      "brownCardTitle5": "5. Pliki Cookies",
+      "brownCardDescription5": "Nasza strona wykorzystuje pliki cookies (ciasteczka), które są małymi plikami tekstowymi zapisywanymi na urządzeniu użytkownika.",
+      "brownCard5CustomElement": "<p>Pliki cookies służą do:</p><ul><li>Zapewnienia prawidłowego funkcjonowania strony</li><li>Zapamiętywania preferencji użytkownika</li><li>Tworzenia statystyk oglądalności strony</li><li>Dostosowania treści reklamowych</li></ul><p>Użytkownik może w każdej chwili wyłączyć lub ograniczyć używanie plików cookies w ustawieniach przeglądarki internetowej.</p>",
+      "brownCardTitle6": "6. Prawa Użytkowników",
+      "brownCardDescription6": "Zgodnie z RODO, użytkownicy mają określone prawa związane z przetwarzaniem ich danych osobowych.",
+      "brownCard6CustomElement": "<p>Użytkownicy mają prawo do:</p><ul><li>Dostępu do swoich danych osobowych</li><li>Sprostowania (poprawiania) swoich danych</li><li>Usunięcia danych (\"prawo do bycia zapomnianym\")</li><li>Ograniczenia przetwarzania danych</li><li>Przenoszenia danych</li><li>Wniesienia sprzeciwu wobec przetwarzania</li><li>Niepodlegania decyzjom opartym wyłącznie na zautomatyzowanym przetwarzaniu</li></ul><p>Wszelkie pytania i prośby dotyczące danych osobowych prosimy kierować na adres e-mail: biuro@biofloor.pl.</p>",
+      "brownCardTitle7": "7. Zmiany w Polityce Prywatności",
+      "brownCardDescription7": "Zastrzegamy sobie prawo do zmiany Polityki Prywatności w celu dostosowania jej do zmieniających się potrzeb i przepisów prawnych. O istotnych zmianach będziemy informować użytkowników poprzez stosowne ogłoszenia na naszej stronie internetowej.",
+      "brownCard7CustomElement": "<p>Aktualna wersja Polityki Prywatności zawsze będzie dostępna na naszej stronie internetowej.</p><b>Ostatnia aktualizacja: 10 kwietnia 2025 r.</b>"
     }
   },
   "Copyright": {

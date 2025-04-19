@@ -270,7 +270,33 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Privacy Policy"
+      "title": "Privacy Policy",
+      "titleLight": "- Your data is important to us",
+      "description": "Learn how we process and protect your personal data. We respect your privacy and ensure transparency in our actions.",
+      "cta1": "Order a sample",
+      "cta2": "See offer",
+      "sectionIntroTitle": "Introduction",
+      "sectionIntroDescription": "Your privacy is our priority! In this Privacy Policy, you will find details about how we collect, process, and protect your personal data when using our website.",
+      "brownCardTitle1": "1. Information about the Personal Data Administrator",
+      "brownCardDescription1": "This Privacy Policy defines the principles of processing and protecting personal data provided by users in connection with using our website. The administrator of personal data is:",
+      "brownCard1CustomElement": "<li><b>BioFloor Sp. z o.o.</b></li><li>Address: Szubińska 67 St. Białe Błota, 86-005 Bydgoszcz</li><li>NIP: 5543034767</li><li>REGON: 541379704</li><li>KRS: 0001166024</li><li>Email address: biuro@biofloor.pl</li><li>Phone: +48 786 866 690</li>",
+      "brownCardTitle2": "2. Personal Data",
+      "brownCardDescription2": "The collection and processing of users' personal data is conducted in accordance with applicable laws, in particular with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data (GDPR).",
+      "brownCard2CustomElement": "<p>We do not collect any personal data on our website without the explicit consent of the user.</p><p>Our website is equipped with an SSL certificate, which means that all transmitted information is encrypted and protected against unauthorized access.</p>",
+      "brownCardTitle3": "3. Purpose and Scope of Personal Data Processing",
+      "brownCardDescription3": "If a user voluntarily provides us with their personal data (for example in a contact form or to order a product sample), we will process this data only for specific purposes.",
+      "brownCard3CustomElement": "<p>We process personal data for the purpose of:</p><ul><li>Responding to inquiries submitted through the contact form</li><li>Fulfilling product sample orders</li><li>Sending commercial and marketing information (only with explicit consent)</li><li>Preparing and presenting a commercial offer</li></ul><p>The personal data provided to us will not be transferred to third parties or used for other purposes without the explicit consent of the user.</p>",
+      "brownCardTitle4": "4. Data Analysis and Statistics",
+      "brownCardDescription4": "Our website may use traffic analysis tools, such as Google Analytics, to collect anonymous information about website traffic. This data is used solely for statistical purposes and to improve the quality of our service. They do not allow for the identification of specific users.",
+      "brownCardTitle5": "5. Cookies",
+      "brownCardDescription5": "Our website uses cookies, which are small text files saved on the user's device.",
+      "brownCard5CustomElement": "<p>Cookies are used to:</p><ul><li>Ensure proper functioning of the website</li><li>Remember user preferences</li><li>Create website traffic statistics</li><li>Customize advertising content</li></ul><p>The user can disable or limit the use of cookies in their browser settings at any time.</p>",
+      "brownCardTitle6": "6. User Rights",
+      "brownCardDescription6": "In accordance with GDPR, users have specific rights related to the processing of their personal data.",
+      "brownCard6CustomElement": "<p>Users have the right to:</p><ul><li>Access their personal data</li><li>Rectify (correct) their data</li><li>Delete data (\"right to be forgotten\")</li><li>Restrict data processing</li><li>Data portability</li><li>Object to processing</li><li>Not be subject to decisions based solely on automated processing</li></ul><p>Any questions and requests regarding personal data should be sent to the email address: biuro@biofloor.pl.</p>",
+      "brownCardTitle7": "7. Changes to the Privacy Policy",
+      "brownCardDescription7": "We reserve the right to change the Privacy Policy to adapt it to changing needs and legal regulations. We will inform users about significant changes through appropriate announcements on our website.",
+      "brownCard7CustomElement": "<p>The current version of the Privacy Policy will always be available on our website.</p><b>Last update: April 10, 2025</b>"
     }
   },
   "Copyright": {
