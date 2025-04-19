@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props) {
   });
 
   return {
-    title: "Atuty",
+    title: t("title"),
     description: t("description"),
   };
 }

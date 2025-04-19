@@ -33,7 +33,7 @@ export async function generateMetadata({
 
   return {
     title: {
-      template: `%s | BioFloor`,
+      // template: `%s | BioFloor`,
       default: t("default-title"),
     },
   };

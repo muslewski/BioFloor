@@ -29,8 +29,8 @@
   },
   "Home": {
     "Metadata": {
-      "title": "BioFloor - Einstreu für Züchter!",
-      "description": "test"
+      "title": "BioFloor - Innovative Einstreu für Geflügelzüchter | Gesundheit & Effizienz",
+      "description": "Entdecken Sie BioFloor - Einstreu aus Sonnenblumenschalen für gesunde Vögel, saubere Ställe und effiziente Zucht. Jetzt Muster bestellen!"
     },
     "Page": {
       "title": "Einstreu, das sich um Ihre Zucht kümmert.",
@@ -58,8 +58,8 @@
   },
   "NaturalSolution": {
     "Metadata": {
-      "title": "empty",
-      "description": "empty"
+      "title": "BioFloor - Natürliche Einstreu für Geflügelzucht | Gesundheit & Leistung",
+      "description": "Erfahren Sie, warum die richtige Einstreu wichtig ist. BioFloor schützt vor Risiken, fördert die Geflügelgesundheit und steigert die Produktion."
     },
     "Page": {
       "title": "Einstreu in der Geflügelzucht",
@@ -85,7 +85,7 @@
       "informationSectionTitle2Light": "die die Vorteile der besten Materialien kombiniert und ihre Nachteile eliminiert.",
       "informationSection2CustomElement": "<li>Außergewöhnliche Feuchtigkeitsabsorption - reduziert die Bildung harter Krusten und erleichtert die Reinigung.</li><li>Reduzierte Ammoniak- und Schwefelwasserstoffemissionen - verbessert deutlich die Luftqualität und die Gesundheit der Vögel.</li><li>Natürliche Wärmeisolierung - verhindert Unterkühlung im Winter und Überhitzung im Sommer.</li><li>Struktur, die natürliches Verhalten fördert - Vögel können unter komfortablen Bedingungen scharren und ausruhen.</li><li>Wirtschaftlichkeit und Effizienz - seltenerer Austausch der Einstreu und geringerer Materialverbrauch bedeuten echte Einsparungen.</li><li>Mikrobiologische Sicherheit - regelmäßig auf Krankheitserreger getestet, frei von Salmonellen und Mykotoxinen.</li><li>Zusätzlicher Nährwert - der Gehalt an Proteinen und Fetten unterstützt die Gesundheit und Kondition der Vögel.</li>",
       "floorInfoSectionTitle": "Welche Einstreu wird in der Geflügelzucht verwendet?",
-      "floorInfoSectionDescription": "Die Wahl der Einstreu beeinflusst die Gesundheit des Geflügels – sehen Sie die Unterschiede.",
+      "floorInfoSectionDescription": "Die Wahl der Einstreu beeinflusst die Gesundheit des Geflügels - sehen Sie die Unterschiede.",
       "hackerCardTitle1": "Holzspäne",
       "hackerCardDescription1": "effektiv bei der Feuchtigkeitsaufnahme, können aber Verunreinigungen enthalten und müssen mit anderen Materialien gemischt werden.",
       "hackerCardTitle2": "Sägemehl",
@@ -104,8 +104,8 @@
   },
   "Advantages": {
     "Metadata": {
-      "title": "empty",
-      "description": "empty"
+      "title": "Vorteile von BioFloor | Komfort & Hygiene in der Geflügelzucht",
+      "description": "Sie, warum BioFloor die beste Wahl ist: Saugfähigkeit, Geruchsreduktion, Schutz für Geflügel und einfache Reinigung. Natürliche Einstreu für Züchter!"
     },
     "Page": {
       "title": "Neue Qualität in der Geflügelzucht",
@@ -133,8 +133,8 @@
   },
   "HowToUse": {
     "Metadata": {
-      "title": "empty",
-      "description": "empty"
+      "title": "BioFloor Einstreu Anwenden | Kalkulator & Praktische Tipps",
+      "description": "Berechnen Sie die ideale Menge BioFloor mit unserem Kalkulator. Entdecken Sie Tipps für die optimale Anwendung in der Geflügelzucht!"
     },
     "Page": {
       "title": "Wie verwendet man unsere Einstreu?",
@@ -166,7 +166,7 @@
       "brownCardTitle5": "Hinweise:",
       "brownCardDescription5": "Wenn der Boden sehr sauber, desinfiziert und beheizt ist, können Sie eine geringere Menge Einstreu in Betracht ziehen, aber mit Vorsicht.",
       "tableSectionTitle": "Empfohlene Werte",
-      "tableSectionDescription": "In der Tabelle unten haben wir die empfohlenen Werte für die Einstreuabdeckung in Hühnerställen zusammengefasst. Sie berücksichtigen den Geflügeltyp sowie die Spezifikationen des Bodens und der Jahreszeit.",
+      "tableSectionDescription": "In der Tabelle unten haben wir die empfohlenen 1Werte für die Einstreuabdeckung in Hühnerställen zusammengefasst. Sie berücksichtigen den Geflügeltyp sowie die Spezifikationen des Bodens und der Jahreszeit.",
       "tableType": "Geflügeltyp",
       "tableSeason": "Jahreszeit",
       "tableFloor": "Bodentyp",
@@ -183,8 +183,8 @@
   },
   "Offer": {
     "Metadata": {
-      "title": "empty",
-      "description": "empty"
+      "title": "BioFloor Angebot | Einstreu für Geflügel - Groß & Einzelhandel",
+      "description": "Entdecken Sie unser Angebot: Großlieferungen und einzelne Big Bags. Kontaktieren Sie uns, bestellen Sie ein Muster für Ihre Zucht!"
     },
     "Page": {
       "title": "Entdecken Sie unser Angebot",
@@ -203,8 +203,8 @@
   },
   "Contact": {
     "Metadata": {
-      "title": "test",
-      "description": "test"
+      "title": "Kontakt zu BioFloor | Bestellungen & Fragen zur Geflügeleinstreu",
+      "description": "Fragen oder Bestellungen zu BioFloor Einstreu? Kontaktieren Sie uns schnell und einfach - wir unterstützen Geflügelzüchter bei jedem Schritt!"
     },
     "Page": {
       "title": "Wir warten auf Ihre Kontaktaufnahme!",
@@ -254,8 +254,8 @@
   },
   "FullTruckloadLogistics": {
     "Metadata": {
-      "title": "empty",
-      "description": "empty"
+      "title": "BioFloor Komplettladungslogistik | Schnelle Einstreulieferung",
+      "description": "Erfahren Sie, wie BioFloor Einstreu zuverlässig geliefert wird. Komplettladungslogistik mit Prozessgalerie - jetzt bestellen!"
     },
     "Page": {
       "title": "Wie funktioniert die Komplettladungslogistik?",
@@ -269,8 +269,8 @@
   },
   "PrivacyPolicy": {
     "Metadata": {
-      "title": "empty",
-      "description": "empty"
+      "title": "Datenschutz BioFloor | Schutz Ihrer Daten",
+      "description": "Erfahren Sie, wie BioFloor Ihre Daten schützt und verarbeitet. Transparenz und Sicherheit sind unsere Priorität - Details hier!"
     },
     "Page": {
       "title": "Datenschutzrichtlinie",
@@ -304,8 +304,8 @@
   },
   "Copyright": {
     "Metadata": {
-      "title": "empty",
-      "description": "empty"
+      "title": "Urheberrechte BioFloor | Schutz geistigen Eigentums",
+      "description": "Erfahren Sie mehr über unsere Richtlinien zum Schutz von Urheberrechten und geistigem Eigentum. Wir respektieren Kreativität - Details hier!"
     },
     "Page": {
       "title": "Urheberrecht",

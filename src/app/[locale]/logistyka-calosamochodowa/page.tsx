@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props) {
   });
 
   return {
-    title: "Logistyka calosamochodowa",
+    title: t("title"),
     description: t("description"),
   };
 }

@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props) {
   });
 
   return {
-    title: "Polityka prywatności",
+    title: t("title"),
     description: t("description"),
   };
 }
