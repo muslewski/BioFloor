@@ -326,5 +326,19 @@
       "productInfo1": "BioFloor - sunflower bedding for your breeding",
       "productInfo2": "Healthy birds, cleaner coops, greater efficiency"
     }
+  },
+  "Emails": {
+    "contactForm": "Contact form",
+    "client": {
+      "welcome": "Welcome",
+      "thanksForContact": "Thank you for contacting us. Our team will handle your message and respond as quickly as possible.",
+      "weReceived": "We have received your message:",
+      "title": "Title:",
+      "message": "Message:",
+      "ifQuestions": "If you have any additional questions, don't hesitate to contact us.",
+      "regards": "Best regards,",
+      "biofloorTeam": "BioFloor Team",
+      "allRightsReserved": "All rights reserved."
+    }
   }
 }

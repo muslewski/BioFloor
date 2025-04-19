@@ -24,7 +24,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { sendEmail } from "@/actions/send-mail";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 interface FormProps {
   setSuccess: (value: string) => void;
@@ -40,6 +40,7 @@ export function OrderForm({
   isLoading,
 }: FormProps) {
   const t = useTranslations("Contact.Page.Form");
+  const locale = useLocale();
 
   const formName = "Złóż zamówienie";
 
@@ -53,7 +54,7 @@ export function OrderForm({
       .min(1, t("phoneNumberFormError1"))
       .regex(/^\d+$/, t("phoneNumberFormError2"))
       .optional(),
-    beddingType: z.enum(["podlapki"], {
+    beddingType: z.enum(["PodŁapki"], {
       required_error: t("beddingTypeFormError"),
     }),
   });
@@ -68,7 +69,7 @@ export function OrderForm({
       name: "",
       email: "",
       phoneNumber: "",
-      beddingType: undefined,
+      beddingType: "PodŁapki",
     },
   });
 
@@ -76,7 +77,7 @@ export function OrderForm({
     setLoading(true);
 
     try {
-      await sendEmail({ formName, ...data });
+      await sendEmail({ formName, locale, ...data });
 
       setSuccess(t("successMessage"));
     } catch (error) {
@@ -176,7 +177,7 @@ export function OrderForm({
                 <Select
                   disabled={isLoading}
                   onValueChange={field.onChange}
-                  defaultValue={field.value || "podlapki"}
+                  defaultValue={field.value || "PodŁapki"}
                 >
                   <FormControl>
                     <SelectTrigger className="w-full">
@@ -184,7 +185,7 @@ export function OrderForm({
                     </SelectTrigger>
                   </FormControl>
                   <SelectContent>
-                    <SelectItem value="podlapki">PodŁapki</SelectItem>
+                    <SelectItem value="PodŁapki">PodŁapki</SelectItem>
                   </SelectContent>
                 </Select>
                 <FormMessage />

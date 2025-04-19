@@ -326,5 +326,19 @@
       "productInfo1": "BioFloor - Sonnenblumeneinstreu für Ihre Zucht",
       "productInfo2": "Gesunde Vögel, sauberere Hühnerställe, höhere Effizienz"
     }
+  },
+  "Emails": {
+    "contactForm": "Kontaktformular",
+    "client": {
+      "welcome": "Willkommen",
+      "thanksForContact": "Vielen Dank für Ihre Kontaktaufnahme. Unser Team wird sich um Ihre Nachricht kümmern und Ihnen so schnell wie möglich antworten.",
+      "weReceived": "Wir haben Ihre Nachricht erhalten:",
+      "title": "Titel:",
+      "message": "Nachricht:",
+      "ifQuestions": "Wenn Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren.",
+      "regards": "Mit freundlichen Grüßen,",
+      "biofloorTeam": "Das BioFloor-Team",
+      "allRightsReserved": "Alle Rechte vorbehalten."
+    }
   }
 }

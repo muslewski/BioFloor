@@ -326,5 +326,19 @@
       "productInfo1": "PodŁapki - ściółka słonecznikowa dla Twojej hodowli",
       "productInfo2": "Zdrowe ptaki, czystsze kurniki, większa efektywność"
     }
+  },
+  "Emails": {
+    "contactForm": "Formularz kontaktowy",
+    "client": {
+      "welcome": "Witaj",
+      "thanksForContact": "Dziękujemy za kontakt z nami. Nasz zespół zajmie się Twoją wiadomością i odpowie najszybciej jak to możliwe.",
+      "weReceived": "Otrzymaliśmy Twoją wiadomość:",
+      "title": "Tytuł:",
+      "message": "Wiadomość:",
+      "ifQuestions": "Jeśli masz dodatkowe pytania, nie wahaj się z nami skontaktować.",
+      "regards": "Pozdrawiamy,",
+      "biofloorTeam": "Zespół BioFloor",
+      "allRightsReserved": "Wszystkie prawa zastrzeżone."
+    }
   }
 }

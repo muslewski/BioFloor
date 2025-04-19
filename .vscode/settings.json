@@ -5,5 +5,5 @@
 
   // Exclude radix because we want to use shadcn
   "typescript.preferences.autoImportFileExcludePatterns": ["**/@radix-ui/*"],
-  "cSpell.words": ["BioFloor", "podlapki"]
+  "cSpell.words": ["BioFloor", "podłapki"]
 }

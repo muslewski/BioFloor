@@ -24,7 +24,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { sendEmail } from "@/actions/send-mail";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 interface FormProps {
   setSuccess: (value: string) => void;
@@ -40,6 +40,7 @@ export function QuestionForm({
   isLoading,
 }: FormProps) {
   const t = useTranslations("Contact.Page.Form");
+  const locale = useLocale();
 
   const formName = "Zadaj pytanie";
 
@@ -54,7 +55,7 @@ export function QuestionForm({
       .regex(/^\d+$/, t("phoneNumberFormError2"))
       .optional(),
     beddingType: z
-      .enum(["puste", "podlapki"], {
+      .enum(["puste", "PodŁapki"], {
         required_error: t("beddingTypeFormError"),
       })
       .optional(),
@@ -78,7 +79,7 @@ export function QuestionForm({
     setLoading(true);
 
     try {
-      await sendEmail({ formName, ...data });
+      await sendEmail({ formName, locale, ...data });
 
       setSuccess(t("successMessage"));
     } catch (error) {
@@ -187,7 +188,7 @@ export function QuestionForm({
                   </FormControl>
                   <SelectContent>
                     <SelectItem value="puste">{t("notChosen")}</SelectItem>
-                    <SelectItem value="podlapki">PodŁapki</SelectItem>
+                    <SelectItem value="PodŁapki">PodŁapki</SelectItem>
                   </SelectContent>
                 </Select>
                 <FormMessage />

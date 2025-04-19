@@ -2,6 +2,7 @@
 
 import { BioFloorEmailTemplate } from "@/modules/kontakt/components/biofloor-email-template";
 import { ClientEmailTemplate } from "@/modules/kontakt/components/client-email-template";
+import { getTranslations } from "next-intl/server";
 import { Resend } from "resend";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -16,7 +17,8 @@ export interface SendEmailProps {
   name: string;
   email: string;
   phoneNumber?: string;
-  beddingType?: "puste" | "podlapki";
+  beddingType?: "puste" | "PodŁapki";
+  locale?: string;
 }
 
 export async function sendEmail({
@@ -27,6 +29,7 @@ export async function sendEmail({
   email,
   phoneNumber,
   beddingType,
+  locale,
 }: SendEmailProps) {
   console.log("Form Name:", formName);
   console.log("Sending email to:", name);
@@ -35,13 +38,14 @@ export async function sendEmail({
   console.log("Title:", title);
   console.log("Phone Number:", phoneNumber);
   console.log("Bedding Type:", beddingType);
+  const t = await getTranslations("Emails");
 
   try {
     // Email to client
     const { error } = await resend.emails.send({
       from: "BioFloor <biuro@biofloor.pl>",
       to: [email],
-      subject: "BioFloor - Formularz kontaktowy",
+      subject: `BioFloor - ${t("contactForm")}`,
       react: ClientEmailTemplate({ formName, name, title, email, message }),
     });
 
@@ -62,6 +66,7 @@ export async function sendEmail({
         message,
         phoneNumber,
         beddingType,
+        locale,
       }),
     });
 

@@ -17,7 +17,7 @@ import { Button } from "@/components/ui/button";
 import { SendIcon } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { sendEmail } from "@/actions/send-mail";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 interface FormProps {
   setSuccess: (value: string) => void;
@@ -33,6 +33,7 @@ export function PartnershipForm({
   isLoading,
 }: FormProps) {
   const t = useTranslations("Contact.Page.Form");
+  const locale = useLocale();
 
   const formName = "Nawiąż współpracę";
 
@@ -65,7 +66,7 @@ export function PartnershipForm({
     setLoading(true);
 
     try {
-      await sendEmail({ formName, ...data });
+      await sendEmail({ formName, locale, ...data });
 
       setSuccess(t("successMessage"));
     } catch (error) {

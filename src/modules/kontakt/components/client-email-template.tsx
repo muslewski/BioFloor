@@ -1,7 +1,14 @@
 import { SendEmailProps } from "@/actions/send-mail";
+import { getTranslations } from "next-intl/server";
 import * as React from "react";
 
-export function ClientEmailTemplate({ message, title, name }: SendEmailProps) {
+export async function ClientEmailTemplate({
+  message,
+  title,
+  name,
+}: SendEmailProps) {
+  const t = await getTranslations("Emails.client");
+
   const firstName = name.split(" ")[0];
 
   return (
@@ -43,7 +50,7 @@ export function ClientEmailTemplate({ message, title, name }: SendEmailProps) {
                 marginBottom: "25px",
               }}
             >
-              Witaj <span style={{ fontWeight: "bold" }}>{firstName}</span>,
+              {t("welcome")} <b>{firstName}</b>,
             </p>
             <p
               style={{
@@ -52,8 +59,7 @@ export function ClientEmailTemplate({ message, title, name }: SendEmailProps) {
                 marginBottom: "25px",
               }}
             >
-              Dziękujemy za kontakt z nami. Nasz zespół zajmie się Twoją
-              wiadomością i odpowie najszybciej jak to możliwe.
+              {t("thanksForContact")}
             </p>
             <p
               style={{
@@ -62,7 +68,7 @@ export function ClientEmailTemplate({ message, title, name }: SendEmailProps) {
                 marginBottom: "15px",
               }}
             >
-              Otrzymaliśmy Twoją wiadomość:
+              {t("weReceived")}
             </p>
             <table
               width="100%"
@@ -77,10 +83,10 @@ export function ClientEmailTemplate({ message, title, name }: SendEmailProps) {
               <tr>
                 <td style={{ padding: "15px" }}>
                   <p style={{ margin: "0 0 10px 0", fontSize: "16px" }}>
-                    <strong>Tytuł:</strong> {title}
+                    <b>{t("title")}</b> {title}
                   </p>
                   <p style={{ margin: "0", fontSize: "16px" }}>
-                    <strong>Wiadomość:</strong> {message}
+                    <b>{t("message")}</b> {message}
                   </p>
                 </td>
               </tr>
@@ -92,7 +98,7 @@ export function ClientEmailTemplate({ message, title, name }: SendEmailProps) {
                 marginBottom: "25px",
               }}
             >
-              Jeśli masz dodatkowe pytania, nie wahaj się z nami skontaktować.
+              {t("ifQuestions")}
             </p>
             <p
               style={{
@@ -101,7 +107,7 @@ export function ClientEmailTemplate({ message, title, name }: SendEmailProps) {
                 marginBottom: "8px",
               }}
             >
-              Pozdrawiamy,
+              {t("regards")}
             </p>
             <p
               style={{
@@ -111,7 +117,7 @@ export function ClientEmailTemplate({ message, title, name }: SendEmailProps) {
                 margin: "0",
               }}
             >
-              Zespół BioFloor
+              {t("biofloorTeam")}
             </p>
           </td>
         </tr>
@@ -134,8 +140,7 @@ export function ClientEmailTemplate({ message, title, name }: SendEmailProps) {
             }}
           >
             <p style={{ margin: "0" }}>
-              © {new Date().getFullYear()} BioFloor. Wszystkie prawa
-              zastrzeżone.
+              © {new Date().getFullYear()} BioFloor. {t("allRightsReserved")}
             </p>
           </td>
         </tr>

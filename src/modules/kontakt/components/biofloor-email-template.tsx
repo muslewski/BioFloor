@@ -9,7 +9,17 @@ export function BioFloorEmailTemplate({
   phoneNumber,
   beddingType,
   formName,
+  locale,
 }: SendEmailProps) {
+  // map locale code to language with emoji, en, pl de
+  const languageMap: Record<string, string> = {
+    en: "Angielski 🇬🇧",
+    pl: "Polski 🇵🇱",
+    de: "Niemiecki 🇩🇪",
+  };
+  const language =
+    locale && languageMap[locale] ? languageMap[locale] : "Unknown Language";
+
   return (
     <div
       style={{
@@ -83,6 +93,10 @@ export function BioFloorEmailTemplate({
                   </p>
                   <p style={{ margin: "0 0 10px 0", fontSize: "16px" }}>
                     <strong>Wiadomość:</strong> {message}
+                  </p>
+
+                  <p style={{ margin: "0 0 10px 0", fontSize: "16px" }}>
+                    <strong>Język:</strong> {language}
                   </p>
                 </td>
               </tr>
