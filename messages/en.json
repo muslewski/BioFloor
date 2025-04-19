@@ -316,5 +316,15 @@
       "flaticonSectionTitle": "Graphic sources - FlatIcon Icons",
       "flaticonSectionDescription": "Below are the icons used in our project from FlatIcon. We thank the creators for making these graphic resources available."
     }
+  },
+  "NotFound": {
+    "Page": {
+      "h2": "Page not found",
+      "p": "Sorry, but the page you're looking for doesn't exist or has been moved. Please use the options below.",
+      "link1": "Return to homepage",
+      "link2": "See offer",
+      "productInfo1": "BioFloor - sunflower bedding for your breeding",
+      "productInfo2": "Healthy birds, cleaner coops, greater efficiency"
+    }
   }
 }

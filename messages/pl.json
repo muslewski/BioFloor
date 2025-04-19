@@ -316,5 +316,15 @@
       "flaticonSectionTitle": "Źródła grafik - Ikony FlatIcon",
       "flaticonSectionDescription": "Poniżej przedstawiamy ikony wykorzystane w naszym projekcie, pochodzące z serwisu FlatIcon. Dziękujemy twórcom za udostępnienie tych zasobów graficznych."
     }
+  },
+  "NotFound": {
+    "Page": {
+      "h2": "Strona nie znaleziona",
+      "p": "Przepraszamy, ale strona której szukasz nie istnieje lub została przeniesiona. Zapraszamy do skorzystania z poniższych opcji.",
+      "link1": "Powrót do strony głównej",
+      "link2": "Zobacz ofertę",
+      "productInfo1": "PodŁapki - ściółka słonecznikowa dla Twojej hodowli",
+      "productInfo2": "Zdrowe ptaki, czystsze kurniki, większa efektywność"
+    }
   }
 }

@@ -316,5 +316,15 @@
       "flaticonSectionTitle": "Grafikquellen - FlatIcon Icons",
       "flaticonSectionDescription": "Nachfolgend präsentieren wir die Symbole aus dem FlatIcon-Service, die in unserem Projekt verwendet wurden. Wir danken den Erstellern für die Bereitstellung dieser grafischen Ressourcen."
     }
+  },
+  "NotFound": {
+    "Page": {
+      "h2": "Seite nicht gefunden",
+      "p": "Es tut uns leid, aber die Seite, die Sie suchen, existiert nicht oder wurde verschoben. Bitte nutzen Sie die folgenden Optionen.",
+      "link1": "Zurück zur Startseite",
+      "link2": "Angebot anzeigen",
+      "productInfo1": "BioFloor - Sonnenblumeneinstreu für Ihre Zucht",
+      "productInfo2": "Gesunde Vögel, sauberere Hühnerställe, höhere Effizienz"
+    }
   }
 }
