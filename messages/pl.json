@@ -305,7 +305,13 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Prawa Autorskie"
+      "title": "Prawa Autorskie",
+      "titleLight": "- Informacje o prawach własności intelektualnej",
+      "description": "Zapoznaj się z zasadami ochrony praw autorskich i własności intelektualnej na naszej witrynie. Cenimy twórczość autorów i przestrzegamy obowiązujących przepisów prawnych.",
+      "cta1": "Zamów próbkę",
+      "cta2": "Zobacz ofertę",
+      "flaticonSectionTitle": "Źródła grafik - Ikony FlatIcon",
+      "flaticonSectionDescription": "Poniżej przedstawiamy ikony wykorzystane w naszym projekcie, pochodzące z serwisu FlatIcon. Dziękujemy twórcom za udostępnienie tych zasobów graficznych."
     }
   }
 }

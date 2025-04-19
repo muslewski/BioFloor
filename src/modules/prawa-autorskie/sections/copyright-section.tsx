@@ -3,12 +3,15 @@ import { SectionIntro } from "@/components/common/section/section-intro/intro";
 import { SectionWrapper } from "@/components/common/section/section-wrapper";
 import { ExternalLink } from "@/components/layout/footer/external-link";
 
-export function CopyrightSection() {
+export function CopyrightSection(p: {
+  flaticonSectionTitle: string;
+  flaticonSectionDescription: string;
+}) {
   return (
     <SectionWrapper>
       <SectionIntro
-        title="Źródła grafik - Ikony FlatIcon"
-        description="Poniżej przedstawiamy ikony wykorzystane w naszym projekcie, pochodzące z serwisu FlatIcon. Dziękujemy twórcom za udostępnienie tych zasobów graficznych."
+        title={p.flaticonSectionTitle}
+        description={p.flaticonSectionDescription}
       />
       <div className="flex flex-wrap gap-8 sm:gap-16 justify-evenly [&>div]:min-w-[250px]">
         <GreenCard

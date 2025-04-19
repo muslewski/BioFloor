@@ -1,16 +1,25 @@
 import { ViewWrapper } from "@/components/common/view-wrapper";
 import { CopyrightSection } from "@/modules/prawa-autorskie/sections/copyright-section";
 import { HeroSection } from "@/modules/prawa-autorskie/sections/hero-section";
-// import { getTranslations } from "next-intl/server";
+import { getTranslations } from "next-intl/server";
 
 export async function CopyrightView() {
   // Get translations for static rendering
-  // const t = await getTranslations("Copyright.Page");
+  const t = await getTranslations("Copyright.Page");
 
   return (
     <ViewWrapper>
-      <HeroSection />
-      <CopyrightSection />
+      <HeroSection
+        title={t("title")}
+        titleLight={t("titleLight")}
+        description={t("description")}
+        cta1={t("cta1")}
+        cta2={t("cta2")}
+      />
+      <CopyrightSection
+        flaticonSectionTitle={t("flaticonSectionTitle")}
+        flaticonSectionDescription={t("flaticonSectionDescription")}
+      />
     </ViewWrapper>
   );
 }

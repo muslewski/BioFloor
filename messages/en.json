@@ -305,7 +305,13 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Copyright"
+      "title": "Copyright",
+      "titleLight": "- Information on intellectual property rights",
+      "description": "Learn about the copyright and intellectual property protection rules on our website. We value authors' creativity and comply with applicable legal regulations.",
+      "cta1": "Order a sample",
+      "cta2": "See offer",
+      "flaticonSectionTitle": "Graphic sources - FlatIcon Icons",
+      "flaticonSectionDescription": "Below are the icons used in our project from FlatIcon. We thank the creators for making these graphic resources available."
     }
   }
 }

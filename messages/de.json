@@ -305,7 +305,13 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Copyright"
+      "title": "Urheberrecht",
+      "titleLight": "- Informationen zum geistigen Eigentum",
+      "description": "Informieren Sie sich über die Regeln zum Schutz von Urheberrechten und geistigem Eigentum auf unserer Website. Wir schätzen die Kreativität der Autoren und halten uns an die geltenden gesetzlichen Bestimmungen.",
+      "cta1": "Probe bestellen",
+      "cta2": "Angebot ansehen",
+      "flaticonSectionTitle": "Grafikquellen - FlatIcon Icons",
+      "flaticonSectionDescription": "Nachfolgend präsentieren wir die Symbole aus dem FlatIcon-Service, die in unserem Projekt verwendet wurden. Wir danken den Erstellern für die Bereitstellung dieser grafischen Ressourcen."
     }
   }
 }

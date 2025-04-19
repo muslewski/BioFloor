@@ -3,24 +3,30 @@ import { HeroIntro } from "@/components/common/hero/hero-intro/intro";
 import { HeroWrapper } from "@/components/common/hero/hero-wrapper";
 import { ArrowUpRight } from "lucide-react";
 
-export function HeroSection() {
+export function HeroSection(p: {
+  title: string;
+  titleLight: string;
+  description: string;
+  cta1: string;
+  cta2: string;
+}) {
   return (
     <HeroWrapper
       backgroundImage="/images/prawa-autorskie/henhouse.png"
       isBorderBottom
     >
       <HeroIntro
-        title="Prawa Autorskie"
+        title={p.title}
         classNameHeroHeader="max-w-3xl"
-        titleLight="- Informacje o prawach własności intelektualnej"
-        description="Zapoznaj się z zasadami ochrony praw autorskich i własności intelektualnej na naszej witrynie. Cenimy twórczość autorów i przestrzegamy obowiązujących przepisów prawnych."
+        titleLight={p.titleLight}
+        description={p.description}
         ctaButtons={
           <>
             <Cta href="/kontakt" icon={<ArrowUpRight className="size-5" />}>
-              Zamów próbkę
+              {p.cta1}
             </Cta>
             <Cta href="/oferta" variant="outlined">
-              Zobacz ofertę
+              {p.cta2}
             </Cta>
           </>
         }
