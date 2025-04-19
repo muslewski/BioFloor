@@ -14,37 +14,40 @@ import {
   MessageCircleQuestionIcon,
   PackageIcon,
 } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useEffect, useMemo, useState } from "react";
 
 export function ContactClient() {
+  const t = useTranslations("Contact.Page.Form");
+
   const forms = useMemo(
     () => [
       {
-        id: "zloz-zamowienie",
-        label: "Złóż zamówienie",
+        id: t("id1"),
+        label: t("formLabel1"),
         icon: PackageIcon,
         component: OrderForm,
       },
       {
-        id: "zamow-probke",
-        label: "Zamów próbkę",
+        id: t("id2"),
+        label: t("formLabel2"),
         icon: FlaskConicalIcon,
         component: SampleRequestForm,
       },
       {
-        id: "zadaj-pytanie",
-        label: "Zadaj pytanie",
+        id: t("id3"),
+        label: t("formLabel3"),
         icon: MessageCircleQuestionIcon,
         component: QuestionForm,
       },
       {
-        id: "nawiaz-wspolprace",
-        label: "Nawiąż współpracę",
+        id: t("id4"),
+        label: t("formLabel4"),
         icon: HandshakeIcon,
         component: PartnershipForm,
       },
     ],
-    []
+    [t]
   );
 
   const [activeFormId, setActiveFormId] = useState(forms[0].id);
@@ -145,7 +148,7 @@ export function ContactClient() {
                 onClick={handleReset}
                 className="w-fit"
               >
-                Wróć do formularzy <ArrowBigLeft className="size-5" />
+                {t("buttonComeBack")} <ArrowBigLeft className="size-5" />
               </Button>
             </motion.div>
           )}
@@ -163,7 +166,7 @@ export function ContactClient() {
                 onClick={handleReset}
                 className="w-fit"
               >
-                Wróć do formularzy <ArrowBigLeft className="size-5" />
+                {t("buttonComeBack")} <ArrowBigLeft className="size-5" />
               </Button>
             </motion.div>
           )}

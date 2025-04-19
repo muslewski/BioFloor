@@ -24,6 +24,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { sendEmail } from "@/actions/send-mail";
+import { useTranslations } from "next-intl";
 
 interface FormProps {
   setSuccess: (value: string) => void;
@@ -38,23 +39,22 @@ export function OrderForm({
   setLoading,
   isLoading,
 }: FormProps) {
+  const t = useTranslations("Contact.Page.Form");
+
   const formName = "Złóż zamówienie";
 
   const formSchema = z.object({
-    message: z.string().min(1, "Wiadomość jest wymagana"),
-    title: z.string().min(1, "Tytuł jest wymagany"),
-    name: z.string().min(1, "Imię i nazwisko są wymagane"),
-    email: z
-      .string()
-      .min(1, "Email jest wymagany")
-      .email("Nieprawidłowy adres email"),
+    message: z.string().min(1, t("messageFormError")),
+    title: z.string().min(1, t("titleFormError")),
+    name: z.string().min(1, t("nameFormError")),
+    email: z.string().min(1, t("emailFormError1")).email(t("emailFormError2")),
     phoneNumber: z
       .string()
-      .min(1, "Numer telefonu jest wymagany")
-      .regex(/^\d+$/, "Numer telefonu musi zawierać tylko cyfry")
+      .min(1, t("phoneNumberFormError1"))
+      .regex(/^\d+$/, t("phoneNumberFormError2"))
       .optional(),
-    beddingType: z.enum(["sloma", "trociny", "torf"], {
-      required_error: "Wybór rodzaju jest wymagany",
+    beddingType: z.enum(["podlapki"], {
+      required_error: t("beddingTypeFormError"),
     }),
   });
 
@@ -78,15 +78,10 @@ export function OrderForm({
     try {
       await sendEmail({ formName, ...data });
 
-      setSuccess(
-        "Wiadomość została wysłana. Skontaktujemy się z Tobą jak najszybciej."
-      );
+      setSuccess(t("successMessage"));
     } catch (error) {
-      if (error instanceof Error) {
-        setError(error.message);
-      } else {
-        setError("Wystąpił błąd. Spróbuj ponownie później.");
-      }
+      console.error("Error sending email:", error);
+      setError(t("errorMessage"));
     } finally {
       setLoading(false);
     }
@@ -107,7 +102,7 @@ export function OrderForm({
             disabled={isLoading}
             render={({ field }) => (
               <FormItem className="w-full min-h-full flex flex-col">
-                <FormLabel>Wiadomość</FormLabel>
+                <FormLabel>{t("formLabelMessage")}</FormLabel>
                 <FormControl className="">
                   <Textarea className="h-full min-h-[150px]" {...field} />
                 </FormControl>
@@ -125,7 +120,7 @@ export function OrderForm({
               disabled={isLoading}
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Tytuł</FormLabel>
+                  <FormLabel>{t("formLabelTitle")}</FormLabel>
                   <FormControl>
                     <Input {...field} />
                   </FormControl>
@@ -141,7 +136,7 @@ export function OrderForm({
               disabled={isLoading}
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Imię i Nazwisko</FormLabel>
+                  <FormLabel>{t("formLabelName")}</FormLabel>
                   <FormControl>
                     <Input {...field} />
                   </FormControl>
@@ -161,7 +156,7 @@ export function OrderForm({
             disabled={isLoading}
             render={({ field }) => (
               <FormItem className="w-full max-w-xs">
-                <FormLabel>Numer Telefonu</FormLabel>
+                <FormLabel>{t("formLabelPhoneNumber")}</FormLabel>
                 <FormControl>
                   <Input type="tel" {...field} />
                 </FormControl>
@@ -177,21 +172,19 @@ export function OrderForm({
             disabled={isLoading}
             render={({ field }) => (
               <FormItem className="w-full max-w-xs">
-                <FormLabel>Rodzaj ściółki</FormLabel>
+                <FormLabel>{t("formLabelBeddingType")}</FormLabel>
                 <Select
                   disabled={isLoading}
                   onValueChange={field.onChange}
-                  defaultValue={field.value}
+                  defaultValue={field.value || "podlapki"}
                 >
                   <FormControl>
                     <SelectTrigger className="w-full">
-                      <SelectValue placeholder="Wybierz rodzaj ściółki" />
+                      <SelectValue placeholder={t("formSelectValue")} />
                     </SelectTrigger>
                   </FormControl>
                   <SelectContent>
-                    <SelectItem value="sloma">Słoma</SelectItem>
-                    <SelectItem value="trociny">Trociny </SelectItem>
-                    <SelectItem value="torf">Torf</SelectItem>
+                    <SelectItem value="podlapki">PodŁapki</SelectItem>
                   </SelectContent>
                 </Select>
                 <FormMessage />
@@ -206,7 +199,7 @@ export function OrderForm({
             disabled={isLoading}
             render={({ field }) => (
               <FormItem className="w-full max-w-xs">
-                <FormLabel>Email</FormLabel>
+                <FormLabel>{t("formLabelEmail")}</FormLabel>
                 <FormControl>
                   <Input type="email" {...field} />
                 </FormControl>
@@ -219,7 +212,7 @@ export function OrderForm({
         {/* Third Row */}
         <div className="flex justify-end">
           <Button type="submit" disabled={isLoading}>
-            {isLoading ? "Wysyłanie..." : "Złóż zamówienie"}
+            {isLoading ? t("buttonSending") : t("formLabel1")}
             <SendIcon className="size-5" />
           </Button>
         </div>

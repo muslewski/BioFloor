@@ -24,6 +24,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { sendEmail } from "@/actions/send-mail";
+import { useTranslations } from "next-intl";
 
 interface FormProps {
   setSuccess: (value: string) => void;
@@ -38,23 +39,22 @@ export function SampleRequestForm({
   setLoading,
   isLoading,
 }: FormProps) {
+  const t = useTranslations("Contact.Page.Form");
+
   const formName = "Zamów próbkę";
 
   const formSchema = z.object({
     message: z.string().optional(),
-    title: z.string().min(1, "Tytuł jest wymagany"),
-    name: z.string().min(1, "Imię i nazwisko są wymagane"),
-    email: z
-      .string()
-      .min(1, "Email jest wymagany")
-      .email("Nieprawidłowy adres email"),
+    title: z.string().min(1, t("titleFormError")),
+    name: z.string().min(1, t("nameFormError")),
+    email: z.string().min(1, t("emailFormError1")).email(t("emailFormError2")),
     phoneNumber: z
       .string()
-      .min(1, "Numer telefonu jest wymagany")
-      .regex(/^\d+$/, "Numer telefonu musi zawierać tylko cyfry")
+      .min(1, t("phoneNumberFormError1"))
+      .regex(/^\d+$/, t("phoneNumberFormError2"))
       .optional(),
-    beddingType: z.enum(["sloma", "trociny", "torf"], {
-      required_error: "Wybór rodzaju próbki jest wymagany",
+    beddingType: z.enum(["podlapki"], {
+      required_error: t("beddingTypeSampleFormError"),
     }),
   });
 
@@ -78,15 +78,10 @@ export function SampleRequestForm({
     try {
       await sendEmail({ formName, ...data });
 
-      setSuccess(
-        "Zamówienie próbki zostało wysłane. Skontaktujemy się z Tobą w sprawie dostawy."
-      );
+      setSuccess(t("successMessageSample"));
     } catch (error) {
-      if (error instanceof Error) {
-        setError(error.message);
-      } else {
-        setError("Wystąpił błąd. Spróbuj ponownie później.");
-      }
+      console.error("Error sending email:", error);
+      setError(t("errorMessage"));
     } finally {
       setLoading(false);
     }
@@ -107,11 +102,11 @@ export function SampleRequestForm({
             disabled={isLoading}
             render={({ field }) => (
               <FormItem className="w-full min-h-full flex flex-col">
-                <FormLabel>Wiadomość</FormLabel>
+                <FormLabel>{t("formLabelMessage")}</FormLabel>
                 <FormControl>
                   <Textarea
                     className="h-full min-h-[150px]"
-                    placeholder="Dodatkowe informacje dotyczące próbki / dostawy..."
+                    placeholder={t("formPlaceholderSample")}
                     {...field}
                   />
                 </FormControl>
@@ -129,9 +124,9 @@ export function SampleRequestForm({
               disabled={isLoading}
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Tytuł</FormLabel>
+                  <FormLabel>{t("formLabelTitle")}</FormLabel>
                   <FormControl>
-                    <Input placeholder="Zamówienie próbki" {...field} />
+                    <Input {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
@@ -145,7 +140,7 @@ export function SampleRequestForm({
               disabled={isLoading}
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Imię i Nazwisko</FormLabel>
+                  <FormLabel>{t("formLabelName")}</FormLabel>
                   <FormControl>
                     <Input {...field} />
                   </FormControl>
@@ -165,7 +160,7 @@ export function SampleRequestForm({
             disabled={isLoading}
             render={({ field }) => (
               <FormItem className="w-full max-w-xs">
-                <FormLabel>Numer Telefonu</FormLabel>
+                <FormLabel>{t("formLabelPhoneNumber")}</FormLabel>
                 <FormControl>
                   <Input type="tel" {...field} />
                 </FormControl>
@@ -181,21 +176,19 @@ export function SampleRequestForm({
             disabled={isLoading}
             render={({ field }) => (
               <FormItem className="w-full max-w-xs">
-                <FormLabel>Rodzaj próbki</FormLabel>
+                <FormLabel>{t("formLabelBeddingType")}</FormLabel>
                 <Select
                   disabled={isLoading}
                   onValueChange={field.onChange}
-                  defaultValue={field.value}
+                  defaultValue={field.value || "podlapki"}
                 >
                   <FormControl>
                     <SelectTrigger className="w-full">
-                      <SelectValue placeholder="Wybierz rodzaj próbki" />
+                      <SelectValue />
                     </SelectTrigger>
                   </FormControl>
                   <SelectContent>
-                    <SelectItem value="sloma">Słoma</SelectItem>
-                    <SelectItem value="trociny">Trociny </SelectItem>
-                    <SelectItem value="torf">Torf</SelectItem>
+                    <SelectItem value="podlapki">PodŁapki</SelectItem>
                   </SelectContent>
                 </Select>
                 <FormMessage />
@@ -210,7 +203,7 @@ export function SampleRequestForm({
             disabled={isLoading}
             render={({ field }) => (
               <FormItem className="w-full max-w-xs">
-                <FormLabel>Email</FormLabel>
+                <FormLabel>{t("formLabelEmail")}</FormLabel>
                 <FormControl>
                   <Input type="email" {...field} />
                 </FormControl>
@@ -223,7 +216,7 @@ export function SampleRequestForm({
         {/* Third Row */}
         <div className="flex justify-end">
           <Button type="submit" disabled={isLoading}>
-            {isLoading ? "Wysyłanie..." : "Zamów próbkę"}
+            {isLoading ? t("buttonSending") : t("formLabel2")}
             <SendIcon className="size-5" />
           </Button>
         </div>

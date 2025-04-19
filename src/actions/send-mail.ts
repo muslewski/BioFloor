@@ -16,7 +16,7 @@ export interface SendEmailProps {
   name: string;
   email: string;
   phoneNumber?: string;
-  beddingType?: "puste" | "sloma" | "trociny" | "torf";
+  beddingType?: "puste" | "podlapki";
 }
 
 export async function sendEmail({

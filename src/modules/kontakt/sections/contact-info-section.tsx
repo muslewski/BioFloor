@@ -5,19 +5,24 @@ import { CardWrapper } from "@/components/common/cards/card-wrapper";
 import { SectionIntro } from "@/components/common/section/section-intro/intro";
 import { SectionWrapper } from "@/components/common/section/section-wrapper";
 import { MailIcon, MapPin, PhoneIcon } from "lucide-react";
+import React from "react";
 
-export function ContactInfoSection() {
+export function ContactInfoSection(p: {
+  sectionTitle: string;
+  sectionDescription: string;
+  brownCardTitle1: string;
+  brownCardTitle2: string;
+  brownCardTitle3: string;
+  brownCardDescription3: React.ReactNode;
+}) {
   return (
     <SectionWrapper>
-      <SectionIntro
-        title="Zawsze w zasięgu ręki"
-        description="Potrzebujesz szybkiego kontaktu? Poniżej znajdziesz wszystkie niezbędne informacje."
-      />
+      <SectionIntro title={p.sectionTitle} description={p.sectionDescription} />
 
       <CardWrapper columns={1} className="max-w-6xl">
         <BrownCard
           icon={MailIcon}
-          title="Adresy email:"
+          title={p.brownCardTitle1}
           customElement={
             <ul>
               <li>biuro@biofloor.pl</li>
@@ -26,7 +31,7 @@ export function ContactInfoSection() {
         />
         <BrownCard
           icon={PhoneIcon}
-          title="Numery telefonów:"
+          title={p.brownCardTitle2}
           customElement={
             <ul>
               <li>+48 786 866 690</li>
@@ -35,14 +40,8 @@ export function ContactInfoSection() {
         />
         <BrownCard
           icon={MapPin}
-          title="Lokalizacja:"
-          description={
-            <>
-              ul. Szubińska 67
-              <br /> Białe Błota, 86-005
-              <br /> Polska 🇵🇱
-            </>
-          }
+          title={p.brownCardTitle3}
+          description={<>{p.brownCardDescription3}</>}
           customElement={
             <div className="w-full rounded-2xl overflow-hidden">
               <iframe

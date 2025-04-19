@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 // These tags are available
-type Tag = "p" | "b" | "i" | "li";
+type Tag = "p" | "b" | "i" | "li" | "br";
 
 type Props = {
   children(tags: Record<Tag, (chunks: ReactNode) => ReactNode>): ReactNode;
@@ -15,6 +15,7 @@ export default function RichText({ children }: Props) {
         b: (chunks: ReactNode) => <b className="font-semibold">{chunks}</b>,
         i: (chunks: ReactNode) => <i className="italic">{chunks}</i>,
         li: (chunks: ReactNode) => <li>{chunks}</li>,
+        br: () => <br />,
       })}
     </>
   );
