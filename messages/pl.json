@@ -255,7 +255,13 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Logistyka Całosamochodowa"
+      "title": "Jak wygląda logistyka całosamochodowa?",
+      "titleLight": "- sprawnie i na czas",
+      "description": "Logistyka całosamochodowa z <b>Biofloor</b> to gwarancja szybkiej i niezawodnej dostawy ściółki prosto do Twojej hodowli. Organizujemy transport w pełni dostosowany do Twoich potrzeb - od momentu złożenia zamówienia, przez załadunek, aż po dostarczenie produktu pod wskazany adres.",
+      "cta1": "Zamów próbkę",
+      "cta2": "Zobacz ofertę",
+      "sectionIntroTitle": "Zobacz proces w praktyce",
+      "sectionIntroDescription": "Zdjęcia ukazują, jak efektywnie realizujemy logistykę całosamochodową <b>BioFloor</b>."
     }
   },
   "PrivacyPolicy": {

@@ -3,17 +3,15 @@ import { SectionImage } from "@/components/common/section/section-image";
 import { SectionIntro } from "@/components/common/section/section-intro/intro";
 import { SectionWrapper } from "@/components/common/section/section-wrapper";
 
-export function ShowcaseSection() {
+export function ShowcaseSection(p: {
+  sectionIntroTitle: string;
+  sectionIntroDescription: React.ReactNode;
+}) {
   return (
     <SectionWrapper>
       <SectionIntro
-        title="Zobacz proces w praktyce"
-        description={
-          <>
-            Zdjęcia ukazują, jak efektywnie realizujemy logistykę
-            całosamochodową <b>BioFloor</b>.
-          </>
-        }
+        title={p.sectionIntroTitle}
+        description={<>{p.sectionIntroDescription}</>}
       />
       <CardWrapper columns={3} className="gap-16 sm:gap-16">
         <SectionImage

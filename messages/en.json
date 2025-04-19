@@ -255,7 +255,13 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Full Truckload Logistics"
+      "title": "How does full truckload logistics work?",
+      "titleLight": "- efficiently and on time",
+      "description": "Full truckload logistics with <b>Biofloor</b> guarantees fast and reliable bedding delivery directly to your farm. We organize transport fully adapted to your needs - from the moment of placing an order, through loading, to delivering the product to the specified address.",
+      "cta1": "Order a sample",
+      "cta2": "See offer",
+      "sectionIntroTitle": "See the process in practice",
+      "sectionIntroDescription": "The images show how effectively we implement full truckload logistics for <b>BioFloor</b>."
     }
   },
   "PrivacyPolicy": {

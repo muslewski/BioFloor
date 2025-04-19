@@ -255,7 +255,13 @@
       "description": "empty"
     },
     "Page": {
-      "title": "Full TruckLoad Logistics"
+      "title": "Wie funktioniert die Komplettladungslogistik?",
+      "titleLight": "- effizient und pünktlich",
+      "description": "Komplettladungslogistik mit <b>Biofloor</b> garantiert eine schnelle und zuverlässige Lieferung der Einstreu direkt zu Ihrer Zucht. Wir organisieren den Transport vollständig nach Ihren Bedürfnissen - vom Zeitpunkt der Bestellung über die Verladung bis hin zur Lieferung des Produkts an die angegebene Adresse.",
+      "cta1": "Probe bestellen",
+      "cta2": "Angebot ansehen",
+      "sectionIntroTitle": "Sehen Sie den Prozess in der Praxis",
+      "sectionIntroDescription": "Die Bilder zeigen, wie effizient wir die Komplettladungslogistik von <b>BioFloor</b> umsetzen."
     }
   },
   "PrivacyPolicy": {
