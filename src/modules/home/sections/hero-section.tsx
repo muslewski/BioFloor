@@ -6,6 +6,7 @@ import { HomepageWrapper } from "@/modules/home/components/homepage-wrapper";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslations } from "use-intl";
 
 export function HeroSection(p: {
   title: string;
@@ -13,6 +14,8 @@ export function HeroSection(p: {
   cta1: string;
   cta2: string;
 }) {
+  const t = useTranslations("Home.Page.Client");
+
   // Animation variants for the decorator lines
   const decoratorVariants = {
     hidden: {
@@ -137,7 +140,7 @@ export function HeroSection(p: {
               delay: 2,
             }}
           >
-            - Ściółka dla Hodowców -
+            {t("h3")}
           </motion.h3>
           {/* Background Blur for text */}
           <motion.div
