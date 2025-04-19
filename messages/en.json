@@ -150,7 +150,6 @@
         "result": "Result:",
         "resultParagraph": "To get {area}m² coverage, use <b>{requiredKg}</b> kg.",
         "infoParagraph": "*The proposed calculations are our usage suggestion and should be adjusted to the individual breeder's preferences.",
-        "buttonPdf": "Download PDF",
         "buttonReset": "Reset"
       },
       "sectionIntroTitle": "Additional recommendations",
@@ -339,6 +338,20 @@
       "regards": "Best regards,",
       "biofloorTeam": "BioFloor Team",
       "allRightsReserved": "All rights reserved."
+    }
+  },
+  "Documents": {
+    "CalculatorPdf": {
+      "buttonText": "Download PDF",
+      "title": "Bedding Calculator",
+      "detailsOfCalculation": "Calculation Details",
+      "thickness": "Bedding thickness:",
+      "area": "Area:",
+      "requiredKg": "Required amount:",
+      "infoParagraph": "*The proposed calculations are suggestions and should be adjusted to the individual breeder's preferences.",
+      "footerHeader": "BioFloor - natural bedding for animal health",
+      "generatedDate": "Generated on:",
+      "pdfName": "Result_BioFloor.pdf"
     }
   }
 }

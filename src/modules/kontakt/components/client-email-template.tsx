@@ -7,7 +7,7 @@ export async function ClientEmailTemplate({
   title,
   name,
 }: SendEmailProps) {
-  const t = await getTranslations("Emails.client");
+  const t = await getTranslations("Emails.Client");
 
   const firstName = name.split(" ")[0];
 

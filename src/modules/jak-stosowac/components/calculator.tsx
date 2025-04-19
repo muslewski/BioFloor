@@ -14,12 +14,12 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import { CalculatorIcon, DownloadIcon, RefreshCwIcon } from "lucide-react";
+import { CalculatorIcon, RefreshCwIcon } from "lucide-react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { handleDownloadCalculatorPDF } from "@/modules/jak-stosowac/components/calculator-pdf";
 import { useTranslations } from "next-intl";
 import RichText from "@/components/rich-text";
+import { DownloadPDF } from "@/modules/jak-stosowac/components/download-pdf";
 
 export function Calculator() {
   const t = useTranslations("HowToUse.Page.Calculator");
@@ -226,19 +226,11 @@ export function Calculator() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  <Button
-                    variant="secondary"
-                    onClick={() =>
-                      handleDownloadCalculatorPDF(
-                        calculationResult.thickness,
-                        calculationResult.area,
-                        calculationResult.requiredKg
-                      )
-                    }
-                  >
-                    {t("buttonPdf")}
-                    <DownloadIcon className="size-5 ml-2" />
-                  </Button>
+                  <DownloadPDF
+                    thickness={calculationResult.thickness}
+                    area={calculationResult.area}
+                    requiredKg={calculationResult.requiredKg}
+                  />
                 </motion.div>
                 <motion.div
                   whileHover={{ scale: 1.05 }}

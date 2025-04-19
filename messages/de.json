@@ -150,7 +150,6 @@
         "result": "Ergebnis:",
         "resultParagraph": "Für {area}m² Abdeckung, verwenden Sie <b>{requiredKg}</b> kg.",
         "infoParagraph": "*Die vorgeschlagenen Berechnungen sind unsere Anwendungsempfehlung und sollten an die individuellen Präferenzen des Züchters angepasst werden.",
-        "buttonPdf": "PDF herunterladen",
         "buttonReset": "Zurücksetzen"
       },
       "sectionIntroTitle": "Zusätzliche Empfehlungen",
@@ -339,6 +338,20 @@
       "regards": "Mit freundlichen Grüßen,",
       "biofloorTeam": "Das BioFloor-Team",
       "allRightsReserved": "Alle Rechte vorbehalten."
+    }
+  },
+  "Documents": {
+    "CalculatorPdf": {
+      "buttonText": "PDF herunterladen",
+      "title": "Einstreu-Kalkulator",
+      "detailsOfCalculation": "Berechnungsdetails",
+      "thickness": "Einstreudicke:",
+      "area": "Fläche:",
+      "requiredKg": "Benötigte Menge:",
+      "infoParagraph": "*Die vorgeschlagenen Berechnungen sind eine Empfehlung und sollten an die individuellen Präferenzen des Züchters angepasst werden.",
+      "footerHeader": "BioFloor - natürliche Einstreu für die Tiergesundheit",
+      "generatedDate": "Generiert am:",
+      "pdfName": "Ergebnis_BioFloor.pdf"
     }
   }
 }
