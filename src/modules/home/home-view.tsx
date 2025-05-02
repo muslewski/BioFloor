@@ -3,7 +3,7 @@ import RichText from "@/components/rich-text";
 import { HomeAdvantagesSection } from "@/modules/home/sections/advantages-section";
 import { HeroSection } from "@/modules/home/sections/hero-section";
 import { InformationSection } from "@/modules/home/sections/information-section";
-// import { TestimonialsSection } from "@/modules/home/sections/testimonials-section";
+import { TestimonialsSection } from "@/modules/home/sections/testimonials-section";
 import { getTranslations } from "next-intl/server";
 
 export async function HomeView() {
@@ -44,7 +44,12 @@ export async function HomeView() {
           </RichText>
         }
       />
-      {/* <TestimonialsSection /> */}
+      <TestimonialsSection
+        testimonialsSectionTitle={t("testimonialsSectionTitle")}
+        testimonialsSectionDescription={t("testimonialsSectionDescription")}
+        quote1={<RichText>{(tags) => t.rich("quote1", tags)}</RichText>}
+        designation1={t("designation1")}
+      />
     </ViewWrapper>
   );
 }

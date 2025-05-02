@@ -10,7 +10,7 @@ export function InformationSection(p: {
   informationSectionDescription2: React.ReactNode;
 }) {
   return (
-    <SectionWrapper>
+    <SectionWrapper isBorderBottom>
       <HorizontalStructure
         textElement={
           <SectionIntro
