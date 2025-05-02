@@ -51,7 +51,7 @@ export const AnimatedTestimonials = ({
 
   if (!mounted) return null;
   return (
-    <div className="mx-auto max-w-7xl px-4 py-20 font-sans antialiased md:w-full md:px-8 lg:px-12">
+    <div className="mx-auto max-w-7xl px-4 lg:py-20 font-sans antialiased md:w-full md:px-8 lg:px-12">
       <div className="relative flex gap-16 flex-col sm:flex-row w-full">
         <div>
           <div className="relative h-80 w-80 max-w-sm">
