@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 
 export function HomeAdvantagesSection(p: {
+  sectionBackgroundImageAlt: string;
   sectionIntroTitle: string;
   sectionIntroDescription: string;
   GreenCardTitle1: string;
@@ -25,6 +26,7 @@ export function HomeAdvantagesSection(p: {
     <SectionWrapperImage
       backgroundImage="/images/home/henhouse.png"
       imageClassName="-top-[30%] sm:-top-[50%]"
+      backgroundImageAlt={p.sectionBackgroundImageAlt}
     >
       <SectionIntro
         title={p.sectionIntroTitle}

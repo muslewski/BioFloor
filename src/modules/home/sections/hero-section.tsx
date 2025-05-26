@@ -13,6 +13,10 @@ export function HeroSection(p: {
   description: string;
   cta1: string;
   cta2: string;
+  chickenImageAlt: string;
+  beddingImageAlt: string;
+  productTextImageAlt: string;
+  GreenLineImageAlt: string;
 }) {
   const t = useTranslations("Home.Page.Client");
 
@@ -47,7 +51,11 @@ export function HeroSection(p: {
               animate="visible"
               variants={decoratorVariants}
             >
-              <Image src="/images/home/green-line.svg" alt="Green Line" fill />
+              <Image
+                src="/images/home/green-line.svg"
+                alt={p.GreenLineImageAlt}
+                fill
+              />
             </motion.div>
 
             {/* Decorator Mobile Version */}
@@ -59,7 +67,7 @@ export function HeroSection(p: {
             >
               <Image
                 src="/images/home/green-line-mobile.svg"
-                alt="Green Line"
+                alt={p.GreenLineImageAlt}
                 fill
               />
             </motion.div>
@@ -104,7 +112,7 @@ export function HeroSection(p: {
               src="/images/home/podlapki.png"
               fill
               className="object-contain z-10"
-              alt="Product Page"
+              alt={p.productTextImageAlt}
             />
           </motion.div>
 
@@ -126,7 +134,7 @@ export function HeroSection(p: {
               src="/images/home/podlapki.png"
               fill
               className="object-contain z-10"
-              alt="Product Page"
+              alt={p.productTextImageAlt}
             />
           </motion.div>
           <motion.h3
@@ -173,7 +181,7 @@ export function HeroSection(p: {
               src="/images/home/chicken.png"
               fill
               className="object-contain object-bottom z-10"
-              alt="Product Page"
+              alt={p.chickenImageAlt}
             />
           </motion.div>
         </div>
@@ -184,7 +192,7 @@ export function HeroSection(p: {
         <Image
           src="/images/home/bedding.png"
           className="object-cover"
-          alt="Poultry Bedding"
+          alt={p.beddingImageAlt}
           priority
           fill
         />
@@ -194,7 +202,7 @@ export function HeroSection(p: {
         <Image
           src="/images/home/bedding-mobile.png"
           className="object-contain object-bottom-right"
-          alt="Poultry Bedding"
+          alt={p.beddingImageAlt}
           priority
           fill
         />

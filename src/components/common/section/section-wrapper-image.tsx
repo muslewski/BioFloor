@@ -18,6 +18,7 @@ import { cn } from "@/lib/utils";
 interface SectionWrapperProps {
   children: React.ReactNode;
   backgroundImage: string;
+  backgroundImageAlt?: string;
   /** className for motion.div that controls appearance of background image */
   imageClassName?: string;
   /** Controls the intensity of the parallax effect (lower = subtler) */
@@ -27,6 +28,7 @@ interface SectionWrapperProps {
 export function SectionWrapperImage({
   children,
   backgroundImage,
+  backgroundImageAlt,
   imageClassName,
   parallaxStrength = 4,
 }: SectionWrapperProps) {
@@ -74,7 +76,7 @@ export function SectionWrapperImage({
           >
             <Image
               src={backgroundImage}
-              alt="Background Image"
+              alt={backgroundImageAlt || "Background Image"}
               className="object-cover"
               fill
               priority

@@ -65,7 +65,7 @@ export function HackerCard({ title, description, icon }: BrownCardProps) {
             whileHover={{ rotate: 10, scale: 1.1 }}
             transition={{ type: "spring", stiffness: 200, delay: 0.2 }}
           >
-            <Image src={icon} alt={`${title} icon`} width={48} height={48} />
+            <Image src={icon} alt={`${title}`} width={48} height={48} />
           </motion.div>
         ) : (
           <motion.div

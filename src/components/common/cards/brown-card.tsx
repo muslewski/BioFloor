@@ -48,7 +48,7 @@ export function BrownCard({
           >
             <Image
               src={icon}
-              alt={`${title} icon`}
+              alt={`${title}`}
               className="shrink-0 w-12 h-12 sm:w-[48px] sm:h-[48px] min-w-[48px] min-h-[48px]"
               width={48}
               height={48}

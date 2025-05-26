@@ -4,6 +4,10 @@
       "default-title": "BioFloor - Einstreu für Züchter!"
     }
   },
+  "CompanyBrand": {
+    "logoAlt": "BioFloor Logo",
+    "textLogoAlt": "BioFloor Text-Logo"
+  },
   "Navigation": {
     "naturalSolution": "Natürliche Lösung",
     "advantages": "Vorteile",
@@ -37,6 +41,10 @@
       "description": "Gesunde Vögel, sauberere Ställe, effizientere Zucht - alles beginnt mit dem richtigen Untergrund. PodŁapki ist moderne Sonnenblumeneinstreu, die hohe Saugfähigkeit, Hygiene und Nährwert verbindet, um den Vögeln Komfort und den Züchtern Einsparungen zu bieten.",
       "cta1": "Probe bestellen",
       "cta2": "Angebot ansehen",
+      "chickenImageAlt": "Foto zeigt ein Huhn",
+      "beddingImageAlt": "Foto zeigt BioFloor Einstreu",
+      "productTextImageAlt": "Produkt PodŁapki",
+      "GreenLineImageAlt": "Grüne Linie",
       "sectionIntroTitle": "Effizienz, die sich lohnt",
       "sectionIntroDescription": "Entdecken Sie, wie unsere Einstreu die Standards in der Geflügelzucht anhebt.",
       "greenCardTitle1": "Komfort und Wohlbefinden",
@@ -49,6 +57,8 @@
       "greenCardDescription4": "Klumpt nicht, erleichtert die Reinigung und Hygiene im Hühnerstall.",
       "informationSectionTitle": "Für wen?",
       "informationSectionDescription": "<b>PodŁapki</b> ist Einstreu für moderne Geflügelfarmen und -unternehmen, die auf Produktionsoptimierung und Tierwohl setzen. Unsere Lösung hilft, die Effizienz zu steigern, Verluste zu reduzieren und bessere Zuchtbedingungen zu schaffen - ohne Kompromisse.",
+      "informationSectionImageAlt": "Hühner im Hühnerstall",
+      "informationSectionImageAlt2": "BioFloor Visitenkarte",
       "informationSectionTitle2": "Investieren Sie in die Zukunft der Zucht",
       "informationSectionDescription2": "Wenn Sie nach einer bewährten Lösung suchen, die echte finanzielle und gesundheitliche Vorteile bringt, ist <b>PodŁapki</b> für Sie geeignet. Kontaktieren Sie uns und finden Sie heraus, ob wir bei der Entwicklung Ihrer Farm helfen können.",
       "testimonialsSectionTitle": "Meinungen unserer Kunden",
@@ -57,7 +67,8 @@
       "designation1": "Inhaber, Geflügelzucht",
       "Client": {
         "h3": "- Einstreu für Züchter -"
-      }
+      },
+      "sectionBackgroundImageAlt": "Foto zeigt Einstreu im Inneren eines Hühnerstalls"
     }
   },
   "NaturalSolution": {
@@ -267,7 +278,8 @@
       "cta1": "Probe bestellen",
       "cta2": "Angebot ansehen",
       "sectionIntroTitle": "Sehen Sie den Prozess in der Praxis",
-      "sectionIntroDescription": "Die Bilder zeigen, wie effizient wir die Komplettladungslogistik von <b>BioFloor</b> umsetzen."
+      "sectionIntroDescription": "Die Bilder zeigen, wie effizient wir die Komplettladungslogistik von <b>BioFloor</b> umsetzen.",
+      "sectionIntroImageAlt": "Foto zeigt das Beladen von BioFloor Einstreu in einen LKW."
     }
   },
   "PrivacyPolicy": {

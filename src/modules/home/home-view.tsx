@@ -17,8 +17,13 @@ export async function HomeView() {
         description={t("description")}
         cta1={t("cta1")}
         cta2={t("cta2")}
+        chickenImageAlt={t("chickenImageAlt")}
+        beddingImageAlt={t("beddingImageAlt")}
+        productTextImageAlt={t("productTextImageAlt")}
+        GreenLineImageAlt={t("GreenLineImageAlt")}
       />
       <HomeAdvantagesSection
+        sectionBackgroundImageAlt={t("sectionBackgroundImageAlt")}
         sectionIntroTitle={t("sectionIntroTitle")}
         sectionIntroDescription={t("sectionIntroDescription")}
         GreenCardTitle1={t("greenCardTitle1")}
@@ -37,12 +42,14 @@ export async function HomeView() {
             {(tags) => t.rich("informationSectionDescription", tags)}
           </RichText>
         }
+        informationSectionImageAlt={t("informationSectionImageAlt")}
         informationSectionTitle2={t("informationSectionTitle2")}
         informationSectionDescription2={
           <RichText>
             {(tags) => t.rich("informationSectionDescription2", tags)}
           </RichText>
         }
+        informationSectionImageAlt2={t("informationSectionImageAlt2")}
       />
       <TestimonialsSection
         testimonialsSectionTitle={t("testimonialsSectionTitle")}

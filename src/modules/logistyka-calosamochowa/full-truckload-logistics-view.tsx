@@ -26,6 +26,7 @@ export async function FullTruckloadLogisticsView() {
             {(tags) => t.rich("sectionIntroDescription", tags)}
           </RichText>
         }
+        sectionIntroImageAlt={t("sectionIntroImageAlt")}
       />
     </ViewWrapper>
   );

@@ -4,6 +4,10 @@
       "default-title": "BioFloor - Ściółka dla Hodowców!"
     }
   },
+  "CompanyBrand": {
+    "logoAlt": "Logo BioFloor",
+    "textLogoAlt": "Tekst logo BioFloor"
+  },
   "Navigation": {
     "naturalSolution": "Naturalne rozwiązanie",
     "advantages": "Atuty",
@@ -37,6 +41,10 @@
       "description": "Zdrowe ptaki, czystsze kurniki, większa efektywność hodowli - to wszystko zaczyna się od odpowiedniego podłoża. PodŁapki to nowoczesna ściółka słonecznikowa, która łączy wysoką chłonność, higienę i wartość odżywczą, zapewniając komfort ptakom i oszczędności hodowcom.",
       "cta1": "Zamów próbkę",
       "cta2": "Zobacz ofertę",
+      "chickenImageAlt": "Zdjęcie przedstawiające kurę",
+      "beddingImageAlt": "Zdjęcie przedstawiające ściółkę BioFloor",
+      "productTextImageAlt": "Produkt PodŁapki",
+      "GreenLineImageAlt": "Zielona linia",
       "sectionIntroTitle": "Efektywność, która się opłaca",
       "sectionIntroDescription": "Odkryj, jak nasza ściółka podnosi standardy w hodowli drobiu.",
       "greenCardTitle1": "Komfort i dobrostan",
@@ -49,6 +57,8 @@
       "greenCardDescription4": "Nie zbryla się, ułatwia sprzątanie i utrzymanie higieny w kurniku.",
       "informationSectionTitle": "Dla kogo?",
       "informationSectionDescription": "<b>PodŁapki</b> to ściółka stworzona dla nowoczesnych ferm i firm drobiarskich, które stawiają na optymalizację produkcji i dobrostan zwierząt. Nasze rozwiązanie pomaga zwiększyć wydajność, ograniczyć straty i stworzyć lepsze warunki hodowlane - bez kompromisów.",
+      "informationSectionImageAlt": "Kury w kurniku",
+      "informationSectionImageAlt2": "Wizytówka BioFloor",
       "informationSectionTitle2": "Zainwestuj w przyszłość hodowli",
       "informationSectionDescription2": "Jeśli szukasz sprawdzonego rozwiązania, które przynosi realne korzyści finansowe i zdrowotne, <b>PadŁapki</b> jest dla Ciebie. Skontaktuj się z nami i sprawdź czy możemy pomóc w rozwoju Twojej fermy.",
       "testimonialsSectionTitle": "Opinie naszych Klientów",
@@ -57,7 +67,8 @@
       "designation1": "Właściciel, Hodowla Drobiu",
       "Client": {
         "h3": "- Ściółka dla Hodowców -"
-      }
+      },
+      "sectionBackgroundImageAlt": "Zdjecie przedstawiajace podściółkę we wnątrz kurniku"
     }
   },
   "NaturalSolution": {
@@ -267,7 +278,8 @@
       "cta1": "Zamów próbkę",
       "cta2": "Zobacz ofertę",
       "sectionIntroTitle": "Zobacz proces w praktyce",
-      "sectionIntroDescription": "Zdjęcia ukazują, jak efektywnie realizujemy logistykę całosamochodową <b>BioFloor</b>."
+      "sectionIntroDescription": "Zdjęcia ukazują, jak efektywnie realizujemy logistykę całosamochodową <b>BioFloor</b>.",
+      "sectionIntroImageAlt": "Zdjęcie przedstawiające załadunek ściółki BioFloor do samochodu ciężarowego."
     }
   },
   "PrivacyPolicy": {

@@ -6,6 +6,7 @@ import { SectionWrapper } from "@/components/common/section/section-wrapper";
 export function ShowcaseSection(p: {
   sectionIntroTitle: string;
   sectionIntroDescription: React.ReactNode;
+  sectionIntroImageAlt: string;
 }) {
   return (
     <SectionWrapper>
@@ -16,7 +17,7 @@ export function ShowcaseSection(p: {
       <CardWrapper columns={3} className="gap-16 sm:gap-16">
         <SectionImage
           src="/images/logistyka-calosamochodowa/ftl-1.jpg"
-          alt="Zdjecie podściółki"
+          alt={`1. ${p.sectionIntroImageAlt}`}
           ratio={2 / 3}
           isBorder
           preview
@@ -24,7 +25,7 @@ export function ShowcaseSection(p: {
         />
         <SectionImage
           src="/images/logistyka-calosamochodowa/ftl-2.jpg"
-          alt="Zdjecie podściółki"
+          alt={`2. ${p.sectionIntroImageAlt}`}
           ratio={2 / 3}
           isBorder
           preview
@@ -32,7 +33,7 @@ export function ShowcaseSection(p: {
         />
         <SectionImage
           src="/images/logistyka-calosamochodowa/ftl-3.jpg"
-          alt="Zdjecie podściółki"
+          alt={`3. ${p.sectionIntroImageAlt}`}
           ratio={2 / 3}
           isBorder
           preview
@@ -40,7 +41,7 @@ export function ShowcaseSection(p: {
         />
         <SectionImage
           src="/images/logistyka-calosamochodowa/ftl-4.jpg"
-          alt="Zdjecie podściółki"
+          alt={`4. ${p.sectionIntroImageAlt}`}
           ratio={2 / 3}
           isBorder
           preview
@@ -48,7 +49,7 @@ export function ShowcaseSection(p: {
         />
         <SectionImage
           src="/images/logistyka-calosamochodowa/ftl-5.jpg"
-          alt="Zdjecie podściółki"
+          alt={`5. ${p.sectionIntroImageAlt}`}
           ratio={2 / 3}
           isBorder
           preview

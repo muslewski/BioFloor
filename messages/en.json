@@ -4,6 +4,10 @@
       "default-title": "BioFloor - Bedding for Breeders!"
     }
   },
+  "CompanyBrand": {
+    "logoAlt": "BioFloor Logo",
+    "textLogoAlt": "BioFloor text logo"
+  },
   "Navigation": {
     "naturalSolution": "Natural solution",
     "advantages": "Advantages",
@@ -37,6 +41,10 @@
       "description": "Healthy birds, cleaner coops, more efficient breeding - it all starts with the right bedding. PodŁapki is a modern sunflower bedding that combines high absorbency, hygiene, and nutritional value, providing comfort to birds and savings to breeders.",
       "cta1": "Order a sample",
       "cta2": "See offer",
+      "chickenImageAlt": "Image showing a chicken",
+      "beddingImageAlt": "Image showing BioFloor bedding",
+      "productTextImageAlt": "PodŁapki product",
+      "GreenLineImageAlt": "Green line",
       "sectionIntroTitle": "Efficiency that pays off",
       "sectionIntroDescription": "Discover how our bedding raises standards in poultry farming.",
       "greenCardTitle1": "Comfort and well-being",
@@ -49,6 +57,8 @@
       "greenCardDescription4": "Doesn't clump, makes cleaning easier and maintains hygiene in the coop.",
       "informationSectionTitle": "Who is it for?",
       "informationSectionDescription": "<b>PodŁapki</b> is bedding created for modern farms and poultry companies that focus on optimizing production and animal welfare. Our solution helps increase efficiency, reduce losses, and create better breeding conditions - without compromises.",
+      "informationSectionImageAlt": "Chickens in a chicken coop",
+      "informationSectionImageAlt2": "BioFloor business card",
       "informationSectionTitle2": "Invest in the future of breeding",
       "informationSectionDescription2": "If you're looking for a proven solution that brings real financial and health benefits, <b>PodŁapki</b> is for you. Contact us and see if we can help develop your farm.",
       "testimonialsSectionTitle": "Customer Testimonials",
@@ -57,7 +67,8 @@
       "designation1": "Owner, Poultry Farm",
       "Client": {
         "h3": "- Bedding for Breeders -"
-      }
+      },
+      "sectionBackgroundImageAlt": "Image showing bedding inside a chicken coop"
     }
   },
   "NaturalSolution": {
@@ -267,7 +278,8 @@
       "cta1": "Order a sample",
       "cta2": "See offer",
       "sectionIntroTitle": "See the process in practice",
-      "sectionIntroDescription": "The images show how effectively we implement full truckload logistics for <b>BioFloor</b>."
+      "sectionIntroDescription": "The images show how effectively we implement full truckload logistics for <b>BioFloor</b>.",
+      "sectionIntroImageAlt": "Image showing the loading of BioFloor bedding into a truck."
     }
   },
   "PrivacyPolicy": {

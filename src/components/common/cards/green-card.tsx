@@ -25,7 +25,7 @@ export function GreenCard({
       {typeof Icon === "string" ? (
         <Image
           src={Icon}
-          alt="icon"
+          alt={"Icon"}
           width={32}
           height={32}
           className="size-8 sm:size-12"

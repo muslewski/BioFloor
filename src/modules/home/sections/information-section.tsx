@@ -6,8 +6,10 @@ import { SectionWrapper } from "@/components/common/section/section-wrapper";
 export function InformationSection(p: {
   informationSectionTitle: string;
   informationSectionDescription: React.ReactNode;
+  informationSectionImageAlt: string;
   informationSectionTitle2: string;
   informationSectionDescription2: React.ReactNode;
+  informationSectionImageAlt2: string;
 }) {
   return (
     <SectionWrapper isBorderBottom>
@@ -20,7 +22,10 @@ export function InformationSection(p: {
           />
         }
         imageElement={
-          <SectionImage src="/images/home/chickens.jpg" alt="Kury" />
+          <SectionImage
+            src="/images/home/chickens.jpg"
+            alt={p.informationSectionImageAlt}
+          />
         }
       />
       <HorizontalStructure
@@ -33,7 +38,10 @@ export function InformationSection(p: {
           />
         }
         imageElement={
-          <SectionImage src="/images/home/business-card.jpg" alt="Kury" />
+          <SectionImage
+            src="/images/home/business-card.jpg"
+            alt={p.informationSectionImageAlt2}
+          />
         }
       />
     </SectionWrapper>
