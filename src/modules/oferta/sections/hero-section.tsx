@@ -8,12 +8,14 @@ export function HeroSection(p: {
   titleLight: string;
   description: React.ReactNode;
   cta1: string;
+  backgroundImageAlt: string;
 }) {
   return (
     <HeroWrapper
       backgroundImage="/images/oferta/big-henhouse.png"
       insideImageClassName="object-[40%] lg:object-center"
       isBorderBottom
+      backgroundImageAlt={p.backgroundImageAlt}
     >
       <HeroIntro
         className="max-w-5xl"

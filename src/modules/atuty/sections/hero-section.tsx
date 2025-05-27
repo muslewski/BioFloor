@@ -9,12 +9,14 @@ export function HeroSection(p: {
   description: React.ReactNode;
   cta1: string;
   cta2: string;
+  backgroundImageAlt: string;
 }) {
   return (
     <HeroWrapper
       backgroundImage="/images/atuty/henhouse.png"
       insideImageClassName="object-[40%] lg:object-center"
       isBorderBottom
+      backgroundImageAlt={p.backgroundImageAlt}
     >
       <HeroIntro
         className="max-w-5xl"

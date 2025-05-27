@@ -10,7 +10,11 @@ export async function ContactView() {
 
   return (
     <ViewWrapper>
-      <HeroSection title={t("title")} description={t("description")} />
+      <HeroSection
+        title={t("title")}
+        description={t("description")}
+        backgroundImageAlt={t("backgroundImageAlt")}
+      />
       <ContactInfoSection
         sectionTitle={t("sectionTitle")}
         sectionDescription={t("sectionDescription")}

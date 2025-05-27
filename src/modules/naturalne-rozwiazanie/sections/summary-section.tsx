@@ -9,6 +9,7 @@ export function SummarySection(p: {
   summarySectionTitle: string;
   summarySectionTitleLight: string;
   summarySectionDescription: string;
+  summarySectionImageAlt: string;
   summaryCta1: string;
 }) {
   return (
@@ -28,7 +29,10 @@ export function SummarySection(p: {
           />
         }
         imageElement={
-          <SectionImage src="/images/oferta/big-henhouse.png" alt="Kury" />
+          <SectionImage
+            src="/images/oferta/big-henhouse.png"
+            alt={p.summarySectionImageAlt}
+          />
         }
       />
     </SectionWrapper>

@@ -14,6 +14,7 @@ import { cn } from "@/lib/utils";
 interface HeroWrapperProps {
   children: React.ReactNode;
   backgroundImage: string;
+  backgroundImageAlt?: string;
   /** className for motion.div that controls appearance of background image */
   imageClassName?: string;
   /** className for image object */
@@ -28,6 +29,7 @@ interface HeroWrapperProps {
 export function HeroWrapper({
   children,
   backgroundImage,
+  backgroundImageAlt = "Hero background image",
   imageClassName,
   insideImageClassName,
   parallaxStrength = 6,
@@ -141,7 +143,7 @@ export function HeroWrapper({
           >
             <NextImage
               src={backgroundImage}
-              alt="Background image"
+              alt={backgroundImageAlt}
               className={cn(
                 "object-cover transition-opacity duration-300",
                 imageLoaded ? "opacity-100" : "opacity-0",

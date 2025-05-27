@@ -82,6 +82,7 @@
       "description": "Die Qualität der Einstreu im Hühnerstall hat einen direkten Einfluss auf die Gesundheit der Vögel, die Produktionseffizienz und die Qualität des Endprodukts. Die richtige Struktur und Zusammensetzung der Einstreu verhindert das Wachstum von Bakterien und Schimmel, reduziert die Emission schädlicher Gase und sorgt für ein optimales Mikroklima im Zuchtgebäude.",
       "cta1": "Probe bestellen",
       "cta2": "Angebot ansehen",
+      "backgroundImageAlt": "Foto zeigt BioFloor Einstreu im Hühnerstall",
       "sectionTitle": "Was sind die Gefahren einer ungeeigneten Einstreu?",
       "sectionDescription": "Schlecht ausgewählte und unsachgemäß gepflegte Einstreu führt zu:",
       "brownCardTitle1": "Übermäßige Feuchtigkeit",
@@ -99,6 +100,8 @@
       "informationSectionTitle2": "PodŁapki Sonnenblumenschaleneinstreu,",
       "informationSectionTitle2Light": "die die Vorteile der besten Materialien kombiniert und ihre Nachteile eliminiert.",
       "informationSection2CustomElement": "<li>Außergewöhnliche Feuchtigkeitsabsorption - reduziert die Bildung harter Krusten und erleichtert die Reinigung.</li><li>Reduzierte Ammoniak- und Schwefelwasserstoffemissionen - verbessert deutlich die Luftqualität und die Gesundheit der Vögel.</li><li>Natürliche Wärmeisolierung - verhindert Unterkühlung im Winter und Überhitzung im Sommer.</li><li>Struktur, die natürliches Verhalten fördert - Vögel können unter komfortablen Bedingungen scharren und ausruhen.</li><li>Wirtschaftlichkeit und Effizienz - seltenerer Austausch der Einstreu und geringerer Materialverbrauch bedeuten echte Einsparungen.</li><li>Mikrobiologische Sicherheit - regelmäßig auf Krankheitserreger getestet, frei von Salmonellen und Mykotoxinen.</li><li>Zusätzlicher Nährwert - der Gehalt an Proteinen und Fetten unterstützt die Gesundheit und Kondition der Vögel.</li>",
+      "informationSectionImageAlt": "Foto eines künstlerischen Baumes",
+      "informationSectionImageAlt2": "Foto zeigt eine Sonnenblumenschale",
       "floorInfoSectionTitle": "Welche Einstreu wird in der Geflügelzucht verwendet?",
       "floorInfoSectionDescription": "Die Wahl der Einstreu beeinflusst die Gesundheit des Geflügels - sehen Sie die Unterschiede.",
       "hackerCardTitle1": "Holzspäne",
@@ -114,7 +117,8 @@
       "summarySectionTitle": "Entscheiden Sie sich für BioFloor",
       "summarySectionTitleLight": "- bessere Bedingungen, höhere Effizienz, bessere Produktionsqualität!",
       "summarySectionDescription": "Mit innovativer Einstreu können Züchter die Produktionseffizienz steigern, Verluste reduzieren und das Tierwohl verbessern. Biofloor ist eine moderne Lösung, die sich konkret auf die Gesundheit der Vögel und die Rentabilität der Zucht auswirkt.",
-      "summaryCta1": "Kontakt"
+      "summaryCta1": "Kontakt",
+      "summarySectionImageAlt": "Foto zeigt einen großen Hühnerstall mit Hühnern"
     }
   },
   "Advantages": {
@@ -128,6 +132,7 @@
       "description": "<b>BioFloor</b> revolutioniert die Geflügelzucht, indem es Komfort, Hygiene und Ökologie kombiniert. Dank der natürlichen Sonnenblumenschale sorgt es für trockenen Boden und gesündere Vögel und unterstützt Züchter beim Erreichen besserer Ergebnisse.",
       "cta1": "Probe bestellen",
       "cta2": "Angebot ansehen",
+      "backgroundImageAlt": "Huhn im Hühnerstall mit grünen Dekorationen",
       "sectionIntroTitle": "Warum BioFloor wählen?",
       "sectionIntroDescription": "BioFloor ist eine umfassende Lösung, die die Standards in der Geflügelzucht auf ein höheres Niveau hebt.",
       "BrownCardTitle1": "Komfort und Wohlbefinden der Vögel",
@@ -154,6 +159,7 @@
     "Page": {
       "title": "Wie verwendet man unsere Einstreu?",
       "description": "Nutzen Sie ein einfaches Tool, das Ihnen hilft, die optimale Menge an Einstreu für Ihre Bedürfnisse zu berechnen.",
+      "backgroundImageAlt": "BioFloor Einstreu im Sack neben dem Hühnerstall",
       "Calculator": {
         "thicknessError": "Der Wert muss mindestens 0,01 betragen",
         "areaError": "Der Wert muss mindestens 0,01 betragen",
@@ -205,11 +211,14 @@
       "titleLight": "- angepasst an Ihre Bedürfnisse",
       "description": "Um höchste Qualität und Komfort für unsere Kunden zu gewährleisten, bieten wir <b>BioFloor</b> Einstreu in zwei Verkaufsformen an, die an unterschiedliche Bedürfnisse der Züchter angepasst sind. So kann jeder die Lösung wählen, die perfekt zur Größe und Spezifik seiner Zucht passt.",
       "cta1": "Probe bestellen",
+      "backgroundImageAlt": "Foto eines industriellen Hühnerstalls mit Hühnern",
       "offerSectionTitle": "Großhandel",
       "offerSectionDescription": "Wir bieten Komplettladungen in Big Bags mit einem Fassungsvermögen von etwa 1,05 Tonnen. Dies ist die ideale Lösung für große Betriebe und Geflügelfarmen, die regelmäßige, effiziente Lieferungen in wirtschaftlicher Form benötigen.",
       "offerSectionLink": "Wie funktioniert die Komplettladungslogistik?",
       "offerSectionTitle2": "Verkauf einzelner Big Bags",
       "offerSectionDescription2": "Wir bieten die Möglichkeit, kleinere Mengen zu kaufen, was eine flexible Bestandsverwaltung und Anpassung der Menge an individuelle Bedürfnisse ermöglicht.",
+      "offerSectionImageAlt": "LKW, der BioFloor Einstreu transportiert",
+      "offerSectionImageAlt2": "Big Bag mit BioFloor",
       "contactSectionTitle": "Preise werden individuell festgelegt - kontaktieren Sie uns!",
       "contactSectionDescription": "Wir beantworten gerne alle Fragen und stellen Ihnen Proben zur Verfügung, damit Sie sich selbst von der Qualität unseres Produkts überzeugen können.",
       "contactSectionCta": "Kontakt"
@@ -223,6 +232,7 @@
     "Page": {
       "title": "Wir warten auf Ihre Kontaktaufnahme!",
       "description": "Möchten Sie unsere Einstreu bestellen oder haben Sie Fragen? Schreiben Sie uns oder rufen Sie an - wir kümmern uns gerne um Ihre Bedürfnisse!",
+      "backgroundImageAlt": "Briefkasten auf einem Bauernhof",
       "Form": {
         "id1": "bestellung-aufgeben",
         "id2": "probe-bestellen",
@@ -293,6 +303,7 @@
       "description": "Erfahren Sie, wie wir Ihre persönlichen Daten verarbeiten und schützen. Wir respektieren Ihre Privatsphäre und sorgen für Transparenz unserer Aktivitäten.",
       "cta1": "Probe bestellen",
       "cta2": "Angebot ansehen",
+      "backgroundImageAlt": "Foto zeigt einen Hühnerstall mit Hühnern",
       "sectionIntroTitle": "Einführung",
       "sectionIntroDescription": "Ihre Privatsphäre hat für uns Priorität! In dieser Datenschutzrichtlinie finden Sie Details darüber, wie wir Ihre persönlichen Daten bei der Nutzung unserer Website sammeln, verarbeiten und schützen.",
       "brownCardTitle1": "1. Informationen über den Verantwortlichen für die Datenverarbeitung",
@@ -328,6 +339,7 @@
       "description": "Informieren Sie sich über die Regeln zum Schutz von Urheberrechten und geistigem Eigentum auf unserer Website. Wir schätzen die Kreativität der Autoren und halten uns an die geltenden gesetzlichen Bestimmungen.",
       "cta1": "Probe bestellen",
       "cta2": "Angebot ansehen",
+      "backgroundImageAlt": "Foto zeigt ein weißes Huhn",
       "flaticonSectionTitle": "Grafikquellen - FlatIcon Icons",
       "flaticonSectionDescription": "Nachfolgend präsentieren wir die Symbole aus dem FlatIcon-Service, die in unserem Projekt verwendet wurden. Wir danken den Erstellern für die Bereitstellung dieser grafischen Ressourcen."
     }

@@ -8,8 +8,10 @@ export function OfferOptionsSection(p: {
   offerSectionTitle: string;
   offerSectionDescription: string;
   offerSectionLink: string;
+  offerSectionImageAlt: string;
   offerSectionTitle2: string;
   offerSectionDescription2: string;
+  offerSectionImageAlt2: string;
 }) {
   return (
     <SectionWrapper>
@@ -30,7 +32,10 @@ export function OfferOptionsSection(p: {
           />
         }
         imageElement={
-          <SectionImage src="/images/oferta/warehouse.png" alt="Magazyn" />
+          <SectionImage
+            src="/images/oferta/warehouse.png"
+            alt={p.offerSectionImageAlt}
+          />
         }
       />
       <HorizontalStructure
@@ -45,7 +50,7 @@ export function OfferOptionsSection(p: {
         imageElement={
           <SectionImage
             src="/images/oferta/single-bag.png"
-            alt="Sklep z opakowaniem"
+            alt={p.offerSectionImageAlt2}
           />
         }
       />

@@ -15,6 +15,7 @@ export async function CopyrightView() {
         description={t("description")}
         cta1={t("cta1")}
         cta2={t("cta2")}
+        backgroundImageAlt={t("backgroundImageAlt")}
       />
       <CopyrightSection
         flaticonSectionTitle={t("flaticonSectionTitle")}

@@ -18,6 +18,7 @@ export async function AdvantagesView() {
         }
         cta1={t("cta1")}
         cta2={t("cta2")}
+        backgroundImageAlt={t("backgroundImageAlt")}
       />
       <WhyUsSection
         sectionIntroTitle={t("sectionIntroTitle")}

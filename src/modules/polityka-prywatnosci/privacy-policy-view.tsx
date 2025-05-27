@@ -16,6 +16,7 @@ export async function PrivacyPolicyView() {
         description={t("description")}
         cta1={t("cta1")}
         cta2={t("cta2")}
+        backgroundImageAlt={t("backgroundImageAlt")}
       />
       <PolicySection
         sectionIntroTitle={t("sectionIntroTitle")}

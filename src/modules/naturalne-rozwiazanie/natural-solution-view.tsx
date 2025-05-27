@@ -19,6 +19,7 @@ export async function NaturalSolutionView() {
         description={t("description")}
         cta1={t("cta1")}
         cta2={t("cta2")}
+        backgroundImageAlt={t("backgroundImageAlt")}
       />
       <HarmInfoSection
         sectionTitle={t("sectionTitle")}
@@ -41,6 +42,7 @@ export async function NaturalSolutionView() {
             {(tags) => t.rich("informationSectionDescription", tags)}
           </RichText>
         }
+        informationSectionImageAlt={t("informationSectionImageAlt")}
         informationSectionTitle2={t("informationSectionTitle2")}
         informationSectionTitle2Light={t("informationSectionTitle2Light")}
         informationSection2CustomElement={
@@ -48,6 +50,7 @@ export async function NaturalSolutionView() {
             {(tags) => t.rich("informationSection2CustomElement", tags)}
           </RichText>
         }
+        informationSectionImageAlt2={t("informationSectionImageAlt2")}
       />
       <FloorInfoSection
         floorInfoSectionTitle={t("floorInfoSectionTitle")}
@@ -67,6 +70,7 @@ export async function NaturalSolutionView() {
         summarySectionTitle={t("summarySectionTitle")}
         summarySectionTitleLight={t("summarySectionTitleLight")}
         summarySectionDescription={t("summarySectionDescription")}
+        summarySectionImageAlt={t("summarySectionImageAlt")}
         summaryCta1={t("summaryCta1")}
       />
     </ViewWrapper>

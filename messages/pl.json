@@ -34,7 +34,7 @@
   "Home": {
     "Metadata": {
       "title": "BioFloor - Innowacyjna Ściółka dla Hodowców Drobiu | Zdrowie i Efektywność",
-      "description": "Odkryj BioFloor - ściółkę z łuski słonecznikowej, która dba o zdrowie ptaków, higienę kurników i efektywność hodowli. Zamów próbkę już dziś!"
+      "description": "Odkryj BioFloor - pelet z łuski słonecznikowej, który dba o zdrowie ptaków, higienę kurników i efektywność hodowli. Zamów próbkę już dziś!"
     },
     "Page": {
       "title": "Ściółka, która dba o Twoją hodowlę.",
@@ -82,6 +82,7 @@
       "description": "Jakość podłoża w kurniku ma bezpośredni wpływ na zdrowie ptaków, efektywność produkcji oraz jakość końcowego produktu. Właściwa struktura i skład podłoża zapobiegają rozwojowi bakterii i pleśni, redukują emisję szkodliwych gazów oraz zapewniają optymalny mikroklimat w budynku hodowlanym.",
       "cta1": "Zamów próbkę",
       "cta2": "Zobacz ofertę",
+      "backgroundImageAlt": "Zdjęcie przedstawiające podłoże BioFloor w kurniku",
       "sectionTitle": "Czym grozi niewłaściwe podłoże?",
       "sectionDescription": "Źle dobrane i niewłaściwie utrzymane podłoże prowadzi do:",
       "brownCardTitle1": "Nadmierna wilgotność",
@@ -99,6 +100,8 @@
       "informationSectionTitle2": "PodŁapki ściółka z łuski słonecznika,",
       "informationSectionTitle2Light": "która łączy zalety najlepszych materiałów i eliminuje ich wady.",
       "informationSection2CustomElement": "<li>Wyjątkowa absorpcja wilgoci - ogranicza tworzenie twardej skorupy i ułatwia utrzymanie czystości.</li><li>Redukcja emisji amoniaku i siarkowodoru - znacząco poprawia jakość powietrza i zdrowie ptaków.</li><li>Naturalna izolacja cieplna - zapobiega wyziębieniu w zimie i przegrzaniu latem.</li><li>Struktura sprzyjająca naturalnym zachowaniom - ptaki mogą grzebać i odpoczywać w komfortowych warunkach.</li><li>Ekonomia i efektywność - rzadsza wymiana podłoża i mniejsze zużycie materiału oznaczają realne oszczędności.</li><li>Bezpieczeństwo mikrobiologiczne - regularnie badana pod kątem patogenów, wolna od Salmonelli i mykotoksyn.</li><li>Dodatkowe wartości odżywcze - zawartość białka i tłuszczu wspiera zdrowie i kondycję ptaków.</li>",
+      "informationSectionImageAlt": "Zdjęcie artystycznego drzewa",
+      "informationSectionImageAlt2": "Zdjęcie przedstawiające łuskę słonecznika",
       "floorInfoSectionTitle": "Jakie podłoże stosuje się w hodowli drobiu?",
       "floorInfoSectionDescription": "Wybór podłoża wpływa na zdrowie drobiu - zobacz różnice.",
       "hackerCardTitle1": "Wióry drzewne",
@@ -114,7 +117,8 @@
       "summarySectionTitle": "Postaw na BioFloor",
       "summarySectionTitleLight": "- lepsze warunki, większa wydajność, wyższa jakość produkcji!",
       "summarySectionDescription": "Dzięki innowacyjnemu podłożu hodowcy mogą zwiększyć efektywność produkcji, ograniczyć straty i poprawić dobrostan zwierząt. Biofloor to nowoczesne rozwiązanie, które realnie przekłada się na zdrowie ptaków i rentowność hodowli.",
-      "summaryCta1": "Kontakt"
+      "summaryCta1": "Kontakt",
+      "summarySectionImageAlt": "Zdjęcie przedstawiające wielki kurnik z kurami"
     }
   },
   "Advantages": {
@@ -128,6 +132,7 @@
       "description": "<b>BioFloor</b> rewolucjonizuje hodowlę drobiu, łącząc komfort, higienę i ekologię. Dzięki naturalnej łusce słonecznikowej zapewnia suche podłoże i zdrowsze ptaki, wspierając hodowców w osiąganiu lepszych wyników.",
       "cta1": "Zamów próbkę",
       "cta2": "Zobacz ofertę",
+      "backgroundImageAlt": "Kura w środku kurnika z zielonymi ozdobami",
       "sectionIntroTitle": "Dlaczego warto wybrać Biofloor?",
       "sectionIntroDescription": "Biofloor to kompleksowe rozwiązanie, które podnosi standardy hodowli drobiu na wyższy poziom.",
       "BrownCardTitle1": "Komfort i dobrostan ptaków",
@@ -154,6 +159,7 @@
     "Page": {
       "title": "Jak stosować naszą ściółkę?",
       "description": "Skorzystaj z prostego narzędzia, które pomoże Ci policzyć optymalną ilość ściółki do Twoich potrzeb.",
+      "backgroundImageAlt": "Ściółka BioFloor w worku obok kurnika",
       "Calculator": {
         "thicknessError": "Wartość musi wynosić co najmniej 0,01",
         "areaError": "Wartość musi wynosić co najmniej 0,01",
@@ -205,11 +211,14 @@
       "titleLight": "- dopasowana do Twoich potrzeb",
       "description": "W trosce o najwyższą jakość i wygodę naszych klientów oferujemy ściółkę <b>BioFloor</b> w dwóch formach sprzedaży, dostosowanych do różnych potrzeb hodowców. Dzięki temu każdy może wybrać rozwiązanie idealnie pasujące do skali i specyfiki swojej hodowli.",
       "cta1": "Zamów próbkę",
+      "backgroundImageAlt": "Zdjęcie industrialnego kurnika z kurami",
       "offerSectionTitle": "Sprzedaż hurtowa",
       "offerSectionDescription": "Zapewniamy dostawy całopojazdowe w Big Bagach o pojemności około 1.05 ton. To idealne rozwiązanie dla dużych gospodarstw i ferm drobiu, które potrzebują stałych, wydajnych dostaw w ekonomicznej formie.",
       "offerSectionLink": "Jak wygląda logistyka całosamochodowa?",
       "offerSectionTitle2": "Sprzedaż pojedynczych Big Bag",
       "offerSectionDescription2": "Oferujemy możliwość zakupu mniejszych partii, co pozwala na elastyczne zarządzanie zapasami i dostosowanie ilości do indywidualnych potrzeb.",
+      "offerSectionImageAlt": "Samochód ciężarowy przewożący ściółkę BioFloor",
+      "offerSectionImageAlt2": "Big Bag z BioFloor",
       "contactSectionTitle": "Ceny ustalane indywidualnie - skontaktuj się z nami!",
       "contactSectionDescription": "Chętnie odpowiemy na wszelkie pytania oraz dostarczymy próbki, aby mogli Państwo osobiście przekonać się o jakości naszego produktu.",
       "contactSectionCta": "Kontakt"
@@ -223,6 +232,7 @@
     "Page": {
       "title": "Czekamy na Twój kontakt!",
       "description": "Chcesz złożyć zamówienie na naszą ściółkę albo masz pytania? Napisz do nas lub zadzwoń - chętnie zadbamy o Twoje potrzeby!",
+      "backgroundImageAlt": "Skrzynka pocztowa na farmie",
       "Form": {
         "id1": "zloz-zamowienie",
         "id2": "zamow-probke",
@@ -293,6 +303,7 @@
       "description": "Dowiedz się, w jaki sposób przetwarzamy i chronimy Twoje dane osobowe. Szanujemy Twoją prywatność i zapewniamy transparentność naszych działań.",
       "cta1": "Zamów próbkę",
       "cta2": "Zobacz ofertę",
+      "backgroundImageAlt": "Zdjęcie przedstawiające kurnik z kurami",
       "sectionIntroTitle": "Wprowadzenie",
       "sectionIntroDescription": "Twoja prywatność jest dla nas priorytetem! W niniejszej Polityce Prywatności znajdziesz szczegóły dotyczące tego, jak zbieramy, przetwarzamy i chronimy Twoje dane osobowe podczas korzystania z naszej witryny internetowej.",
       "brownCardTitle1": "1. Informacje o Administratorze Danych Osobowych",
@@ -328,6 +339,7 @@
       "description": "Zapoznaj się z zasadami ochrony praw autorskich i własności intelektualnej na naszej witrynie. Cenimy twórczość autorów i przestrzegamy obowiązujących przepisów prawnych.",
       "cta1": "Zamów próbkę",
       "cta2": "Zobacz ofertę",
+      "backgroundImageAlt": "Zdjęcie przedstawiające białą kurę",
       "flaticonSectionTitle": "Źródła grafik - Ikony FlatIcon",
       "flaticonSectionDescription": "Poniżej przedstawiamy ikony wykorzystane w naszym projekcie, pochodzące z serwisu FlatIcon. Dziękujemy twórcom za udostępnienie tych zasobów graficznych."
     }

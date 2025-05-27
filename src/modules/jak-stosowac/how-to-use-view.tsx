@@ -10,7 +10,11 @@ export async function HowToUseView() {
 
   return (
     <ViewWrapper>
-      <HeroSection description={t("description")} title={t("title")} />
+      <HeroSection
+        description={t("description")}
+        title={t("title")}
+        backgroundImageAlt={t("backgroundImageAlt")}
+      />
       <InfoSection
         sectionIntroTitle={t("sectionIntroTitle")}
         sectionIntroDescription={t("sectionIntroDescription")}

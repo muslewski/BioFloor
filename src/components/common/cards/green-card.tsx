@@ -4,6 +4,7 @@ import Image from "next/image";
 
 interface GreenCardProps {
   Icon: LucideIcon | string;
+  iconImageAlt?: string;
   title: string | React.ReactNode;
   description?: React.ReactNode;
   className?: string;
@@ -11,6 +12,7 @@ interface GreenCardProps {
 
 export function GreenCard({
   Icon,
+  iconImageAlt = "Icon",
   title,
   description,
   className,
@@ -25,7 +27,7 @@ export function GreenCard({
       {typeof Icon === "string" ? (
         <Image
           src={Icon}
-          alt={"Icon"}
+          alt={iconImageAlt}
           width={32}
           height={32}
           className="size-8 sm:size-12"

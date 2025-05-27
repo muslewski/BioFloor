@@ -9,11 +9,13 @@ export function HeroSection(p: {
   description: string;
   cta1: string;
   cta2: string;
+  backgroundImageAlt: string;
 }) {
   return (
     <HeroWrapper
       backgroundImage="/images/prawa-autorskie/henhouse.png"
       isBorderBottom
+      backgroundImageAlt={p.backgroundImageAlt}
     >
       <HeroIntro
         title={p.title}

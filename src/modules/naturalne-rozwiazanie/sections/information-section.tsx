@@ -6,9 +6,11 @@ import { SectionWrapper } from "@/components/common/section/section-wrapper";
 export function InformationSection(p: {
   informationSectionTitle: string;
   informationSectionDescription: React.ReactNode;
+  informationSectionImageAlt: string;
   informationSectionTitle2: string;
   informationSectionTitle2Light: string;
   informationSection2CustomElement: React.ReactNode;
+  informationSectionImageAlt2: string;
 }) {
   return (
     <SectionWrapper isBorderBottom>
@@ -23,7 +25,7 @@ export function InformationSection(p: {
         imageElement={
           <SectionImage
             src="/images/naturalne-rozwiazanie/tree.jpeg"
-            alt="Kury"
+            alt={p.informationSectionImageAlt}
           />
         }
       />
@@ -44,7 +46,7 @@ export function InformationSection(p: {
         imageElement={
           <SectionImage
             src="/images/naturalne-rozwiazanie/sunflower-husks.jpeg"
-            alt="Kury"
+            alt={p.informationSectionImageAlt2}
             ratio={3 / 2}
           />
         }

@@ -18,13 +18,16 @@ export async function OfferView() {
           <RichText>{(tags) => t.rich("description", tags)}</RichText>
         }
         cta1={t("cta1")}
+        backgroundImageAlt={t("backgroundImageAlt")}
       />
       <OfferOptionsSection
         offerSectionTitle={t("offerSectionTitle")}
         offerSectionDescription={t("offerSectionDescription")}
+        offerSectionImageAlt={t("offerSectionImageAlt")}
         offerSectionLink={t("offerSectionLink")}
         offerSectionTitle2={t("offerSectionTitle2")}
         offerSectionDescription2={t("offerSectionDescription2")}
+        offerSectionImageAlt2={t("offerSectionImageAlt2")}
       />
       <ContactUsSection
         contactSectionTitle={t("contactSectionTitle")}

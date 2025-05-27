@@ -82,6 +82,7 @@
       "description": "The quality of bedding in a poultry house directly impacts bird health, production efficiency, and final product quality. Proper structure and composition of bedding prevent bacteria and mold growth, reduce harmful gas emissions, and ensure optimal microclimate in the breeding facility.",
       "cta1": "Order a sample",
       "cta2": "See offer",
+      "backgroundImageAlt": "Image showing BioFloor bedding in a chicken coop",
       "sectionTitle": "What are the risks of improper bedding?",
       "sectionDescription": "Poorly selected and improperly maintained bedding leads to:",
       "brownCardTitle1": "Excessive humidity",
@@ -99,8 +100,10 @@
       "informationSectionTitle2": "PodŁapki sunflower husk bedding,",
       "informationSectionTitle2Light": "that combines the advantages of the best materials and eliminates their drawbacks.",
       "informationSection2CustomElement": "<li>Exceptional moisture absorption - limits hard crust formation and facilitates cleanliness maintenance.</li><li>Reduction of ammonia and hydrogen sulfide emissions - significantly improves air quality and bird health.</li><li>Natural thermal insulation - prevents cooling in winter and overheating in summer.</li><li>Structure promoting natural behaviors - birds can scratch and rest in comfortable conditions.</li><li>Economy and efficiency - less frequent bedding replacement and reduced material consumption mean real savings.</li><li>Microbiological safety - regularly tested for pathogens, free from Salmonella and mycotoxins.</li><li>Additional nutritional values - protein and fat content supports birds' health and condition.</li>",
+      "informationSectionImageAlt": "Image showing an artistic tree",
+      "informationSectionImageAlt2": "Image showing sunflower husk",
       "floorInfoSectionTitle": "What bedding is used in poultry farming?",
-      "floorInfoSectionDescription": "Bedding choice affects poultry health – see the differences.",
+      "floorInfoSectionDescription": "Bedding choice affects poultry health - see the differences.",
       "hackerCardTitle1": "Wood shavings",
       "hackerCardDescription1": "effective in absorbing moisture, but may contain contaminants and require mixing with other materials.",
       "hackerCardTitle2": "Sawdust",
@@ -114,7 +117,8 @@
       "summarySectionTitle": "Choose BioFloor",
       "summarySectionTitleLight": "- better conditions, greater efficiency, higher production quality!",
       "summarySectionDescription": "With innovative bedding, breeders can increase production efficiency, reduce losses, and improve animal welfare. Biofloor is a modern solution that truly translates into bird health and breeding profitability.",
-      "summaryCta1": "Contact"
+      "summaryCta1": "Contact",
+      "summarySectionImageAlt": "Image showing a large chicken coop with chickens"
     }
   },
   "Advantages": {
@@ -128,6 +132,7 @@
       "description": "<b>BioFloor</b> revolutionizes poultry farming by combining comfort, hygiene, and ecology. Thanks to natural sunflower husks, it provides dry bedding and healthier birds, supporting breeders in achieving better results.",
       "cta1": "Order a sample",
       "cta2": "See offer",
+      "backgroundImageAlt": "Chicken inside a chicken coop with green decorations",
       "sectionIntroTitle": "Why choose Biofloor?",
       "sectionIntroDescription": "Biofloor is a comprehensive solution that elevates poultry farming standards to a higher level.",
       "BrownCardTitle1": "Comfort and bird welfare",
@@ -154,6 +159,7 @@
     "Page": {
       "title": "How to use our bedding?",
       "description": "Use this simple tool to calculate the optimal amount of bedding for your needs.",
+      "backgroundImageAlt": "BioFloor bedding in a bag next to a chicken coop",
       "Calculator": {
         "thicknessError": "Value must be at least 0.01",
         "areaError": "Value must be at least 0.01",
@@ -205,11 +211,14 @@
       "titleLight": "- tailored to your needs",
       "description": "To ensure the highest quality and convenience for our customers, we offer <b>BioFloor</b> bedding in two sales formats, adapted to different breeder needs. This allows everyone to choose the solution that perfectly fits their breeding scale and specifics.",
       "cta1": "Order a sample",
+      "backgroundImageAlt": "Image of an industrial chicken coop with chickens",
       "offerSectionTitle": "Wholesale",
       "offerSectionDescription": "We provide full truck deliveries in Big Bags with a capacity of approximately 1.05 tons. This is an ideal solution for large farms and poultry operations that need regular, efficient supplies in an economical form.",
       "offerSectionLink": "How does full truckload logistics work?",
       "offerSectionTitle2": "Individual Big Bag sales",
       "offerSectionDescription2": "We offer the option to purchase smaller batches, allowing for flexible inventory management and quantity adjustment to individual needs.",
+      "offerSectionImageAlt": "Truck transporting BioFloor bedding",
+      "offerSectionImageAlt2": "Big Bag with BioFloor",
       "contactSectionTitle": "Prices determined individually - contact us!",
       "contactSectionDescription": "We are happy to answer any questions and provide samples so you can personally experience the quality of our product.",
       "contactSectionCta": "Contact"
@@ -223,6 +232,7 @@
     "Page": {
       "title": "We're waiting for your contact!",
       "description": "Want to place an order for our bedding or have questions? Write to us or call - we'll gladly take care of your needs!",
+      "backgroundImageAlt": "Mailbox on a farm",
       "Form": {
         "id1": "place-order",
         "id2": "order-sample",
@@ -293,6 +303,7 @@
       "description": "Learn how we process and protect your personal data. We respect your privacy and ensure transparency in our actions.",
       "cta1": "Order a sample",
       "cta2": "See offer",
+      "backgroundImageAlt": "Image showing a chicken coop with chickens",
       "sectionIntroTitle": "Introduction",
       "sectionIntroDescription": "Your privacy is our priority! In this Privacy Policy, you will find details about how we collect, process, and protect your personal data when using our website.",
       "brownCardTitle1": "1. Information about the Personal Data Administrator",
@@ -328,6 +339,7 @@
       "description": "Learn about the copyright and intellectual property protection rules on our website. We value authors' creativity and comply with applicable legal regulations.",
       "cta1": "Order a sample",
       "cta2": "See offer",
+      "backgroundImageAlt": "Image showing a white chicken",
       "flaticonSectionTitle": "Graphic sources - FlatIcon Icons",
       "flaticonSectionDescription": "Below are the icons used in our project from FlatIcon. We thank the creators for making these graphic resources available."
     }
