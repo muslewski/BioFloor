@@ -26,7 +26,7 @@ export function OfferOptionsSection(p: {
               <Cta
                 href="/logistyka-calosamochodowa"
                 icon={<Truck className="size-5" />}
-                className="mt-6 max-w-[300px] sm:max-w-[350px] xl:max-w-none"
+                className="mt-6 max-w-[300px] sm:max-w-none lg:max-w-[350px] xl:max-w-none"
               >
                 {p.offerSectionLink}
               </Cta>
