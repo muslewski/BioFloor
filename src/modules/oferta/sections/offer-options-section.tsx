@@ -1,8 +1,9 @@
+import { Cta } from "@/components/common/cta";
 import { HorizontalStructure } from "@/components/common/section/horizontal-structure";
 import { SectionImage } from "@/components/common/section/section-image";
 import { SectionIntro } from "@/components/common/section/section-intro/intro";
 import { SectionWrapper } from "@/components/common/section/section-wrapper";
-import { Link } from "@/i18n/navigation";
+import { Truck } from "lucide-react";
 
 export function OfferOptionsSection(p: {
   offerSectionTitle: string;
@@ -22,12 +23,13 @@ export function OfferOptionsSection(p: {
             title={p.offerSectionTitle}
             description={<>{p.offerSectionDescription}</>}
             customElement={
-              <Link
+              <Cta
                 href="/logistyka-calosamochodowa"
-                className="font-semibold block transition-transform hover:scale-102 active:scale-98"
+                icon={<Truck className="size-5" />}
+                className="mt-6 max-w-[300px] sm:max-w-[350px] xl:max-w-none"
               >
                 {p.offerSectionLink}
-              </Link>
+              </Cta>
             }
           />
         }
