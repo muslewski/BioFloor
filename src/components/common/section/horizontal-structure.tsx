@@ -14,17 +14,17 @@ export function HorizontalStructure({
   imageOnLeft = false, // Default to image on right
 }: HorizontalStructureProps) {
   return (
-    <div className="flex flex-col sm:flex-row items-center justify-between gap-8 sm:gap-16">
+    <div className="flex flex-col lg:flex-row items-center justify-between gap-8 sm:gap-16">
       <div
-        className={`w-full sm:w-1/2 ${
-          imageOnLeft ? "sm:order-2" : "sm:order-1"
+        className={`w-full lg:w-1/2 ${
+          imageOnLeft ? "lg:order-2" : "lg:order-1"
         }`}
       >
         {textElement}
       </div>
       <div
-        className={`w-full sm:w-1/2 ${
-          imageOnLeft ? "sm:order-1" : "sm:order-2"
+        className={`w-full lg:w-1/2 ${
+          imageOnLeft ? "lg:order-1" : "lg:order-2"
         }`}
       >
         {imageElement}
