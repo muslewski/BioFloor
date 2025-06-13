@@ -125,7 +125,7 @@ export function HeroWrapper({
       {/* Container that can grow with content */}
       <div className="relative w-full min-h-screen">
         {/* Fixed height background container */}
-        <div className="absolute inset-0 h-screen w-full overflow-hidden">
+        <div className="absolute inset-0 h-screen w-full overflow-hidden bg-green-50">
           {/* Background image with parallax */}
           <motion.div
             ref={heroRef}
@@ -133,11 +133,11 @@ export function HeroWrapper({
               y: backgroundY,
               x: backgroundMouseX,
               translateY: backgroundMouseY,
-              height: "125%",
+              height: "130%",
               position: "absolute",
             }}
             className={cn(
-              "z-0 -top-[55%] sm:-top-[65%] w-[125%] sm:w-[110%] -left-[12%] sm:-left-[5%] will-change-transform",
+              "z-0 -top-[55%] sm:-top-[55%] w-[125%] sm:w-[110%] -left-[12%] sm:-left-[5%] will-change-transform",
               imageClassName
             )}
           >
